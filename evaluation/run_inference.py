@@ -6,7 +6,7 @@ import torch
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-TEST_FILE = "dataset-instruct-20k/test.jsonl"
+TEST_FILE = "data_rebel/dataset-instruct-20k/test.jsonl"
 N_SAMPLES = 1000
 PRED_DIR  = "predictions"
 

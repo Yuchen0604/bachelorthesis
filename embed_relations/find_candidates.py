@@ -1,9 +1,9 @@
+import argparse
 import json
 import os
 import random
 import numpy as np
 
-#load embeddings for top 220 relations and find candidate relations for samples in re_data
 SEED = 42
 random.seed(SEED)
 np.random.seed(SEED)
@@ -11,13 +11,23 @@ np.random.seed(SEED)
 CN = 20   #total candidates per sample
 M  = 2    #min hard negatives per gold relation
 
-base_dir   = os.path.dirname(os.path.abspath(__file__))
-data_dir   = os.path.join(base_dir, "..", "data", "re_data")
-cache_path = os.path.join(base_dir, "sbert_embeddings.npz")
-splits     = ["rebel_train", "rebel_val", "rebel_test"]
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+DATASET_CONFIG = {
+    "rebel": {
+        "data_dir":   os.path.join(base_dir, "..", "data_rebel", "re_data"),
+        "cache_path": os.path.join(base_dir, "sbert_embeddings.npz"),
+        "splits":     ["rebel_train", "rebel_val", "rebel_test"],
+    },
+    "lagrange": {
+        "data_dir":   os.path.join(base_dir, "..", "data_lagrange", "re_data"),
+        "cache_path": os.path.join(base_dir, "sbert_embeddings_lagrange.npz"),
+        "splits":     ["lagrange_train", "lagrange_test"],
+    },
+}
 
 
-def load_embeddings() -> tuple[list[str], np.ndarray]:
+def load_embeddings(cache_path: str) -> tuple[list[str], np.ndarray]:
     if not os.path.exists(cache_path):
         raise FileNotFoundError(f"No embeddings found at {cache_path} — run embed_relations.py first.")
     print(f"Loading embeddings from {cache_path}")
@@ -68,7 +78,14 @@ def build_candidates(gold_labels, all_relations, embeddings, relation_index, K):
 
 
 def main():
-    all_relations, embeddings = load_embeddings()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset", choices=["rebel", "lagrange"], default="rebel")
+    args = parser.parse_args()
+
+    cfg = DATASET_CONFIG[args.dataset]
+    data_dir, splits = cfg["data_dir"], cfg["splits"]
+
+    all_relations, embeddings = load_embeddings(cfg["cache_path"])
     total = len(all_relations)
     K = max(10, int(total * 0.1))
     relation_index = {r: i for i, r in enumerate(all_relations)}

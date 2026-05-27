@@ -2,9 +2,9 @@ import json
 import os
 import re
 
-input_dir    = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "non_orig")
-output_dir   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "re_data")
-RELATIONS_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), "embed_relations", "relations", "220_nonorig_relations.json")
+input_dir    = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data_rebel", "rebel")
+output_dir   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data_rebel", "re_data")
+RELATIONS_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), "embed_relations", "relations_rebel", "220_nonorig_relations.json")
 
 SPLITS = {
     "en_train.jsonl": "rebel_train.jsonl",

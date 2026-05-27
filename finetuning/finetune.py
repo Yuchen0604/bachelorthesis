@@ -12,15 +12,22 @@ from trl import SFTTrainer, SFTConfig
 # =====================================================
 # 0. Arguments & Paths
 # =====================================================
+DATASET_DIRS = {
+    "rebel":    "data_rebel/dataset-instruct-20k",
+    "lagrange": "data_lagrange/dataset-instruct-20k",
+}
+
 parser = argparse.ArgumentParser()
-parser.add_argument("--model", required=True, help="HuggingFace model ID")
-parser.add_argument("--run", default="", help="Optional run name suffix for log file")
+parser.add_argument("--model",   required=True, help="HuggingFace model ID")
+parser.add_argument("--dataset", choices=["rebel", "lagrange"], default="rebel")
+parser.add_argument("--run",     default="", help="Optional run name suffix for log file")
 args = parser.parse_args()
 
-MODEL_ID   = args.model
-MODEL_NAME = MODEL_ID.split("/")[-1]
-RUN_SUFFIX = f"_{args.run}" if args.run else ""
-OUTPUT_DIR = f"./{MODEL_NAME}-text2kg-qlora"
+MODEL_ID    = args.model
+MODEL_NAME  = MODEL_ID.split("/")[-1]
+RUN_SUFFIX  = f"_{args.run}" if args.run else ""
+OUTPUT_DIR  = f"./{MODEL_NAME}-{args.dataset}-qlora"
+DATASET_DIR = DATASET_DIRS[args.dataset]
 MAX_SEQ_LENGTH = 1024
 
 
@@ -31,7 +38,7 @@ LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
 logging.basicConfig(
-    filename=os.path.join(LOG_DIR, f"train_{MODEL_NAME}{RUN_SUFFIX}.log"),
+    filename=os.path.join(LOG_DIR, f"train_{MODEL_NAME}_{args.dataset}{RUN_SUFFIX}.log"),
     filemode="w",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
@@ -85,13 +92,13 @@ logging.info("Model loaded and gradient checkpointing enabled.")
 # =====================================================
 # 4. Load dataset
 # =====================================================
-logging.info("Loading dataset-instruct/train.jsonl and valid.jsonl")
+logging.info(f"Loading dataset from {DATASET_DIR}")
 
 dataset = load_dataset(
     "json",
     data_files={
-        "train": "dataset-instruct-20k/train.jsonl",
-        "valid": "dataset-instruct-20k/valid.jsonl"
+        "train": os.path.join(DATASET_DIR, "train.jsonl"),
+        "valid": os.path.join(DATASET_DIR, "valid.jsonl"),
     }
 )
 

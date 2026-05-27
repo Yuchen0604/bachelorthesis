@@ -4,7 +4,7 @@ import time
 import urllib.request
 import urllib.parse
 
-relation_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relations")
+relation_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relations_rebel")
 in_path  =os.path.join(relation_dir, "220_nonorig_relations.json")
 out_path = os.path.join(relation_dir, "220_nonorig_relations_wikidata.json")
 

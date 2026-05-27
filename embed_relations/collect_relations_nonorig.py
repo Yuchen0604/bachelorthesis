@@ -3,9 +3,9 @@ import os
 import re
 from collections import Counter
 
-data_dir   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "non_orig")
-output     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relations", "nonorig_relations.json")
-output_220 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relations", "220_nonorig_relations.json")
+data_dir   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data_rebel", "rebel")
+output     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relations_rebel", "nonorig_relations.json")
+output_220 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relations_rebel", "220_nonorig_relations.json")
 splits     = ["train", "val", "test"]
 
 

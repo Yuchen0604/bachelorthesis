@@ -6,13 +6,17 @@ import torch
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-TEST_FILE = "data_rebel/dataset-instruct-20k/test.jsonl"
+TEST_FILES = {
+    "rebel":    "data_rebel/dataset-instruct-20k/test.jsonl",
+    "lagrange": "data_lagrange/dataset-instruct-20k/test.jsonl",
+}
 N_SAMPLES = 1000
 PRED_DIR  = "predictions"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--model",   required=True, help="HuggingFace base model ID")
 parser.add_argument("--adapter", default=None,  help="Path to LoRA adapter directory; omit for base model")
+parser.add_argument("--dataset", choices=["rebel", "lagrange"], default="rebel")
 parser.add_argument("--run",     default="",    help="Optional run name suffix for output/log file names")
 args = parser.parse_args()
 
@@ -21,16 +25,17 @@ MODEL_NAME   = MODEL_ID.split("/")[-1]
 RUN_SUFFIX   = f"_{args.run}" if args.run else ""
 IS_FINETUNED = args.adapter is not None
 MODEL_TAG    = "finetuned" if IS_FINETUNED else "base"
+TEST_FILE    = TEST_FILES[args.dataset]
 
 os.makedirs(PRED_DIR, exist_ok=True)
 
-output_path = os.path.join(PRED_DIR, f"{MODEL_NAME}_{MODEL_TAG}{RUN_SUFFIX}.jsonl")
+output_path = os.path.join(PRED_DIR, f"{MODEL_NAME}_{args.dataset}_{MODEL_TAG}{RUN_SUFFIX}.jsonl")
 
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
 logging.basicConfig(
-    filename=os.path.join(LOG_DIR, f"inference_{MODEL_NAME}_{MODEL_TAG}{RUN_SUFFIX}.log"),
+    filename=os.path.join(LOG_DIR, f"inference_{MODEL_NAME}_{args.dataset}_{MODEL_TAG}{RUN_SUFFIX}.log"),
     filemode="w",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"

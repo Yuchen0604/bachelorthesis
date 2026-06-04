@@ -10,7 +10,7 @@ TEST_FILES = {
     "rebel":    "data_rebel/dataset-instruct-20k/test.jsonl",
     "lagrange": "data_lagrange/dataset-instruct-20k/test.jsonl",
 }
-N_SAMPLES = 1000
+N_SAMPLES = 2000
 PRED_DIR  = "predictions"
 
 parser = argparse.ArgumentParser()

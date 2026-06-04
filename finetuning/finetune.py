@@ -3,6 +3,7 @@ import torch
 import os
 import json
 import logging
+import wandb
 from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import LoraConfig
@@ -42,6 +43,22 @@ logging.basicConfig(
     filemode="w",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+run = wandb.init(
+    entity="ge94say-technical-university-of-munich",
+    project="bachelorthesis-re",
+    name=f"{MODEL_NAME}_{args.dataset}{RUN_SUFFIX}",
+    config={
+        "model":        MODEL_ID,
+        "dataset":      args.dataset,
+        "run":          args.run,
+        "epochs":       8,
+        "learning_rate": 2e-4,
+        "batch_size":   8,
+        "lora_r":       16,
+        "lora_alpha":   32,
+    },
 )
 
 logging.info("===== Training started =====")
@@ -127,7 +144,7 @@ logging.info("Formatting complete.")
 # =====================================================
 training_args = SFTConfig(
     output_dir=OUTPUT_DIR,
-    num_train_epochs=3,
+    num_train_epochs=8,
     per_device_train_batch_size=8,
     gradient_accumulation_steps=2,
     optim="adamw_torch_fused",
@@ -142,7 +159,7 @@ training_args = SFTConfig(
     load_best_model_at_end=True,
     metric_for_best_model="eval_loss",
     greater_is_better=False,
-    report_to="none",
+    report_to="wandb",
     dataset_text_field="text",
     max_length=MAX_SEQ_LENGTH,
 )
@@ -185,4 +202,11 @@ with open(os.path.join(OUTPUT_DIR, "training_args.json"), "w") as f:
     json.dump(training_args.to_dict(), f, indent=2)
 
 logging.info("Model and tokenizer saved.")
+
+with open(os.path.join(OUTPUT_DIR, "loss_history.json"), "w") as f:
+    json.dump(trainer.state.log_history, f, indent=2)
+
+logging.info("Loss history saved.")
+
+run.finish()
 logging.info("===== Training finished successfully =====")

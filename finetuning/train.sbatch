@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J lagrange_train_1
+#SBATCH -J rebel_train
 #SBATCH -w gpu-nvidia-h100
 #SBATCH --gres=gpu:nvidia:1
 #SBATCH -t 24:00:00
@@ -13,7 +13,7 @@ cd "$PROJECT_DIR"
 source "$VENV_PATH"
 
 RUN=run1
-DATASET=lagrange
+DATASET=rebel
 
 #Qwen
 python finetuning/finetune.py --model Qwen/Qwen2.5-1.5B-Instruct --dataset $DATASET --run $RUN

@@ -1,12 +1,33 @@
+import argparse
 import json
 import os
 import time
 import urllib.request
 import urllib.parse
 
-relation_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relations_rebel")
-in_path  =os.path.join(relation_dir, "220_nonorig_relations.json")
-out_path = os.path.join(relation_dir, "220_nonorig_relations_wikidata.json")
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+DATASET_CONFIG = {
+    "rebel": {
+        "in_path":  os.path.join(base_dir, "relations_rebel",   "220_nonorig_relations.json"),
+        "out_path": os.path.join(base_dir, "relations_rebel",   "220_nonorig_relations_wikidata.json"),
+    },
+    "rebel-full": {
+        "in_path":  os.path.join(base_dir, "relations_rebel",   "nonorig_relations.json"),
+        "out_path": os.path.join(base_dir, "relations_rebel",   "nonorig_relations_wikidata.json"),
+    },
+    "lagrange": {
+        "in_path":  os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations.json"),
+        "out_path": os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations_wikidata.json"),
+    },
+}
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--dataset", choices=["rebel", "rebel-full", "lagrange"], default="rebel")
+args = parser.parse_args()
+
+in_path  = DATASET_CONFIG[args.dataset]["in_path"]
+out_path = DATASET_CONFIG[args.dataset]["out_path"]
 
 wikidata_api ="https://www.wikidata.org/w/api.php"
 batch_size   = 50
@@ -25,16 +46,26 @@ def fetch_descriptions(pids: list[str]) -> dict[str, str]:
         })
         req = urllib.request.Request(
             f"{wikidata_api}?{params}",
-            headers={"User-Agent": "bachelorthesis-re/1.0"},
+            headers={"User-Agent": "bachelorthesis-re/1.0 (ge94say@mytum.de)"},
         )
-        with urllib.request.urlopen(req) as resp:
-            result = json.loads(resp.read())
+        for attempt in range(5):
+            try:
+                with urllib.request.urlopen(req) as resp:
+                    result = json.loads(resp.read())
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 429:
+                    wait = int(e.headers.get("Retry-After", 2 ** attempt * 2))
+                    print(f"  rate limited, retrying in {wait}s...")
+                    time.sleep(wait)
+                else:
+                    raise
         for pid, entity in result.get("entities", {}).items():
             desc = entity.get("descriptions", {}).get("en", {}).get("value", "")
             descriptions[pid] = desc
         print(f"  {min(i + batch_size, len(pids))}/{len(pids)} fetched")
         if i + batch_size < len(pids):
-            time.sleep(0.5)
+            time.sleep(1.0)
     return descriptions
 
 

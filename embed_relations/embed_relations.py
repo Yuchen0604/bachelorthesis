@@ -7,12 +7,12 @@ from sentence_transformers import SentenceTransformer
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 DATASET_CONFIG = {
-    "nonorig": {
+    "rebel": {
         "relations_path": os.path.join(base_dir, "relations_rebel", "220_nonorig_relations_wikidata.json"),
         "cache_path":     os.path.join(base_dir, "sbert_embeddings.npz"),
     },
-    "data_lagrange": {
-        "relations_path": os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations.json"),
+    "lagrange": {
+        "relations_path": os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations_wikidata.json"),
         "cache_path":     os.path.join(base_dir, "sbert_embeddings_lagrange.npz"),
     },
 }
@@ -41,7 +41,7 @@ def embed(relations: list[str], texts: list[str], cache_path: str) -> np.ndarray
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", choices=["nonorig", "lagrange"])
+    parser.add_argument("--dataset", choices=["rebel", "lagrange"])
     args = parser.parse_args()
 
     cfg = DATASET_CONFIG[args.dataset]

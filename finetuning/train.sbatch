@@ -12,7 +12,7 @@ module load cuda/12.6.3
 cd "$PROJECT_DIR"
 source "$VENV_PATH"
 
-RUN=run1
+RUN=run2
 DATASET=rebel
 
 #Qwen

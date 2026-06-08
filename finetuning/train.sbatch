@@ -13,7 +13,7 @@ cd "$PROJECT_DIR"
 source "$VENV_PATH"
 
 RUN=run2
-DATASET=rebel
+DATASET=lagrange
 
 #Qwen
 python finetuning/finetune.py --model Qwen/Qwen2.5-1.5B-Instruct --dataset $DATASET --run $RUN

@@ -27,7 +27,7 @@ args = parser.parse_args()
 MODEL_ID    = args.model
 MODEL_NAME  = MODEL_ID.split("/")[-1]
 RUN_SUFFIX  = f"_{args.run}" if args.run else ""
-OUTPUT_DIR  = f"./{MODEL_NAME}-{args.dataset}-qlora"
+OUTPUT_DIR  = f"./{MODEL_NAME}-{args.dataset}-qlora{RUN_SUFFIX}"
 DATASET_DIR = DATASET_DIRS[args.dataset]
 MAX_SEQ_LENGTH = 1024
 

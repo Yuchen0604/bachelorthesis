@@ -34,13 +34,29 @@ def token_overlap_f1(pre_str, gol_str):
 
 
 #Four metric scores from slot overlaps
-def metric_scores(sub_ov, pred_ov, obj_ov, switched,
+def metric_scores(sub_ov, pred_ov, obj_ov, switched, switch_type,
                    orig_sub_ov, orig_pred_ov, orig_obj_ov):
-    strict   = 1.0 if (sub_ov == 1.0 and pred_ov == 1.0 and obj_ov == 1.0 and not switched) else 0.0
+    # strict: per slot — exact boundary match AND correct role assignment (switched slots = type mismatch → 0)
+    if not switched:
+        strict = ((1.0 if sub_ov  == 1.0 else 0.0) +
+                  (1.0 if pred_ov == 1.0 else 0.0) +
+                  (1.0 if obj_ov  == 1.0 else 0.0)) / 3.0
+    elif switch_type == "sub_obj":
+        strict = (1.0 if pred_ov == 1.0 else 0.0) / 3.0
+    elif switch_type == "sub_pred":
+        strict = (1.0 if obj_ov  == 1.0 else 0.0) / 3.0
+    else:  # "pred_obj"
+        strict = (1.0 if sub_ov  == 1.0 else 0.0) / 3.0
+
     ent_type = ((1.0 if orig_sub_ov  > 0 else 0.0) +
                 (1.0 if orig_pred_ov > 0 else 0.0) +
                 (1.0 if orig_obj_ov  > 0 else 0.0)) / 3.0
-    exact    = 1.0 if (sub_ov == 1.0 and pred_ov == 1.0 and obj_ov == 1.0) else 0.0
+
+    # exact: per slot — exact boundary match regardless of role (switching does not penalise)
+    exact = ((1.0 if sub_ov  == 1.0 else 0.0) +
+             (1.0 if pred_ov == 1.0 else 0.0) +
+             (1.0 if obj_ov  == 1.0 else 0.0)) / 3.0
+
     partial  = (sub_ov + pred_ov + obj_ov) / 3.0
     return {
         "strict":   round(strict,   4),
@@ -79,34 +95,34 @@ def compare_triple_pair(pred, gold):
         new_obj_ov = token_overlap_f1(po, gs)
         if new_sub_ov > 0 or new_obj_ov > 0:
             scores_before_switch = metric_scores(
-                orig_sub_ov, orig_pred_ov, orig_obj_ov, False,
+                orig_sub_ov, orig_pred_ov, orig_obj_ov, False, None,
                 orig_sub_ov, orig_pred_ov, orig_obj_ov)
             sub_ov, obj_ov = new_sub_ov, new_obj_ov
             switched, switch_type = True, "sub_obj"
 
-    #Swap 2: subject <-> predicate 
+    #Swap 2: subject <-> predicate
     if not switched and not sub_found and not pred_found:
         new_sub_ov  = token_overlap_f1(ps, gr)
         new_pred_ov = token_overlap_f1(pr, gs)
         if new_sub_ov > 0 or new_pred_ov > 0:
             scores_before_switch = metric_scores(
-                orig_sub_ov, orig_pred_ov, orig_obj_ov, False,
+                orig_sub_ov, orig_pred_ov, orig_obj_ov, False, None,
                 orig_sub_ov, orig_pred_ov, orig_obj_ov)
             sub_ov, pred_ov = new_sub_ov, new_pred_ov
             switched, switch_type = True, "sub_pred"
 
-    #swap 3: predicate <-> object 
+    #swap 3: predicate <-> object
     if not switched and not pred_found and not obj_found:
         new_pred_ov = token_overlap_f1(pr, go)
         new_obj_ov  = token_overlap_f1(po, gr)
         if new_pred_ov > 0 or new_obj_ov > 0:
             scores_before_switch = metric_scores(
-                orig_sub_ov, orig_pred_ov, orig_obj_ov, False,
+                orig_sub_ov, orig_pred_ov, orig_obj_ov, False, None,
                 orig_sub_ov, orig_pred_ov, orig_obj_ov)
             pred_ov, obj_ov = new_pred_ov, new_obj_ov
             switched, switch_type = True, "pred_obj"
 
-    scores = metric_scores(sub_ov, pred_ov, obj_ov, switched,
+    scores = metric_scores(sub_ov, pred_ov, obj_ov, switched, switch_type,
                              orig_sub_ov, orig_pred_ov, orig_obj_ov)
 
     return {

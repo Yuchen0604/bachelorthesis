@@ -16,8 +16,8 @@ DATASET=lagrange
 
 source "$VENV_PATH"
 
-# Gemma
-python evaluation/run_inference.py --model google/gemma-3-1b-it --dataset $DATASET --adapter gemma-3-1b-it-lagrange-qlora_run2 --run $RUN
+# Gemma base
+python evaluation/run_inference.py --model google/gemma-3-1b-it --dataset $DATASET --run $RUN
 
-# Qwen
-python evaluation/run_inference.py --model Qwen/Qwen2.5-1.5B-Instruct --dataset $DATASET --adapter Qwen2.5-1.5B-Instruct-lagrange-qlora_run2 --run $RUN
+# Qwen base
+python evaluation/run_inference.py --model Qwen/Qwen2.5-1.5B-Instruct --dataset $DATASET --run $RUN

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J rebel_train
+#SBATCH -J llama_train
 #SBATCH -w gpu-nvidia-h100
 #SBATCH --gres=gpu:nvidia:1
 #SBATCH -t 24:00:00
@@ -15,9 +15,6 @@ source "$VENV_PATH"
 RUN=run2
 DATASET=lagrange
 
-#Qwen
-python finetuning/finetune.py --model Qwen/Qwen2.5-1.5B-Instruct --dataset $DATASET --run $RUN
-
-#Gemma
-python finetuning/finetune.py --model google/gemma-3-1b-it --dataset $DATASET --run $RUN
+#LLaMA
+python finetuning/finetune.py --model meta-llama/Llama-3.2-1B-Instruct --dataset $DATASET --run $RUN
 

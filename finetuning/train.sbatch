@@ -12,6 +12,8 @@ module load cuda/12.6.3
 cd "$PROJECT_DIR"
 source "$VENV_PATH"
 
+export HF_HUB_OFFLINE=1
+
 RUN=run2
 DATASET=lagrange
 

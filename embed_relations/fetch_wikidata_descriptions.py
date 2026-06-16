@@ -17,8 +17,8 @@ DATASET_CONFIG = {
         "out_path": os.path.join(base_dir, "relations_rebel",   "nonorig_relations_wikidata.json"),
     },
     "lagrange": {
-        "in_path":  os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations.json"),
-        "out_path": os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations_wikidata.json"),
+        "in_path":  os.path.join(base_dir, "relations_lagrange", "lagrange_relations_predicate_id.json"),
+        "out_path": os.path.join(base_dir, "relations_lagrange", "lagrange_relations_wikidata.json"),
     },
 }
 
@@ -74,7 +74,8 @@ def main():
         relations = json.load(f)
 
     pids = [r["predicate_id"] for r in relations if r.get("predicate_id")]
-    print(f"Fetching descriptions for {len(pids)} properties...")
+    skipped = len(relations) - len(pids)
+    print(f"Fetching descriptions for {len(pids)}/{len(relations)} properties ({skipped} skipped — no predicate_id)...")
     descriptions = fetch_descriptions(pids)
 
     for r in relations:

@@ -6,7 +6,6 @@ from collections import Counter
 base_dir    = os.path.dirname(os.path.abspath(__file__))
 lagrange_dir = os.path.join(base_dir, "..", "data_lagrange", "lagrange")
 output      = os.path.join(base_dir, "relations_lagrange", "lagrange_relations.json")
-output_220  = os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations.json")
 
 TRIPLE_RE = re.compile(r"<S>(.*?)<P>(.*?)<O>.*?(?=<sep>|$)")
 FILES = ["lagrange_train.json", "lagrange_test.json"]
@@ -46,10 +45,6 @@ def main():
     with open(output, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"\nSaved {len(result):,} relations → {output}")
-
-    with open(output_220, "w", encoding="utf-8") as f:
-        json.dump(result[:220], f, ensure_ascii=False, indent=2)
-    print(f"Saved top-220 relations → {output_220}")
 
 
 if __name__ == "__main__":

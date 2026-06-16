@@ -12,7 +12,7 @@ DATASET_CONFIG = {
         "cache_path":     os.path.join(base_dir, "sbert_embeddings.npz"),
     },
     "lagrange": {
-        "relations_path": os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations_wikidata.json"),
+        "relations_path": os.path.join(base_dir, "relations_lagrange", "lagrange_relations_wikidata.json"),
         "cache_path":     os.path.join(base_dir, "sbert_embeddings_lagrange.npz"),
     },
 }

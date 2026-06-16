@@ -70,7 +70,7 @@ def main():
                  f"dataset = {args.dataset}", f"CN = {CN}", "=" * 60, ""]
 
     for split, out_name in splits.items():
-        input_path  = os.path.join(data_dir, f"{split}_220_cn{CN}.jsonl")
+        input_path  = os.path.join(data_dir, f"{split}_cn{CN}.jsonl")
         output_path = os.path.join(out_dir, f"{out_name}.jsonl")
 
         total = 0

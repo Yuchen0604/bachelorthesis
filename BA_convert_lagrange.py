@@ -2,12 +2,18 @@ import json
 import os
 import re
 
-SCRIPT_DIR     = os.path.dirname(os.path.abspath(__file__))
-RELATIONS_JSON = os.path.join(SCRIPT_DIR, "embed_relations", "relations_lagrange", "220_lagrange_relations.json")
-OUTPUT_DIR     = os.path.join(SCRIPT_DIR, "data_lagrange", "re_data")
-LAGRANGE_DIR   = os.path.join(SCRIPT_DIR, "data_lagrange", "lagrange")
+SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR    = os.path.join(SCRIPT_DIR, "data_lagrange", "re_data")
+LAGRANGE_DIR  = os.path.join(SCRIPT_DIR, "data_lagrange", "lagrange")
+WIKIDATA_FILE = os.path.join(SCRIPT_DIR, "embed_relations", "relations_lagrange", "lagrange_relations_wikidata.json")
 
 TRIPLE_RE = re.compile(r"<S>(.*?)<P>(.*?)<O>(.*)$")
+
+
+def load_allowed_relations(path: str) -> set[str]:
+    with open(path, encoding="utf-8") as f:
+        relations = json.load(f)
+    return {r["predicate_label"] for r in relations}
 
 
 def parse_triples(triple_str: str) -> list[tuple[str, str, str]]:
@@ -22,24 +28,28 @@ def parse_triples(triple_str: str) -> list[tuple[str, str, str]]:
     return result
 
 
-def load_allowed_relations(json_path: str) -> set[str]:
-    with open(json_path, encoding="utf-8") as f:
-        data = json.load(f)
-    return {entry["predicate_label"] for entry in data if entry.get("predicate_label")}
-
-
-def convert_records(records, allowed_relations, output_path: str) -> int:
-    written = 0
-    skipped = 0
+def convert_records(records, output_path: str, allowed_relations: set[str]) -> int:
+    written  = 0
+    skipped_no_triples    = 0
+    skipped_disallowed    = 0
 
     with open(output_path, "w", encoding="utf-8") as fout:
         for idx, record in enumerate(records):
             triple_str = record.get("triples", "")
             if not triple_str:
-                skipped += 1
+                skipped_no_triples += 1
                 continue
 
             parsed = parse_triples(triple_str)
+            if not parsed:
+                skipped_no_triples += 1
+                continue
+
+            # filter out entire sample if any relation is not allowed
+            if any(rel not in allowed_relations for _, rel, _ in parsed):
+                skipped_disallowed += 1
+                continue
+
             triples = [
                 {
                     "triple_index":    i,
@@ -51,14 +61,11 @@ def convert_records(records, allowed_relations, output_path: str) -> int:
                     "object_label":    obj,
                 }
                 for i, (subj, rel, obj) in enumerate(parsed)
-                if rel in allowed_relations
             ]
 
-            if not triples:
-                skipped += 1
-                continue
-
-            title  = record.get("title", "").replace(" ", "_")
+            title = record.get("title", "").replace(" ", "_")
+            if not title:
+                print(f"  WARNING: sample {idx} has no title, using 'sample_{idx}'")
             entity = title if title else f"sample_{idx}"
 
             fout.write(json.dumps({
@@ -70,7 +77,8 @@ def convert_records(records, allowed_relations, output_path: str) -> int:
             written += 1
 
     print(f"  {written:>8,} written  →  {output_path}")
-    print(f"    skipped {skipped:>8,}  — no triples after relation filter")
+    print(f"    skipped {skipped_no_triples:>6,}  — no triples parsed")
+    print(f"    skipped {skipped_disallowed:>6,}  — contained disallowed relation")
     return written
 
 
@@ -91,24 +99,22 @@ def read_jsonl(path: str, max_records: int | None = None) -> list[dict]:
 
 
 def main():
-    allowed_relations = load_allowed_relations(RELATIONS_JSON)
-    print(f"Loaded {len(allowed_relations)} allowed relations\n")
-
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    allowed = load_allowed_relations(WIKIDATA_FILE)
+    print(f"Loaded {len(allowed)} allowed relations from {WIKIDATA_FILE}\n")
 
     print("Reading lagrange_test.json ...")
     test_records = read_jsonl(os.path.join(LAGRANGE_DIR, "lagrange_test.json"))
     print(f"  {len(test_records):,} records")
     print("Converting test ...")
-    convert_records(test_records, allowed_relations,
-                    os.path.join(OUTPUT_DIR, "lagrange_test.jsonl"))
+    convert_records(test_records, os.path.join(OUTPUT_DIR, "lagrange_test.jsonl"), allowed)
 
     print("\nReading lagrange_train.json ...")
     train_records = read_jsonl(os.path.join(LAGRANGE_DIR, "lagrange_train.json"))
     print(f"  {len(train_records):,} records")
     print("Converting train ...")
-    convert_records(train_records, allowed_relations,
-                    os.path.join(OUTPUT_DIR, "lagrange_train.jsonl"))
+    convert_records(train_records, os.path.join(OUTPUT_DIR, "lagrange_train.jsonl"), allowed)
 
     print("\nDone.")
 

@@ -1,88 +1,158 @@
+import csv
 import json
 import os
+import time
+import urllib.request
+import urllib.parse
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-LAGRANGE_PATH = os.path.join(base_dir, "relations_lagrange", "220_lagrange_relations.json")
-REBEL_ALL     = os.path.join(base_dir, "relations_rebel", "nonorig_relations.json")
+LAGRANGE_FILE = os.path.join(base_dir, "relations_lagrange", "lagrange_relations.json")
+OUTPUT_FILE         = os.path.join(base_dir, "relations_lagrange", "lagrange_relations_predicate_id.json")
+OUTPUT_FILE_MISSING = os.path.join(base_dir, "relations_lagrange", "lagrange_relations_missing.json")
 
-#IDs for the 34 Lagrange-only relations (not in REBEL at all)
-manual_ids = {
-    "UTC date of spacecraft launch":           "P619",
-    "area":                                    "P2046",
-    "birth name":                              "P1477",
-    "date of birth":                           "P569",
-    "date of death":                           "P570",
-    "date of first performance":               "P1191",
-    "date of official opening":                "P1619",
-    "demonym":                                 "P1549",
-    "dissolved, abolished or demolished date": "P576",
-    "elevation above sea level":               "P2044",
-    "end time":                                "P582",
-    "female form of label":                    "P2521",
-    "has part or parts":                       "P527",
-    "has use":                                 "P366",
-    "inception":                               "P571",
-    "length":                                  "P2043",
-    "located in/on physical feature":          "P706",
-    "made from material":                      "P186",
-    "male form of label":                      "P3321",
-    "name":                                    "P2561",
-    "name in native language":                 "P1559",
-    "nickname":                                "P1449",
-    "official name":                           "P1448",
-    "point in time":                           "P585",
-    "population":                              "P1082",
-    "publication date":                        "P577",
-    "short name":                              "P1813",
-    "start time":                              "P580",
-    "street address":                          "P6375",
-    "taxon common name":                       "P1843",
-    "time of discovery or invention":          "P575",
-    "title":                                   "P1476",
-    "uses capitalization for":                 "P6106",
-    "work period (start)":                     "P2031",
+all_rebel_relations = os.path.join(base_dir, "relations_rebel", "nonorig_relations.json")
+relations_yuchen    = os.path.join(base_dir, "..", "predicate_descriptions.csv")
+
+wikidata_api = "https://www.wikidata.org/w/api.php"
+API_DELAY    = 0.3
+
+
+manual_map = {
+    "number of speakers": "P1098",
+    "work period (end)": "P2032",
+    "students count": "P2196",
+    "instance has part(s) of the class": "P2670",
+    "crew member(s)": "P1029",
+    "Roman nomen gentilicium": "P2359",
+    "number of seats in legislature": "P1410",
+    "professional name (Japan)": "P2838",
+    "animal species kept": "P1990",
+    "statistical unit": "P2353",
+    "vertex figure": "P1678",
+    "World Health Organisation international non-proprietary name": "P2275",
+    "periapsis date": "P11796",
+    "term length of office" : "P2097",
+    "national flower" : "P2238",
+    "fracturing": "P538"
 }
 
 
+def load_nonorig_map(path):
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    result = {}
+    for e in data:
+        label = e.get("predicate_label") or e.get("label")
+        pid   = e.get("predicate_id")   or e.get("id")
+        if label and pid:
+            result[label] = pid
+    return result
+
+
+def load_csv_map(path):
+    with open(path, encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        return {row["predicate_label"]: row["predicate_id"] for row in reader if row.get("predicate_id")}
+
+
+def wikidata_lookup(label):
+    params = urllib.parse.urlencode({
+        "action": "wbsearchentities",
+        "search": label,
+        "language": "en",
+        "type": "property",
+        "format": "json",
+        "limit": 50,
+    })
+    req = urllib.request.Request(
+        f"{wikidata_api}?{params}",
+        headers={"User-Agent": "bachelorthesis-re/1.0 (ge94say@mytum.de)"},
+    )
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        data = json.loads(resp.read())
+    for result in data.get("search", []):
+        if result.get("label", "").lower() == label.lower():
+            return result["id"]
+        match = result.get("match", {})
+        if match.get("type") == "alias" and match.get("text", "").lower() == label.lower():
+            return result["id"]
+    return ""
+
+
 def main():
-    with open(LAGRANGE_PATH, encoding="utf-8") as f:
-        lagrange = json.load(f)
-    with open(REBEL_ALL, encoding="utf-8") as f:
-        rebel_all = json.load(f)
+    with open(LAGRANGE_FILE, encoding="utf-8") as f:
+        relations = json.load(f)
 
-    rebel_label_to_id = {
-        e["predicate_label"]: e["predicate_id"]
-        for e in rebel_all
-        if e.get("predicate_id")
-    }
+    nonorig_map = load_nonorig_map(all_rebel_relations)
+    csv_map     = load_csv_map(relations_yuchen)
 
-    #fill predicate_ids from REBEL where possible
-    missing = []
-    for r in lagrange:
-        pid = rebel_label_to_id.get(r["predicate_label"], "")
-        r["predicate_id"] = pid
-        if not pid:
-            missing.append(r)
+    n_manual = n_nonorig = n_csv = n_api = n_missing = 0
 
-    print(f"Filled {len(lagrange) - len(missing)}/{len(lagrange)} IDs from REBEL.")
+    for i, entry in enumerate(relations):
+        label = entry["predicate_label"]
 
-    #fill remaining from hardcoded list
-    not_found = []
-    for r in missing:
-        pid = manual_ids.get(r["predicate_label"], "")
-        r["predicate_id"] = pid
-        if not pid:
-            not_found.append(r["predicate_label"])
+        # 0. manual map
+        pid = manual_map.get(label, "")
+        if pid:
+            entry["predicate_id"] = pid
+            n_manual += 1
+            continue
 
-    print(f"Filled {len(missing) - len(not_found)}/{len(missing)} IDs from hardcoded list.")
+        # 1. nonorig_relations.json
+        pid = nonorig_map.get(label, "")
+        if pid:
+            entry["predicate_id"] = pid
+            n_nonorig += 1
+            continue
 
-    if not_found:
-        print(f"WARNING: no ID found for: {not_found}")
+        # 2. predicate_descriptions.csv
+        pid = csv_map.get(label, "")
+        if pid:
+            entry["predicate_id"] = pid
+            n_csv += 1
+            continue
 
-    with open(LAGRANGE_PATH, "w", encoding="utf-8") as f:
-        json.dump(lagrange, f, ensure_ascii=False, indent=2)
-    print(f"\nSaved predicate IDs to {LAGRANGE_PATH}")
+        # 3. Wikidata API
+        print(f"  [{i+1}/{len(relations)}] API lookup: {label!r}")
+        try:
+            pid = wikidata_lookup(label)
+            time.sleep(API_DELAY)
+        except Exception as e:
+            print(f"    ERROR: {e}")
+            pid = ""
+
+        entry["predicate_id"] = pid
+        if pid:
+            n_api += 1
+            print(f"    -> {pid}")
+        else:
+            n_missing += 1
+            print(f"    -> not found")
+
+    print(f"\nResults for {len(relations)} relations:")
+    print(f"  From manual map                  : {n_manual}")
+    print(f"  From nonorig_relations.json      : {n_nonorig}")
+    print(f"  From predicate_descriptions.csv  : {n_csv}")
+    print(f"  From Wikidata API                : {n_api}")
+    print(f"  Still missing                    : {n_missing}")
+
+    if n_missing:
+        print("\nMissing predicate_ids:")
+        for e in relations:
+            if not e.get("predicate_id"):
+                print(f"  {e.get('predicate_label')!r}")
+
+    found   = [e for e in relations if e.get("predicate_id")]
+    missing = [e for e in relations if not e.get("predicate_id")]
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(found, f, ensure_ascii=False, indent=2)
+    print(f"\nSaved {len(found)} found    -> {OUTPUT_FILE}")
+
+    with open(OUTPUT_FILE_MISSING, "w", encoding="utf-8") as f:
+        json.dump(missing, f, ensure_ascii=False, indent=2)
+    print(f"Saved {len(missing)} missing -> {OUTPUT_FILE_MISSING}")
 
 
 if __name__ == "__main__":

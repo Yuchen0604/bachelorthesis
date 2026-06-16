@@ -93,7 +93,7 @@ def main():
 
     for split in splits:
         input_path  = os.path.join(data_dir, f"{split}.jsonl")
-        output_path = os.path.join(data_dir, f"{split}_220_cn{CN}.jsonl")
+        output_path = os.path.join(data_dir, f"{split}_cn{CN}.jsonl")
         print(f"Processing {split} ...")
 
         written = 0

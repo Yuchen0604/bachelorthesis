@@ -14,8 +14,8 @@ source "$VENV_PATH"
 
 export HF_HUB_OFFLINE=1
 
-RUN=run1
-DATASET=rebel
+RUN=run2
+DATASET=lagrange
 
 # LLaMA
 python finetuning/finetune.py --model meta-llama/Llama-3.2-1B-Instruct --dataset $DATASET --run $RUN

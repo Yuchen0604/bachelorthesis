@@ -15,12 +15,7 @@ source "$VENV_PATH"
 export HF_HUB_OFFLINE=1
 
 RUN=run2
-DATASET=rebel
-
-#Training 
-python finetuning/finetune.py --model meta-llama/Llama-3.2-1B-Instruct --dataset $DATASET --run $RUN
-python finetuning/finetune.py --model Qwen/Qwen2.5-1.5B-Instruct        --dataset $DATASET --run $RUN
-python finetuning/finetune.py --model google/gemma-3-1b-it               --dataset $DATASET --run $RUN
+DATASET=lagrange
 
 #Inference on all epoch checkpoints
 run_inference() {

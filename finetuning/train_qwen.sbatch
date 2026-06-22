@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -J tekgen
-#SBATCH -w gpu-nvidia-h100
+#SBATCH -w gpu-nvidia-h200-3
 #SBATCH --gres=gpu:nvidia:1
 #SBATCH -t 24:00:00
 

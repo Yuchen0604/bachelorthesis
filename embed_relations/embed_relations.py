@@ -15,6 +15,10 @@ DATASET_CONFIG = {
         "relations_path": os.path.join(base_dir, "relations_lagrange", "lagrange_relations_wikidata.json"),
         "cache_path":     os.path.join(base_dir, "sbert_embeddings_lagrange.npz"),
     },
+    "tekgen": {
+        "relations_path": os.path.join(base_dir, "relations_tekgen", "tekgen_relations_wikidata.json"),
+        "cache_path":     os.path.join(base_dir, "sbert_embeddings_tekgen.npz"),
+    },
 }
 
 
@@ -41,7 +45,7 @@ def embed(relations: list[str], texts: list[str], cache_path: str) -> np.ndarray
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", choices=["rebel", "lagrange"])
+    parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen"])
     args = parser.parse_args()
 
     cfg = DATASET_CONFIG[args.dataset]

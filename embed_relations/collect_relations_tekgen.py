@@ -6,7 +6,6 @@ base_dir   = os.path.dirname(os.path.abspath(__file__))
 data_dir   = os.path.join(base_dir, "..", "data_tekgen")
 output_dir = os.path.join(base_dir, "relations_tekgen")
 output_all = os.path.join(output_dir, "tekgen_relations.json")
-output_220 = os.path.join(output_dir, "220_tekgen_relations.json")
 
 splits = ["train", "validation", "test"]
 
@@ -43,11 +42,6 @@ def main():
     with open(output_all, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(result):,} relations to {output_all}")
-
-    with open(output_220, "w", encoding="utf-8") as f:
-        json.dump(result[:220], f, ensure_ascii=False, indent=2)
-    print(f"Saved top 220 relations to {output_220}")
-
 
 if __name__ == "__main__":
     main()

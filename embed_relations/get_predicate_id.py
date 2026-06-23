@@ -1,3 +1,4 @@
+import argparse
 import csv
 import json
 import os
@@ -7,12 +8,31 @@ import urllib.parse
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-LAGRANGE_FILE = os.path.join(base_dir, "relations_lagrange", "lagrange_relations.json")
-OUTPUT_FILE         = os.path.join(base_dir, "relations_lagrange", "lagrange_relations_predicate_id.json")
-OUTPUT_FILE_MISSING = os.path.join(base_dir, "relations_lagrange", "lagrange_relations_missing.json")
+DATASET_CONFIG = {
+    "lagrange": {
+        "input":   os.path.join(base_dir, "relations_lagrange", "lagrange_relations.json"),
+        "found":   os.path.join(base_dir, "relations_lagrange", "lagrange_relations_predicate_id.json"),
+        "missing": os.path.join(base_dir, "relations_lagrange", "lagrange_relations_missing.json"),
+    },
+    "tekgen": {
+        "input":   os.path.join(base_dir, "relations_tekgen", "tekgen_relations.json"),
+        "found":   os.path.join(base_dir, "relations_tekgen", "tekgen_relations_predicate_id.json"),
+        "missing": os.path.join(base_dir, "relations_tekgen", "tekgen_relations_missing.json"),
+    },
+}
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--dataset", choices=list(DATASET_CONFIG.keys()), default="lagrange")
+args = parser.parse_args()
+
+cfg = DATASET_CONFIG[args.dataset]
+INPUT_FILE          = cfg["input"]
+OUTPUT_FILE         = cfg["found"]
+OUTPUT_FILE_MISSING = cfg["missing"]
 
 all_rebel_relations = os.path.join(base_dir, "relations_rebel", "nonorig_relations.json")
 relations_yuchen    = os.path.join(base_dir, "..", "predicate_descriptions.csv")
+entities_jsonl      = os.path.join(base_dir, "..", "entities.jsonl")
 
 wikidata_api = "https://www.wikidata.org/w/api.php"
 API_DELAY    = 0.3
@@ -56,6 +76,23 @@ def load_csv_map(path):
         return {row["predicate_label"]: row["predicate_id"] for row in reader if row.get("predicate_id")}
 
 
+def load_entities_map(path):
+    result = {}
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            entry = json.loads(line)
+            pid = entry.get("id", "")
+            if not pid.startswith("P"):
+                continue
+            name = entry.get("name", "")
+            if name:
+                result[name] = pid
+    return result
+
+
 def wikidata_lookup(label):
     params = urllib.parse.urlencode({
         "action": "wbsearchentities",
@@ -81,39 +118,48 @@ def wikidata_lookup(label):
 
 
 def main():
-    with open(LAGRANGE_FILE, encoding="utf-8") as f:
+    with open(INPUT_FILE, encoding="utf-8") as f:
         relations = json.load(f)
 
-    nonorig_map = load_nonorig_map(all_rebel_relations)
-    csv_map     = load_csv_map(relations_yuchen)
+    nonorig_map  = load_nonorig_map(all_rebel_relations)
+    csv_map      = load_csv_map(relations_yuchen)
+    entities_map = load_entities_map(entities_jsonl) if args.dataset == "tekgen" else {}
 
-    n_manual = n_nonorig = n_csv = n_api = n_missing = 0
+    n_manual = n_nonorig = n_csv = n_entities = n_api = n_missing = 0
 
     for i, entry in enumerate(relations):
         label = entry["predicate_label"]
 
-        # 0. manual map
+        # 0. entities.jsonl (tekgen only, first priority)
+        if entities_map:
+            pid = entities_map.get(label, "")
+            if pid:
+                entry["predicate_id"] = pid
+                n_entities += 1
+                continue
+
+        # 1. manual map
         pid = manual_map.get(label, "")
         if pid:
             entry["predicate_id"] = pid
             n_manual += 1
             continue
 
-        # 1. nonorig_relations.json
+        # 2. nonorig_relations.json
         pid = nonorig_map.get(label, "")
         if pid:
             entry["predicate_id"] = pid
             n_nonorig += 1
             continue
 
-        # 2. predicate_descriptions.csv
+        # 3. predicate_descriptions.csv
         pid = csv_map.get(label, "")
         if pid:
             entry["predicate_id"] = pid
             n_csv += 1
             continue
 
-        # 3. Wikidata API
+        # 4. Wikidata API
         print(f"  [{i+1}/{len(relations)}] API lookup: {label!r}")
         try:
             pid = wikidata_lookup(label)
@@ -131,6 +177,8 @@ def main():
             print(f"    -> not found")
 
     print(f"\nResults for {len(relations)} relations:")
+    if args.dataset == "tekgen":
+        print(f"  From entities.jsonl              : {n_entities}")
     print(f"  From manual map                  : {n_manual}")
     print(f"  From nonorig_relations.json      : {n_nonorig}")
     print(f"  From predicate_descriptions.csv  : {n_csv}")

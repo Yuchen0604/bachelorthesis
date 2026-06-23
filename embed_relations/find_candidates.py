@@ -24,6 +24,11 @@ DATASET_CONFIG = {
         "cache_path": os.path.join(base_dir, "sbert_embeddings_lagrange.npz"),
         "splits":     ["lagrange_train", "lagrange_test"],
     },
+    "tekgen": {
+        "data_dir":   os.path.join(base_dir, "..", "data_tekgen", "re_data"),
+        "cache_path": os.path.join(base_dir, "sbert_embeddings_tekgen.npz"),
+        "splits":     ["tekgen_train", "tekgen_valid", "tekgen_test"],
+    },
 }
 
 
@@ -79,7 +84,7 @@ def build_candidates(gold_labels, all_relations, embeddings, relation_index, K):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", choices=["rebel", "lagrange"], default="rebel")
+    parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen"], default="rebel")
     args = parser.parse_args()
 
     cfg = DATASET_CONFIG[args.dataset]

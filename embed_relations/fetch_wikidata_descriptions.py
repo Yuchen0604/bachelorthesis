@@ -20,10 +20,14 @@ DATASET_CONFIG = {
         "in_path":  os.path.join(base_dir, "relations_lagrange", "lagrange_relations_predicate_id.json"),
         "out_path": os.path.join(base_dir, "relations_lagrange", "lagrange_relations_wikidata.json"),
     },
+    "tekgen": {
+        "in_path":  os.path.join(base_dir, "relations_tekgen", "tekgen_relations_predicate_id.json"),
+        "out_path": os.path.join(base_dir, "relations_tekgen", "tekgen_relations_wikidata.json"),
+    },
 }
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--dataset", choices=["rebel", "rebel-full", "lagrange"], default="rebel")
+parser.add_argument("--dataset", choices=["rebel", "rebel-full", "lagrange", "tekgen"], default="rebel")
 args = parser.parse_args()
 
 in_path  = DATASET_CONFIG[args.dataset]["in_path"]

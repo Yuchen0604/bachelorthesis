@@ -27,6 +27,5 @@ run_inference() {
     done
 }
 
-# TekGen models → Lagrange test set
-run_inference meta-llama/Llama-3.2-1B-Instruct  Llama-3.2-1B-Instruct-tekgen-qlora_${RUN}  lagrange
-run_inference Qwen/Qwen2.5-1.5B-Instruct         Qwen2.5-1.5B-Instruct-tekgen-qlora_${RUN}  lagrange
+# TekGen Gemma → Lagrange test set
+run_inference google/gemma-3-1b-it  gemma-3-1b-it-tekgen-qlora_${RUN}  lagrange

@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -J eval_tum_p99
-#SBATCH -w gpu-nvidia-h200-3
+#SBATCH -J eval_p99_tum
+#SBATCH -w gpu-nvidia-h200-2
 #SBATCH --gres=gpu:nvidia:1
 #SBATCH -t 24:00:00
 

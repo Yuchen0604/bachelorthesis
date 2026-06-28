@@ -17,11 +17,13 @@ DATASET_DIRS = {
     "rebel":    "data_rebel/dataset-instruct-20k",
     "lagrange": "data_lagrange/dataset-instruct-20k",
     "tekgen":   "data_tekgen/dataset-instruct-20k",
+    "tum_full": "data_tum/dataset-instruct-20k-full",
+    "tum_p99":  "data_tum/dataset-instruct-20k-p99",
 }
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--model",   required=True, help="HuggingFace model ID")
-parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen"], default="rebel")
+parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen", "tum_full", "tum_p99"], default="rebel")
 parser.add_argument("--run",     default="", help="Optional run name suffix for log file")
 args = parser.parse_args()
 

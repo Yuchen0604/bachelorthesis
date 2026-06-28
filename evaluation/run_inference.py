@@ -9,6 +9,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 TEST_FILES = {
     "rebel":    "data_rebel/dataset-instruct-20k/test.jsonl",
     "lagrange": "data_lagrange/dataset-instruct-20k/test.jsonl",
+    "tum_full": "data_tum/dataset-instruct-20k-full/test.jsonl",
+    "tum_p99":  "data_tum/dataset-instruct-20k-p99/test.jsonl",
 }
 N_SAMPLES = 2000
 PRED_DIR  = "predictions"
@@ -16,7 +18,7 @@ PRED_DIR  = "predictions"
 parser = argparse.ArgumentParser()
 parser.add_argument("--model",   required=True, help="HuggingFace base model ID")
 parser.add_argument("--adapter", default=None,  help="Path to LoRA adapter directory; omit for base model")
-parser.add_argument("--dataset", choices=["rebel", "lagrange"], default="rebel")
+parser.add_argument("--dataset", choices=["rebel", "lagrange", "tum_full", "tum_p99"], default="rebel")
 parser.add_argument("--run",     default="",    help="Optional run name suffix for output/log file names")
 args = parser.parse_args()
 

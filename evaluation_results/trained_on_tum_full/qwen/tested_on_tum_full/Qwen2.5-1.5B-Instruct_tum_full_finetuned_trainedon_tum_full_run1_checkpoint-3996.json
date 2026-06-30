@@ -1,0 +1,47 @@
+{
+  "n_samples": 2000,
+  "macro": {
+    "strict": {
+      "precision": 0.8415,
+      "recall": 0.7857,
+      "f1": 0.7933
+    },
+    "ent_type": {
+      "precision": 0.8774,
+      "recall": 0.8202,
+      "f1": 0.8274
+    },
+    "exact": {
+      "precision": 0.8493,
+      "recall": 0.7932,
+      "f1": 0.8008
+    },
+    "partial": {
+      "precision": 0.8716,
+      "recall": 0.8148,
+      "f1": 0.8221
+    }
+  },
+  "webNLG_style": {
+    "strict": {
+      "precision": 0.7755,
+      "recall": 0.7073,
+      "f1": 0.7398
+    },
+    "ent_type": {
+      "precision": 0.8131,
+      "recall": 0.7416,
+      "f1": 0.7757
+    },
+    "exact": {
+      "precision": 0.7846,
+      "recall": 0.7155,
+      "f1": 0.7485
+    },
+    "partial": {
+      "precision": 0.8081,
+      "recall": 0.737,
+      "f1": 0.7709
+    }
+  }
+}

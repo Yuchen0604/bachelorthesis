@@ -1,0 +1,5832 @@
+[
+  {
+    "predicate_label": "instance of",
+    "predicate_id": "",
+    "count": 1406209
+  },
+  {
+    "predicate_label": "date of birth",
+    "predicate_id": "",
+    "count": 1316005
+  },
+  {
+    "predicate_label": "located in the administrative territorial entity",
+    "predicate_id": "",
+    "count": 1099194
+  },
+  {
+    "predicate_label": "occupation",
+    "predicate_id": "",
+    "count": 868534
+  },
+  {
+    "predicate_label": "country",
+    "predicate_id": "",
+    "count": 760746
+  },
+  {
+    "predicate_label": "given name",
+    "predicate_id": "",
+    "count": 657793
+  },
+  {
+    "predicate_label": "date of death",
+    "predicate_id": "",
+    "count": 637790
+  },
+  {
+    "predicate_label": "contains administrative territorial entity",
+    "predicate_id": "",
+    "count": 513616
+  },
+  {
+    "predicate_label": "family name",
+    "predicate_id": "",
+    "count": 390892
+  },
+  {
+    "predicate_label": "sport",
+    "predicate_id": "",
+    "count": 390164
+  },
+  {
+    "predicate_label": "publication date",
+    "predicate_id": "",
+    "count": 317940
+  },
+  {
+    "predicate_label": "genre",
+    "predicate_id": "",
+    "count": 212996
+  },
+  {
+    "predicate_label": "title",
+    "predicate_id": "",
+    "count": 190354
+  },
+  {
+    "predicate_label": "part of",
+    "predicate_id": "",
+    "count": 157173
+  },
+  {
+    "predicate_label": "member of sports team",
+    "predicate_id": "",
+    "count": 149148
+  },
+  {
+    "predicate_label": "country of citizenship",
+    "predicate_id": "",
+    "count": 140976
+  },
+  {
+    "predicate_label": "parent taxon",
+    "predicate_id": "",
+    "count": 131019
+  },
+  {
+    "predicate_label": "cast member",
+    "predicate_id": "",
+    "count": 128278
+  },
+  {
+    "predicate_label": "place of birth",
+    "predicate_id": "",
+    "count": 122535
+  },
+  {
+    "predicate_label": "performer",
+    "predicate_id": "",
+    "count": 112462
+  },
+  {
+    "predicate_label": "point in time",
+    "predicate_id": "",
+    "count": 110254
+  },
+  {
+    "predicate_label": "inception",
+    "predicate_id": "",
+    "count": 105816
+  },
+  {
+    "predicate_label": "languages spoken, written or signed",
+    "predicate_id": "",
+    "count": 89847
+  },
+  {
+    "predicate_label": "director",
+    "predicate_id": "",
+    "count": 87407
+  },
+  {
+    "predicate_label": "shares border with",
+    "predicate_id": "",
+    "count": 84719
+  },
+  {
+    "predicate_label": "demonym",
+    "predicate_id": "",
+    "count": 83064
+  },
+  {
+    "predicate_label": "language used",
+    "predicate_id": "",
+    "count": 76230
+  },
+  {
+    "predicate_label": "location",
+    "predicate_id": "",
+    "count": 75947
+  },
+  {
+    "predicate_label": "participant in",
+    "predicate_id": "",
+    "count": 64414
+  },
+  {
+    "predicate_label": "has part or parts",
+    "predicate_id": "",
+    "count": 62061
+  },
+  {
+    "predicate_label": "practiced by",
+    "predicate_id": "",
+    "count": 55878
+  },
+  {
+    "predicate_label": "name in native language",
+    "predicate_id": "",
+    "count": 55184
+  },
+  {
+    "predicate_label": "short name",
+    "predicate_id": "",
+    "count": 54640
+  },
+  {
+    "predicate_label": "author",
+    "predicate_id": "",
+    "count": 52431
+  },
+  {
+    "predicate_label": "position held",
+    "predicate_id": "",
+    "count": 51984
+  },
+  {
+    "predicate_label": "language of work or name",
+    "predicate_id": "",
+    "count": 48020
+  },
+  {
+    "predicate_label": "educated at",
+    "predicate_id": "",
+    "count": 46605
+  },
+  {
+    "predicate_label": "league",
+    "predicate_id": "",
+    "count": 42871
+  },
+  {
+    "predicate_label": "taxon common name",
+    "predicate_id": "",
+    "count": 40364
+  },
+  {
+    "predicate_label": "official name",
+    "predicate_id": "",
+    "count": 39199
+  },
+  {
+    "predicate_label": "place of death",
+    "predicate_id": "",
+    "count": 38511
+  },
+  {
+    "predicate_label": "member of political party",
+    "predicate_id": "",
+    "count": 38461
+  },
+  {
+    "predicate_label": "headquarters location",
+    "predicate_id": "",
+    "count": 37763
+  },
+  {
+    "predicate_label": "country of origin",
+    "predicate_id": "",
+    "count": 36605
+  },
+  {
+    "predicate_label": "sex or gender",
+    "predicate_id": "",
+    "count": 36039
+  },
+  {
+    "predicate_label": "record label",
+    "predicate_id": "",
+    "count": 35625
+  },
+  {
+    "predicate_label": "part of the series",
+    "predicate_id": "",
+    "count": 32639
+  },
+  {
+    "predicate_label": "start time",
+    "predicate_id": "",
+    "count": 32235
+  },
+  {
+    "predicate_label": "operator",
+    "predicate_id": "",
+    "count": 30326
+  },
+  {
+    "predicate_label": "taxon rank",
+    "predicate_id": "",
+    "count": 30221
+  },
+  {
+    "predicate_label": "female form of label",
+    "predicate_id": "",
+    "count": 27865
+  },
+  {
+    "predicate_label": "end time",
+    "predicate_id": "",
+    "count": 27727
+  },
+  {
+    "predicate_label": "employer",
+    "predicate_id": "",
+    "count": 26650
+  },
+  {
+    "predicate_label": "award received",
+    "predicate_id": "",
+    "count": 26274
+  },
+  {
+    "predicate_label": "platform",
+    "predicate_id": "",
+    "count": 24625
+  },
+  {
+    "predicate_label": "member of",
+    "predicate_id": "",
+    "count": 23895
+  },
+  {
+    "predicate_label": "located in or next to body of water",
+    "predicate_id": "",
+    "count": 23654
+  },
+  {
+    "predicate_label": "screenwriter",
+    "predicate_id": "",
+    "count": 23601
+  },
+  {
+    "predicate_label": "conflict",
+    "predicate_id": "",
+    "count": 23265
+  },
+  {
+    "predicate_label": "heritage designation",
+    "predicate_id": "",
+    "count": 22946
+  },
+  {
+    "predicate_label": "product or material produced",
+    "predicate_id": "",
+    "count": 22755
+  },
+  {
+    "predicate_label": "publisher",
+    "predicate_id": "",
+    "count": 22752
+  },
+  {
+    "predicate_label": "encodes",
+    "predicate_id": "",
+    "count": 21507
+  },
+  {
+    "predicate_label": "capital",
+    "predicate_id": "",
+    "count": 20655
+  },
+  {
+    "predicate_label": "original language of film or TV show",
+    "predicate_id": "",
+    "count": 20073
+  },
+  {
+    "predicate_label": "named after",
+    "predicate_id": "",
+    "count": 19113
+  },
+  {
+    "predicate_label": "developer",
+    "predicate_id": "",
+    "count": 18896
+  },
+  {
+    "predicate_label": "original broadcaster",
+    "predicate_id": "",
+    "count": 17844
+  },
+  {
+    "predicate_label": "capital of",
+    "predicate_id": "",
+    "count": 17822
+  },
+  {
+    "predicate_label": "owned by",
+    "predicate_id": "",
+    "count": 16241
+  },
+  {
+    "predicate_label": "replaces",
+    "predicate_id": "",
+    "count": 16033
+  },
+  {
+    "predicate_label": "manufacturer",
+    "predicate_id": "",
+    "count": 15785
+  },
+  {
+    "predicate_label": "field of this occupation",
+    "predicate_id": "",
+    "count": 15444
+  },
+  {
+    "predicate_label": "subclass of",
+    "predicate_id": "",
+    "count": 15270
+  },
+  {
+    "predicate_label": "father",
+    "predicate_id": "",
+    "count": 14739
+  },
+  {
+    "predicate_label": "creator",
+    "predicate_id": "",
+    "count": 13834
+  },
+  {
+    "predicate_label": "spouse",
+    "predicate_id": "",
+    "count": 13519
+  },
+  {
+    "predicate_label": "applies to jurisdiction",
+    "predicate_id": "",
+    "count": 13414
+  },
+  {
+    "predicate_label": "season of club or team",
+    "predicate_id": "",
+    "count": 13058
+  },
+  {
+    "predicate_label": "elevation above sea level",
+    "predicate_id": "",
+    "count": 12723
+  },
+  {
+    "predicate_label": "country for sport",
+    "predicate_id": "",
+    "count": 12653
+  },
+  {
+    "predicate_label": "location of formation",
+    "predicate_id": "",
+    "count": 12509
+  },
+  {
+    "predicate_label": "child",
+    "predicate_id": "",
+    "count": 12120
+  },
+  {
+    "predicate_label": "sibling",
+    "predicate_id": "",
+    "count": 12025
+  },
+  {
+    "predicate_label": "has use",
+    "predicate_id": "",
+    "count": 11976
+  },
+  {
+    "predicate_label": "field of work",
+    "predicate_id": "",
+    "count": 11855
+  },
+  {
+    "predicate_label": "ethnic group",
+    "predicate_id": "",
+    "count": 11752
+  },
+  {
+    "predicate_label": "date of official opening",
+    "predicate_id": "",
+    "count": 11472
+  },
+  {
+    "predicate_label": "mouth of the watercourse",
+    "predicate_id": "",
+    "count": 11454
+  },
+  {
+    "predicate_label": "position played on team / speciality",
+    "predicate_id": "",
+    "count": 11179
+  },
+  {
+    "predicate_label": "licensed to broadcast to",
+    "predicate_id": "",
+    "count": 11117
+  },
+  {
+    "predicate_label": "military branch",
+    "predicate_id": "",
+    "count": 11097
+  },
+  {
+    "predicate_label": "follows",
+    "predicate_id": "",
+    "count": 10861
+  },
+  {
+    "predicate_label": "writing language",
+    "predicate_id": "",
+    "count": 10848
+  },
+  {
+    "predicate_label": "sports discipline competed in",
+    "predicate_id": "",
+    "count": 10617
+  },
+  {
+    "predicate_label": "parent organization",
+    "predicate_id": "",
+    "count": 10470
+  },
+  {
+    "predicate_label": "located in/on physical feature",
+    "predicate_id": "",
+    "count": 10383
+  },
+  {
+    "predicate_label": "producer",
+    "predicate_id": "",
+    "count": 10333
+  },
+  {
+    "predicate_label": "instrument",
+    "predicate_id": "",
+    "count": 10215
+  },
+  {
+    "predicate_label": "based on",
+    "predicate_id": "",
+    "count": 10154
+  },
+  {
+    "predicate_label": "distributed by",
+    "predicate_id": "",
+    "count": 10102
+  },
+  {
+    "predicate_label": "work period (start)",
+    "predicate_id": "",
+    "count": 9684
+  },
+  {
+    "predicate_label": "sports season of league or competition",
+    "predicate_id": "",
+    "count": 8966
+  },
+  {
+    "predicate_label": "mountain range",
+    "predicate_id": "",
+    "count": 8938
+  },
+  {
+    "predicate_label": "composer",
+    "predicate_id": "",
+    "count": 8827
+  },
+  {
+    "predicate_label": "present in work",
+    "predicate_id": "",
+    "count": 8673
+  },
+  {
+    "predicate_label": "main subject",
+    "predicate_id": "",
+    "count": 8431
+  },
+  {
+    "predicate_label": "vessel class",
+    "predicate_id": "",
+    "count": 7951
+  },
+  {
+    "predicate_label": "said to be the same as",
+    "predicate_id": "",
+    "count": 7546
+  },
+  {
+    "predicate_label": "founded by",
+    "predicate_id": "",
+    "count": 7504
+  },
+  {
+    "predicate_label": "facet of",
+    "predicate_id": "",
+    "count": 7430
+  },
+  {
+    "predicate_label": "birth name",
+    "predicate_id": "",
+    "count": 7280
+  },
+  {
+    "predicate_label": "historic county",
+    "predicate_id": "",
+    "count": 7146
+  },
+  {
+    "predicate_label": "basin country",
+    "predicate_id": "",
+    "count": 7143
+  },
+  {
+    "predicate_label": "continent",
+    "predicate_id": "",
+    "count": 7140
+  },
+  {
+    "predicate_label": "work location",
+    "predicate_id": "",
+    "count": 6899
+  },
+  {
+    "predicate_label": "replaced by",
+    "predicate_id": "",
+    "count": 6565
+  },
+  {
+    "predicate_label": "followed by",
+    "predicate_id": "",
+    "count": 6549
+  },
+  {
+    "predicate_label": "notable work",
+    "predicate_id": "",
+    "count": 6354
+  },
+  {
+    "predicate_label": "male form of label",
+    "predicate_id": "",
+    "count": 6288
+  },
+  {
+    "predicate_label": "constellation",
+    "predicate_id": "",
+    "count": 6238
+  },
+  {
+    "predicate_label": "military rank",
+    "predicate_id": "",
+    "count": 6156
+  },
+  {
+    "predicate_label": "production company",
+    "predicate_id": "",
+    "count": 5989
+  },
+  {
+    "predicate_label": "made from material",
+    "predicate_id": "",
+    "count": 5720
+  },
+  {
+    "predicate_label": "uses",
+    "predicate_id": "",
+    "count": 5570
+  },
+  {
+    "predicate_label": "media franchise",
+    "predicate_id": "",
+    "count": 5535
+  },
+  {
+    "predicate_label": "endemic to",
+    "predicate_id": "",
+    "count": 5501
+  },
+  {
+    "predicate_label": "industry",
+    "predicate_id": "",
+    "count": 5335
+  },
+  {
+    "predicate_label": "contains settlement",
+    "predicate_id": "",
+    "count": 5278
+  },
+  {
+    "predicate_label": "participant",
+    "predicate_id": "",
+    "count": 5174
+  },
+  {
+    "predicate_label": "season",
+    "predicate_id": "",
+    "count": 5122
+  },
+  {
+    "predicate_label": "mother",
+    "predicate_id": "",
+    "count": 4991
+  },
+  {
+    "predicate_label": "population",
+    "predicate_id": "",
+    "count": 4808
+  },
+  {
+    "predicate_label": "connecting line",
+    "predicate_id": "",
+    "count": 4742
+  },
+  {
+    "predicate_label": "narrative location",
+    "predicate_id": "",
+    "count": 4502
+  },
+  {
+    "predicate_label": "time of discovery or invention",
+    "predicate_id": "",
+    "count": 4488
+  },
+  {
+    "predicate_label": "school district",
+    "predicate_id": "",
+    "count": 4475
+  },
+  {
+    "predicate_label": "lyrics by",
+    "predicate_id": "",
+    "count": 4454
+  },
+  {
+    "predicate_label": "characters",
+    "predicate_id": "",
+    "count": 4398
+  },
+  {
+    "predicate_label": "occupant",
+    "predicate_id": "",
+    "count": 4310
+  },
+  {
+    "predicate_label": "has edition or translation",
+    "predicate_id": "",
+    "count": 4302
+  },
+  {
+    "predicate_label": "honorific prefix",
+    "predicate_id": "",
+    "count": 4286
+  },
+  {
+    "predicate_label": "voice type",
+    "predicate_id": "",
+    "count": 4278
+  },
+  {
+    "predicate_label": "head of government",
+    "predicate_id": "",
+    "count": 4244
+  },
+  {
+    "predicate_label": "brand",
+    "predicate_id": "",
+    "count": 4215
+  },
+  {
+    "predicate_label": "competition class",
+    "predicate_id": "",
+    "count": 4124
+  },
+  {
+    "predicate_label": "depicts",
+    "predicate_id": "",
+    "count": 4005
+  },
+  {
+    "predicate_label": "form of creative work",
+    "predicate_id": "",
+    "count": 3970
+  },
+  {
+    "predicate_label": "used by",
+    "predicate_id": "",
+    "count": 3937
+  },
+  {
+    "predicate_label": "cause of death",
+    "predicate_id": "",
+    "count": 3821
+  },
+  {
+    "predicate_label": "architectural style",
+    "predicate_id": "",
+    "count": 3767
+  },
+  {
+    "predicate_label": "writing system",
+    "predicate_id": "",
+    "count": 3759
+  },
+  {
+    "predicate_label": "allegiance",
+    "predicate_id": "",
+    "count": 3730
+  },
+  {
+    "predicate_label": "crosses",
+    "predicate_id": "",
+    "count": 3703
+  },
+  {
+    "predicate_label": "dissolved, abolished or demolished date",
+    "predicate_id": "",
+    "count": 3693
+  },
+  {
+    "predicate_label": "after a work by",
+    "predicate_id": "",
+    "count": 3669
+  },
+  {
+    "predicate_label": "length",
+    "predicate_id": "",
+    "count": 3626
+  },
+  {
+    "predicate_label": "located on astronomical body",
+    "predicate_id": "",
+    "count": 3592
+  },
+  {
+    "predicate_label": "participating team",
+    "predicate_id": "",
+    "count": 3443
+  },
+  {
+    "predicate_label": "place of publication",
+    "predicate_id": "",
+    "count": 3373
+  },
+  {
+    "predicate_label": "residence",
+    "predicate_id": "",
+    "count": 3315
+  },
+  {
+    "predicate_label": "operating system",
+    "predicate_id": "",
+    "count": 3313
+  },
+  {
+    "predicate_label": "animal breed",
+    "predicate_id": "",
+    "count": 3294
+  },
+  {
+    "predicate_label": "conferred by",
+    "predicate_id": "",
+    "count": 3203
+  },
+  {
+    "predicate_label": "different from",
+    "predicate_id": "",
+    "count": 3115
+  },
+  {
+    "predicate_label": "nominated for",
+    "predicate_id": "",
+    "count": 3100
+  },
+  {
+    "predicate_label": "architect",
+    "predicate_id": "",
+    "count": 2858
+  },
+  {
+    "predicate_label": "operating area",
+    "predicate_id": "",
+    "count": 2795
+  },
+  {
+    "predicate_label": "name",
+    "predicate_id": "",
+    "count": 2792
+  },
+  {
+    "predicate_label": "nickname",
+    "predicate_id": "",
+    "count": 2761
+  },
+  {
+    "predicate_label": "collection",
+    "predicate_id": "",
+    "count": 2736
+  },
+  {
+    "predicate_label": "area",
+    "predicate_id": "",
+    "count": 2698
+  },
+  {
+    "predicate_label": "place of burial",
+    "predicate_id": "",
+    "count": 2596
+  },
+  {
+    "predicate_label": "diplomatic relation",
+    "predicate_id": "",
+    "count": 2584
+  },
+  {
+    "predicate_label": "date of first performance",
+    "predicate_id": "",
+    "count": 2573
+  },
+  {
+    "predicate_label": "designed by",
+    "predicate_id": "",
+    "count": 2508
+  },
+  {
+    "predicate_label": "taxonomic type",
+    "predicate_id": "",
+    "count": 2503
+  },
+  {
+    "predicate_label": "affiliation",
+    "predicate_id": "",
+    "count": 2413
+  },
+  {
+    "predicate_label": "subsidiary",
+    "predicate_id": "",
+    "count": 2384
+  },
+  {
+    "predicate_label": "political ideology",
+    "predicate_id": "",
+    "count": 2316
+  },
+  {
+    "predicate_label": "located in present-day administrative territorial entity",
+    "predicate_id": "",
+    "count": 2278
+  },
+  {
+    "predicate_label": "legal form",
+    "predicate_id": "",
+    "count": 2249
+  },
+  {
+    "predicate_label": "uses capitalization for",
+    "predicate_id": "",
+    "count": 2173
+  },
+  {
+    "predicate_label": "title of chess person",
+    "predicate_id": "",
+    "count": 2029
+  },
+  {
+    "predicate_label": "organizer",
+    "predicate_id": "",
+    "count": 1977
+  },
+  {
+    "predicate_label": "movement",
+    "predicate_id": "",
+    "count": 1936
+  },
+  {
+    "predicate_label": "represents",
+    "predicate_id": "",
+    "count": 1891
+  },
+  {
+    "predicate_label": "tributary",
+    "predicate_id": "",
+    "count": 1883
+  },
+  {
+    "predicate_label": "drafted by",
+    "predicate_id": "",
+    "count": 1847
+  },
+  {
+    "predicate_label": "located on street",
+    "predicate_id": "",
+    "count": 1820
+  },
+  {
+    "predicate_label": "subject has role",
+    "predicate_id": "",
+    "count": 1811
+  },
+  {
+    "predicate_label": "diocese",
+    "predicate_id": "",
+    "count": 1795
+  },
+  {
+    "predicate_label": "UTC date of spacecraft launch",
+    "predicate_id": "",
+    "count": 1780
+  },
+  {
+    "predicate_label": "has works in the collection",
+    "predicate_id": "",
+    "count": 1747
+  },
+  {
+    "predicate_label": "published in",
+    "predicate_id": "",
+    "count": 1726
+  },
+  {
+    "predicate_label": "indigenous to",
+    "predicate_id": "",
+    "count": 1679
+  },
+  {
+    "predicate_label": "studies",
+    "predicate_id": "",
+    "count": 1673
+  },
+  {
+    "predicate_label": "legislative body",
+    "predicate_id": "",
+    "count": 1640
+  },
+  {
+    "predicate_label": "connects with",
+    "predicate_id": "",
+    "count": 1600
+  },
+  {
+    "predicate_label": "significant event",
+    "predicate_id": "",
+    "count": 1590
+  },
+  {
+    "predicate_label": "home venue",
+    "predicate_id": "",
+    "count": 1586
+  },
+  {
+    "predicate_label": "head of state",
+    "predicate_id": "",
+    "count": 1536
+  },
+  {
+    "predicate_label": "family",
+    "predicate_id": "",
+    "count": 1521
+  },
+  {
+    "predicate_label": "radio format",
+    "predicate_id": "",
+    "count": 1520
+  },
+  {
+    "predicate_label": "surface played on",
+    "predicate_id": "",
+    "count": 1518
+  },
+  {
+    "predicate_label": "victory",
+    "predicate_id": "",
+    "count": 1509
+  },
+  {
+    "predicate_label": "owner of",
+    "predicate_id": "",
+    "count": 1491
+  },
+  {
+    "predicate_label": "IUCN conservation status",
+    "predicate_id": "",
+    "count": 1490
+  },
+  {
+    "predicate_label": "native language",
+    "predicate_id": "",
+    "count": 1484
+  },
+  {
+    "predicate_label": "time period",
+    "predicate_id": "",
+    "count": 1480
+  },
+  {
+    "predicate_label": "presenter",
+    "predicate_id": "",
+    "count": 1471
+  },
+  {
+    "predicate_label": "religious order",
+    "predicate_id": "",
+    "count": 1471
+  },
+  {
+    "predicate_label": "color",
+    "predicate_id": "",
+    "count": 1440
+  },
+  {
+    "predicate_label": "legislated by",
+    "predicate_id": "",
+    "count": 1435
+  },
+  {
+    "predicate_label": "street address",
+    "predicate_id": "",
+    "count": 1434
+  },
+  {
+    "predicate_label": "Roman praenomen",
+    "predicate_id": "",
+    "count": 1407
+  },
+  {
+    "predicate_label": "regulated by",
+    "predicate_id": "",
+    "count": 1314
+  },
+  {
+    "predicate_label": "winner",
+    "predicate_id": "",
+    "count": 1307
+  },
+  {
+    "predicate_label": "found in taxon",
+    "predicate_id": "",
+    "count": 1304
+  },
+  {
+    "predicate_label": "relative",
+    "predicate_id": "",
+    "count": 1300
+  },
+  {
+    "predicate_label": "terminus",
+    "predicate_id": "",
+    "count": 1281
+  },
+  {
+    "predicate_label": "lake outflow",
+    "predicate_id": "",
+    "count": 1240
+  },
+  {
+    "predicate_label": "medical condition treated",
+    "predicate_id": "",
+    "count": 1227
+  },
+  {
+    "predicate_label": "adjacent station",
+    "predicate_id": "",
+    "count": 1220
+  },
+  {
+    "predicate_label": "watershed area",
+    "predicate_id": "",
+    "count": 1184
+  },
+  {
+    "predicate_label": "studied by",
+    "predicate_id": "",
+    "count": 1183
+  },
+  {
+    "predicate_label": "programming language",
+    "predicate_id": "",
+    "count": 1181
+  },
+  {
+    "predicate_label": "item operated",
+    "predicate_id": "",
+    "count": 1178
+  },
+  {
+    "predicate_label": "site of astronomical discovery",
+    "predicate_id": "",
+    "count": 1172
+  },
+  {
+    "predicate_label": "maximum capacity",
+    "predicate_id": "",
+    "count": 1147
+  },
+  {
+    "predicate_label": "librettist",
+    "predicate_id": "",
+    "count": 1139
+  },
+  {
+    "predicate_label": "connecting service",
+    "predicate_id": "",
+    "count": 1136
+  },
+  {
+    "predicate_label": "editor",
+    "predicate_id": "",
+    "count": 1109
+  },
+  {
+    "predicate_label": "airline hub",
+    "predicate_id": "",
+    "count": 1100
+  },
+  {
+    "predicate_label": "game mode",
+    "predicate_id": "",
+    "count": 1099
+  },
+  {
+    "predicate_label": "parent astronomical body",
+    "predicate_id": "",
+    "count": 1097
+  },
+  {
+    "predicate_label": "manner of death",
+    "predicate_id": "",
+    "count": 1089
+  },
+  {
+    "predicate_label": "Roman cognomen",
+    "predicate_id": "",
+    "count": 1088
+  },
+  {
+    "predicate_label": "service entry",
+    "predicate_id": "",
+    "count": 1072
+  },
+  {
+    "predicate_label": "stock exchange",
+    "predicate_id": "",
+    "count": 1071
+  },
+  {
+    "predicate_label": "terminus location",
+    "predicate_id": "",
+    "count": 1069
+  },
+  {
+    "predicate_label": "illustrator",
+    "predicate_id": "",
+    "count": 1039
+  },
+  {
+    "predicate_label": "inflows",
+    "predicate_id": "",
+    "count": 1026
+  },
+  {
+    "predicate_label": "voice actor",
+    "predicate_id": "",
+    "count": 1014
+  },
+  {
+    "predicate_label": "has effect",
+    "predicate_id": "",
+    "count": 1002
+  },
+  {
+    "predicate_label": "court",
+    "predicate_id": "",
+    "count": 990
+  },
+  {
+    "predicate_label": "candidacy in election",
+    "predicate_id": "",
+    "count": 971
+  },
+  {
+    "predicate_label": "has cause",
+    "predicate_id": "",
+    "count": 959
+  },
+  {
+    "predicate_label": "date of official closure",
+    "predicate_id": "",
+    "count": 952
+  },
+  {
+    "predicate_label": "instrumentation",
+    "predicate_id": "",
+    "count": 948
+  },
+  {
+    "predicate_label": "country of registry",
+    "predicate_id": "",
+    "count": 946
+  },
+  {
+    "predicate_label": "student of",
+    "predicate_id": "",
+    "count": 938
+  },
+  {
+    "predicate_label": "place served by transport hub",
+    "predicate_id": "",
+    "count": 933
+  },
+  {
+    "predicate_label": "is a list of",
+    "predicate_id": "",
+    "count": 931
+  },
+  {
+    "predicate_label": "from narrative universe",
+    "predicate_id": "",
+    "count": 922
+  },
+  {
+    "predicate_label": "filming location",
+    "predicate_id": "",
+    "count": 910
+  },
+  {
+    "predicate_label": "political alignment",
+    "predicate_id": "",
+    "count": 864
+  },
+  {
+    "predicate_label": "discoverer or inventor",
+    "predicate_id": "",
+    "count": 863
+  },
+  {
+    "predicate_label": "dedicated to",
+    "predicate_id": "",
+    "count": 840
+  },
+  {
+    "predicate_label": "this taxon is source of",
+    "predicate_id": "",
+    "count": 806
+  },
+  {
+    "predicate_label": "carries",
+    "predicate_id": "",
+    "count": 784
+  },
+  {
+    "predicate_label": "partially coincident with",
+    "predicate_id": "",
+    "count": 758
+  },
+  {
+    "predicate_label": "territory claimed by",
+    "predicate_id": "",
+    "count": 744
+  },
+  {
+    "predicate_label": "convicted of",
+    "predicate_id": "",
+    "count": 733
+  },
+  {
+    "predicate_label": "official language",
+    "predicate_id": "",
+    "count": 713
+  },
+  {
+    "predicate_label": "influenced by",
+    "predicate_id": "",
+    "count": 711
+  },
+  {
+    "predicate_label": "this zoological name is coordinate with",
+    "predicate_id": "",
+    "count": 706
+  },
+  {
+    "predicate_label": "basionym",
+    "predicate_id": "",
+    "count": 703
+  },
+  {
+    "predicate_label": "active ingredient in",
+    "predicate_id": "",
+    "count": 692
+  },
+  {
+    "predicate_label": "start point",
+    "predicate_id": "",
+    "count": 670
+  },
+  {
+    "predicate_label": "maintained by",
+    "predicate_id": "",
+    "count": 664
+  },
+  {
+    "predicate_label": "work period (end)",
+    "predicate_id": "",
+    "count": 658
+  },
+  {
+    "predicate_label": "coach of sports team",
+    "predicate_id": "",
+    "count": 653
+  },
+  {
+    "predicate_label": "name day",
+    "predicate_id": "",
+    "count": 646
+  },
+  {
+    "predicate_label": "set during recurring event",
+    "predicate_id": "",
+    "count": 638
+  },
+  {
+    "predicate_label": "noble title",
+    "predicate_id": "",
+    "count": 624
+  },
+  {
+    "predicate_label": "chairperson",
+    "predicate_id": "",
+    "count": 596
+  },
+  {
+    "predicate_label": "encoded by",
+    "predicate_id": "",
+    "count": 584
+  },
+  {
+    "predicate_label": "officeholder",
+    "predicate_id": "",
+    "count": 566
+  },
+  {
+    "predicate_label": "derivative work",
+    "predicate_id": "",
+    "count": 558
+  },
+  {
+    "predicate_label": "distribution format",
+    "predicate_id": "",
+    "count": 551
+  },
+  {
+    "predicate_label": "feast day",
+    "predicate_id": "",
+    "count": 550
+  },
+  {
+    "predicate_label": "commemorates",
+    "predicate_id": "",
+    "count": 546
+  },
+  {
+    "predicate_label": "space launch vehicle",
+    "predicate_id": "",
+    "count": 539
+  },
+  {
+    "predicate_label": "doctoral advisor",
+    "predicate_id": "",
+    "count": 537
+  },
+  {
+    "predicate_label": "place of detention",
+    "predicate_id": "",
+    "count": 537
+  },
+  {
+    "predicate_label": "broadcast by",
+    "predicate_id": "",
+    "count": 534
+  },
+  {
+    "predicate_label": "physically interacts with",
+    "predicate_id": "",
+    "count": 520
+  },
+  {
+    "predicate_label": "authority",
+    "predicate_id": "",
+    "count": 514
+  },
+  {
+    "predicate_label": "destination point",
+    "predicate_id": "",
+    "count": 512
+  },
+  {
+    "predicate_label": "signatory",
+    "predicate_id": "",
+    "count": 501
+  },
+  {
+    "predicate_label": "number of matches played/races/starts",
+    "predicate_id": "",
+    "count": 487
+  },
+  {
+    "predicate_label": "opposite of",
+    "predicate_id": "",
+    "count": 486
+  },
+  {
+    "predicate_label": "second family name in Spanish name",
+    "predicate_id": "",
+    "count": 475
+  },
+  {
+    "predicate_label": "copyright license",
+    "predicate_id": "",
+    "count": 470
+  },
+  {
+    "predicate_label": "highest point",
+    "predicate_id": "",
+    "count": 469
+  },
+  {
+    "predicate_label": "location of first performance",
+    "predicate_id": "",
+    "count": 465
+  },
+  {
+    "predicate_label": "medical condition",
+    "predicate_id": "",
+    "count": 458
+  },
+  {
+    "predicate_label": "wheel arrangement",
+    "predicate_id": "",
+    "count": 433
+  },
+  {
+    "predicate_label": "dialect of",
+    "predicate_id": "",
+    "count": 431
+  },
+  {
+    "predicate_label": "qualifies for event",
+    "predicate_id": "",
+    "count": 431
+  },
+  {
+    "predicate_label": "narrative role",
+    "predicate_id": "",
+    "count": 422
+  },
+  {
+    "predicate_label": "takes place in fictional universe",
+    "predicate_id": "",
+    "count": 421
+  },
+  {
+    "predicate_label": "location of creation",
+    "predicate_id": "",
+    "count": 411
+  },
+  {
+    "predicate_label": "month of the year",
+    "predicate_id": "",
+    "count": 404
+  },
+  {
+    "predicate_label": "commissioned by",
+    "predicate_id": "",
+    "count": 403
+  },
+  {
+    "predicate_label": "subtitle",
+    "predicate_id": "",
+    "count": 393
+  },
+  {
+    "predicate_label": "source of energy",
+    "predicate_id": "",
+    "count": 385
+  },
+  {
+    "predicate_label": "newspaper format",
+    "predicate_id": "",
+    "count": 380
+  },
+  {
+    "predicate_label": "worshipped by",
+    "predicate_id": "",
+    "count": 360
+  },
+  {
+    "predicate_label": "anatomical location",
+    "predicate_id": "",
+    "count": 354
+  },
+  {
+    "predicate_label": "native label",
+    "predicate_id": "",
+    "count": 346
+  },
+  {
+    "predicate_label": "coextensive with",
+    "predicate_id": "",
+    "count": 341
+  },
+  {
+    "predicate_label": "interested in",
+    "predicate_id": "",
+    "count": 339
+  },
+  {
+    "predicate_label": "taxon synonym",
+    "predicate_id": "",
+    "count": 336
+  },
+  {
+    "predicate_label": "canonization status",
+    "predicate_id": "",
+    "count": 329
+  },
+  {
+    "predicate_label": "first flight",
+    "predicate_id": "",
+    "count": 324
+  },
+  {
+    "predicate_label": "has written for",
+    "predicate_id": "",
+    "count": 322
+  },
+  {
+    "predicate_label": "culture",
+    "predicate_id": "",
+    "count": 321
+  },
+  {
+    "predicate_label": "enemy of",
+    "predicate_id": "",
+    "count": 320
+  },
+  {
+    "predicate_label": "successful candidate",
+    "predicate_id": "",
+    "count": 320
+  },
+  {
+    "predicate_label": "tonality",
+    "predicate_id": "",
+    "count": 311
+  },
+  {
+    "predicate_label": "vehicle",
+    "predicate_id": "",
+    "count": 311
+  },
+  {
+    "predicate_label": "installed capacity",
+    "predicate_id": "",
+    "count": 308
+  },
+  {
+    "predicate_label": "measured physical quantity",
+    "predicate_id": "",
+    "count": 303
+  },
+  {
+    "predicate_label": "manifestation of",
+    "predicate_id": "",
+    "count": 297
+  },
+  {
+    "predicate_label": "topographic prominence",
+    "predicate_id": "",
+    "count": 291
+  },
+  {
+    "predicate_label": "inspired by",
+    "predicate_id": "",
+    "count": 289
+  },
+  {
+    "predicate_label": "fabrication method",
+    "predicate_id": "",
+    "count": 282
+  },
+  {
+    "predicate_label": "student",
+    "predicate_id": "",
+    "count": 281
+  },
+  {
+    "predicate_label": "service retirement",
+    "predicate_id": "",
+    "count": 279
+  },
+  {
+    "predicate_label": "height",
+    "predicate_id": "",
+    "count": 277
+  },
+  {
+    "predicate_label": "sponsor",
+    "predicate_id": "",
+    "count": 275
+  },
+  {
+    "predicate_label": "edition or translation of",
+    "predicate_id": "",
+    "count": 272
+  },
+  {
+    "predicate_label": "origin of the watercourse",
+    "predicate_id": "",
+    "count": 269
+  },
+  {
+    "predicate_label": "type of variable star",
+    "predicate_id": "",
+    "count": 266
+  },
+  {
+    "predicate_label": "drainage basin",
+    "predicate_id": "",
+    "count": 264
+  },
+  {
+    "predicate_label": "business model",
+    "predicate_id": "",
+    "count": 262
+  },
+  {
+    "predicate_label": "natural product of taxon",
+    "predicate_id": "",
+    "count": 262
+  },
+  {
+    "predicate_label": "cuisine",
+    "predicate_id": "",
+    "count": 256
+  },
+  {
+    "predicate_label": "intended public",
+    "predicate_id": "",
+    "count": 254
+  },
+  {
+    "predicate_label": "day in year for periodic occurrence",
+    "predicate_id": "",
+    "count": 253
+  },
+  {
+    "predicate_label": "astronaut mission",
+    "predicate_id": "",
+    "count": 251
+  },
+  {
+    "predicate_label": "tracklist",
+    "predicate_id": "",
+    "count": 249
+  },
+  {
+    "predicate_label": "contributor to the creative work or subject",
+    "predicate_id": "",
+    "count": 244
+  },
+  {
+    "predicate_label": "ortholog",
+    "predicate_id": "",
+    "count": 242
+  },
+  {
+    "predicate_label": "software engine",
+    "predicate_id": "",
+    "count": 241
+  },
+  {
+    "predicate_label": "business division",
+    "predicate_id": "",
+    "count": 237
+  },
+  {
+    "predicate_label": "organization directed by the office or position",
+    "predicate_id": "",
+    "count": 236
+  },
+  {
+    "predicate_label": "executive producer",
+    "predicate_id": "",
+    "count": 234
+  },
+  {
+    "predicate_label": "width",
+    "predicate_id": "",
+    "count": 234
+  },
+  {
+    "predicate_label": "office held by head of government",
+    "predicate_id": "",
+    "count": 233
+  },
+  {
+    "predicate_label": "described by source",
+    "predicate_id": "",
+    "count": 232
+  },
+  {
+    "predicate_label": "academic degree",
+    "predicate_id": "",
+    "count": 230
+  },
+  {
+    "predicate_label": "instance has part(s) of the class",
+    "predicate_id": "",
+    "count": 226
+  },
+  {
+    "predicate_label": "discontinued date",
+    "predicate_id": "",
+    "count": 225
+  },
+  {
+    "predicate_label": "location of discovery",
+    "predicate_id": "",
+    "count": 224
+  },
+  {
+    "predicate_label": "apparent magnitude",
+    "predicate_id": "",
+    "count": 221
+  },
+  {
+    "predicate_label": "crystal system",
+    "predicate_id": "",
+    "count": 221
+  },
+  {
+    "predicate_label": "partner in business or sport",
+    "predicate_id": "",
+    "count": 219
+  },
+  {
+    "predicate_label": "located in protected area",
+    "predicate_id": "",
+    "count": 215
+  },
+  {
+    "predicate_label": "located in the ecclesiastical territorial entity",
+    "predicate_id": "",
+    "count": 215
+  },
+  {
+    "predicate_label": "fictional universe described in",
+    "predicate_id": "",
+    "count": 213
+  },
+  {
+    "predicate_label": "season starts",
+    "predicate_id": "",
+    "count": 210
+  },
+  {
+    "predicate_label": "commander of (DEPRECATED)",
+    "predicate_id": "",
+    "count": 209
+  },
+  {
+    "predicate_label": "date of disappearance",
+    "predicate_id": "",
+    "count": 208
+  },
+  {
+    "predicate_label": "social classification",
+    "predicate_id": "",
+    "count": 202
+  },
+  {
+    "predicate_label": "frequency",
+    "predicate_id": "",
+    "count": 201
+  },
+  {
+    "predicate_label": "programming paradigm",
+    "predicate_id": "",
+    "count": 199
+  },
+  {
+    "predicate_label": "calculated from",
+    "predicate_id": "",
+    "count": 198
+  },
+  {
+    "predicate_label": "located in time zone",
+    "predicate_id": "",
+    "count": 197
+  },
+  {
+    "predicate_label": "expansion of",
+    "predicate_id": "",
+    "count": 195
+  },
+  {
+    "predicate_label": "expressed in",
+    "predicate_id": "",
+    "count": 195
+  },
+  {
+    "predicate_label": "symptoms and signs",
+    "predicate_id": "",
+    "count": 194
+  },
+  {
+    "predicate_label": "associated electoral district",
+    "predicate_id": "",
+    "count": 193
+  },
+  {
+    "predicate_label": "diameter",
+    "predicate_id": "",
+    "count": 191
+  },
+  {
+    "predicate_label": "military casualty classification",
+    "predicate_id": "",
+    "count": 190
+  },
+  {
+    "predicate_label": "first appearance",
+    "predicate_id": "",
+    "count": 184
+  },
+  {
+    "predicate_label": "afflicts",
+    "predicate_id": "",
+    "count": 183
+  },
+  {
+    "predicate_label": "currency",
+    "predicate_id": "",
+    "count": 181
+  },
+  {
+    "predicate_label": "biological process",
+    "predicate_id": "",
+    "count": 179
+  },
+  {
+    "predicate_label": "implementation of",
+    "predicate_id": "",
+    "count": 178
+  },
+  {
+    "predicate_label": "separated from",
+    "predicate_id": "",
+    "count": 178
+  },
+  {
+    "predicate_label": "office contested",
+    "predicate_id": "",
+    "count": 177
+  },
+  {
+    "predicate_label": "recorded at studio or venue",
+    "predicate_id": "",
+    "count": 171
+  },
+  {
+    "predicate_label": "candidate",
+    "predicate_id": "",
+    "count": 168
+  },
+  {
+    "predicate_label": "standards body",
+    "predicate_id": "",
+    "count": 162
+  },
+  {
+    "predicate_label": "genetic association",
+    "predicate_id": "",
+    "count": 162
+  },
+  {
+    "predicate_label": "depicted by",
+    "predicate_id": "",
+    "count": 161
+  },
+  {
+    "predicate_label": "represented by",
+    "predicate_id": "",
+    "count": 160
+  },
+  {
+    "predicate_label": "basic form of government",
+    "predicate_id": "",
+    "count": 160
+  },
+  {
+    "predicate_label": "type locality (geology)",
+    "predicate_id": "",
+    "count": 160
+  },
+  {
+    "predicate_label": "doctoral student",
+    "predicate_id": "",
+    "count": 156
+  },
+  {
+    "predicate_label": "chief executive officer",
+    "predicate_id": "",
+    "count": 155
+  },
+  {
+    "predicate_label": "unit symbol",
+    "predicate_id": "",
+    "count": 155
+  },
+  {
+    "predicate_label": "commanded by",
+    "predicate_id": "",
+    "count": 153
+  },
+  {
+    "predicate_label": "set in period",
+    "predicate_id": "",
+    "count": 152
+  },
+  {
+    "predicate_label": "head coach",
+    "predicate_id": "",
+    "count": 151
+  },
+  {
+    "predicate_label": "director of photography",
+    "predicate_id": "",
+    "count": 146
+  },
+  {
+    "predicate_label": "crew member(s)",
+    "predicate_id": "",
+    "count": 144
+  },
+  {
+    "predicate_label": "contains",
+    "predicate_id": "",
+    "count": 143
+  },
+  {
+    "predicate_label": "chromosome",
+    "predicate_id": "",
+    "count": 140
+  },
+  {
+    "predicate_label": "event distance",
+    "predicate_id": "",
+    "count": 138
+  },
+  {
+    "predicate_label": "type of orbit",
+    "predicate_id": "",
+    "count": 136
+  },
+  {
+    "predicate_label": "choreographer",
+    "predicate_id": "",
+    "count": 134
+  },
+  {
+    "predicate_label": "cell component",
+    "predicate_id": "",
+    "count": 133
+  },
+  {
+    "predicate_label": "film editor",
+    "predicate_id": "",
+    "count": 133
+  },
+  {
+    "predicate_label": "anatomical branch of",
+    "predicate_id": "",
+    "count": 132
+  },
+  {
+    "predicate_label": "asteroid spectral type",
+    "predicate_id": "",
+    "count": 130
+  },
+  {
+    "predicate_label": "merged into",
+    "predicate_id": "",
+    "count": 130
+  },
+  {
+    "predicate_label": "drug or therapy used for treatment",
+    "predicate_id": "",
+    "count": 129
+  },
+  {
+    "predicate_label": "cathedral",
+    "predicate_id": "",
+    "count": 129
+  },
+  {
+    "predicate_label": "has quality",
+    "predicate_id": "",
+    "count": 127
+  },
+  {
+    "predicate_label": "public holiday",
+    "predicate_id": "",
+    "count": 125
+  },
+  {
+    "predicate_label": "given name version for other gender",
+    "predicate_id": "",
+    "count": 123
+  },
+  {
+    "predicate_label": "points/goal scored by",
+    "predicate_id": "",
+    "count": 120
+  },
+  {
+    "predicate_label": "office held by head of the organization",
+    "predicate_id": "",
+    "count": 120
+  },
+  {
+    "predicate_label": "married name",
+    "predicate_id": "",
+    "count": 120
+  },
+  {
+    "predicate_label": "topic's main category",
+    "predicate_id": "",
+    "count": 118
+  },
+  {
+    "predicate_label": "time of spacecraft landing",
+    "predicate_id": "",
+    "count": 117
+  },
+  {
+    "predicate_label": "birthday",
+    "predicate_id": "",
+    "count": 116
+  },
+  {
+    "predicate_label": "day of week",
+    "predicate_id": "",
+    "count": 115
+  },
+  {
+    "predicate_label": "child astronomical body",
+    "predicate_id": "",
+    "count": 115
+  },
+  {
+    "predicate_label": "announcement date",
+    "predicate_id": "",
+    "count": 115
+  },
+  {
+    "predicate_label": "ranking",
+    "predicate_id": "",
+    "count": 115
+  },
+  {
+    "predicate_label": "powered by",
+    "predicate_id": "",
+    "count": 110
+  },
+  {
+    "predicate_label": "territory overlaps",
+    "predicate_id": "",
+    "count": 110
+  },
+  {
+    "predicate_label": "Elo rating",
+    "predicate_id": "",
+    "count": 109
+  },
+  {
+    "predicate_label": "member of the crew of",
+    "predicate_id": "",
+    "count": 109
+  },
+  {
+    "predicate_label": "cover art by",
+    "predicate_id": "",
+    "count": 107
+  },
+  {
+    "predicate_label": "killed by",
+    "predicate_id": "",
+    "count": 107
+  },
+  {
+    "predicate_label": "readable file format",
+    "predicate_id": "",
+    "count": 104
+  },
+  {
+    "predicate_label": "home port",
+    "predicate_id": "",
+    "count": 103
+  },
+  {
+    "predicate_label": "parent peak",
+    "predicate_id": "",
+    "count": 103
+  },
+  {
+    "predicate_label": "model item",
+    "predicate_id": "",
+    "count": 103
+  },
+  {
+    "predicate_label": "produced by",
+    "predicate_id": "",
+    "count": 102
+  },
+  {
+    "predicate_label": "parent club",
+    "predicate_id": "",
+    "count": 102
+  },
+  {
+    "predicate_label": "mass",
+    "predicate_id": "",
+    "count": 102
+  },
+  {
+    "predicate_label": "enclave within",
+    "predicate_id": "",
+    "count": 101
+  },
+  {
+    "predicate_label": "league level below",
+    "predicate_id": "",
+    "count": 100
+  },
+  {
+    "predicate_label": "transport network",
+    "predicate_id": "",
+    "count": 99
+  },
+  {
+    "predicate_label": "gender educated",
+    "predicate_id": "",
+    "count": 94
+  },
+  {
+    "predicate_label": "office held by head of state",
+    "predicate_id": "",
+    "count": 94
+  },
+  {
+    "predicate_label": "ammunition",
+    "predicate_id": "",
+    "count": 94
+  },
+  {
+    "predicate_label": "target",
+    "predicate_id": "",
+    "count": 93
+  },
+  {
+    "predicate_label": "stock market index",
+    "predicate_id": "",
+    "count": 93
+  },
+  {
+    "predicate_label": "vaccine for",
+    "predicate_id": "",
+    "count": 91
+  },
+  {
+    "predicate_label": "GUI toolkit or framework",
+    "predicate_id": "",
+    "count": 90
+  },
+  {
+    "predicate_label": "series spin-off",
+    "predicate_id": "",
+    "count": 90
+  },
+  {
+    "predicate_label": "located in the statistical territorial entity",
+    "predicate_id": "",
+    "count": 90
+  },
+  {
+    "predicate_label": "state of use",
+    "predicate_id": "",
+    "count": 90
+  },
+  {
+    "predicate_label": "incarnation of",
+    "predicate_id": "",
+    "count": 85
+  },
+  {
+    "predicate_label": "reservoir created",
+    "predicate_id": "",
+    "count": 83
+  },
+  {
+    "predicate_label": "professorship",
+    "predicate_id": "",
+    "count": 82
+  },
+  {
+    "predicate_label": "depends on software",
+    "predicate_id": "",
+    "count": 81
+  },
+  {
+    "predicate_label": "therapeutic area",
+    "predicate_id": "",
+    "count": 81
+  },
+  {
+    "predicate_label": "patron saint",
+    "predicate_id": "",
+    "count": 81
+  },
+  {
+    "predicate_label": "edibility",
+    "predicate_id": "",
+    "count": 81
+  },
+  {
+    "predicate_label": "numeric value",
+    "predicate_id": "",
+    "count": 78
+  },
+  {
+    "predicate_label": "effective date",
+    "predicate_id": "",
+    "count": 78
+  },
+  {
+    "predicate_label": "speaker",
+    "predicate_id": "",
+    "count": 77
+  },
+  {
+    "predicate_label": "character type",
+    "predicate_id": "",
+    "count": 75
+  },
+  {
+    "predicate_label": "game mechanics",
+    "predicate_id": "",
+    "count": 74
+  },
+  {
+    "predicate_label": "Roman nomen gentilicium",
+    "predicate_id": "",
+    "count": 74
+  },
+  {
+    "predicate_label": "narrator",
+    "predicate_id": "",
+    "count": 73
+  },
+  {
+    "predicate_label": "size designation",
+    "predicate_id": "",
+    "count": 73
+  },
+  {
+    "predicate_label": "duration",
+    "predicate_id": "",
+    "count": 73
+  },
+  {
+    "predicate_label": "season ends",
+    "predicate_id": "",
+    "count": 73
+  },
+  {
+    "predicate_label": "superhuman feature or ability",
+    "predicate_id": "",
+    "count": 72
+  },
+  {
+    "predicate_label": "vertical depth",
+    "predicate_id": "",
+    "count": 70
+  },
+  {
+    "predicate_label": "track gauge",
+    "predicate_id": "",
+    "count": 70
+  },
+  {
+    "predicate_label": "eligible recipient",
+    "predicate_id": "",
+    "count": 69
+  },
+  {
+    "predicate_label": "dialect of computer language",
+    "predicate_id": "",
+    "count": 68
+  },
+  {
+    "predicate_label": "interchange station",
+    "predicate_id": "",
+    "count": 66
+  },
+  {
+    "predicate_label": "has grammatical gender",
+    "predicate_id": "",
+    "count": 66
+  },
+  {
+    "predicate_label": "input method",
+    "predicate_id": "",
+    "count": 66
+  },
+  {
+    "predicate_label": "measures",
+    "predicate_id": "",
+    "count": 64
+  },
+  {
+    "predicate_label": "members have occupation",
+    "predicate_id": "",
+    "count": 64
+  },
+  {
+    "predicate_label": "penalty",
+    "predicate_id": "",
+    "count": 63
+  },
+  {
+    "predicate_label": "league system",
+    "predicate_id": "",
+    "count": 63
+  },
+  {
+    "predicate_label": "emulates",
+    "predicate_id": "",
+    "count": 63
+  },
+  {
+    "predicate_label": "personal best",
+    "predicate_id": "",
+    "count": 63
+  },
+  {
+    "predicate_label": "advertises",
+    "predicate_id": "",
+    "count": 63
+  },
+  {
+    "predicate_label": "dam",
+    "predicate_id": "",
+    "count": 61
+  },
+  {
+    "predicate_label": "supported sports team",
+    "predicate_id": "",
+    "count": 60
+  },
+  {
+    "predicate_label": "sidekick of",
+    "predicate_id": "",
+    "count": 59
+  },
+  {
+    "predicate_label": "wing configuration",
+    "predicate_id": "",
+    "count": 59
+  },
+  {
+    "predicate_label": "has boundary",
+    "predicate_id": "",
+    "count": 56
+  },
+  {
+    "predicate_label": "distance from Earth",
+    "predicate_id": "",
+    "count": 56
+  },
+  {
+    "predicate_label": "parent of this hybrid, breed, or cultivar",
+    "predicate_id": "",
+    "count": 54
+  },
+  {
+    "predicate_label": "designed to carry",
+    "predicate_id": "",
+    "count": 54
+  },
+  {
+    "predicate_label": "lakes on river",
+    "predicate_id": "",
+    "count": 53
+  },
+  {
+    "predicate_label": "awarded for period",
+    "predicate_id": "",
+    "count": 53
+  },
+  {
+    "predicate_label": "consecrator",
+    "predicate_id": "",
+    "count": 53
+  },
+  {
+    "predicate_label": "production date",
+    "predicate_id": "",
+    "count": 52
+  },
+  {
+    "predicate_label": "archives at",
+    "predicate_id": "",
+    "count": 51
+  },
+  {
+    "predicate_label": "secretary general",
+    "predicate_id": "",
+    "count": 50
+  },
+  {
+    "predicate_label": "mod of",
+    "predicate_id": "",
+    "count": 50
+  },
+  {
+    "predicate_label": "floruit",
+    "predicate_id": "",
+    "count": 50
+  },
+  {
+    "predicate_label": "electoral district",
+    "predicate_id": "",
+    "count": 50
+  },
+  {
+    "predicate_label": "dual to",
+    "predicate_id": "",
+    "count": 50
+  },
+  {
+    "predicate_label": "exclave of",
+    "predicate_id": "",
+    "count": 49
+  },
+  {
+    "predicate_label": "produced sound",
+    "predicate_id": "",
+    "count": 49
+  },
+  {
+    "predicate_label": "typically sells",
+    "predicate_id": "",
+    "count": 48
+  },
+  {
+    "predicate_label": "director / manager",
+    "predicate_id": "",
+    "count": 48
+  },
+  {
+    "predicate_label": "possible treatment",
+    "predicate_id": "",
+    "count": 47
+  },
+  {
+    "predicate_label": "fare zone",
+    "predicate_id": "",
+    "count": 47
+  },
+  {
+    "predicate_label": "appears in the form of",
+    "predicate_id": "",
+    "count": 47
+  },
+  {
+    "predicate_label": "charge",
+    "predicate_id": "",
+    "count": 46
+  },
+  {
+    "predicate_label": "date of commercialization",
+    "predicate_id": "",
+    "count": 46
+  },
+  {
+    "predicate_label": "airline alliance",
+    "predicate_id": "",
+    "count": 45
+  },
+  {
+    "predicate_label": "shape",
+    "predicate_id": "",
+    "count": 45
+  },
+  {
+    "predicate_label": "list of episodes",
+    "predicate_id": "",
+    "count": 45
+  },
+  {
+    "predicate_label": "CPU",
+    "predicate_id": "",
+    "count": 45
+  },
+  {
+    "predicate_label": "statement describes",
+    "predicate_id": "",
+    "count": 44
+  },
+  {
+    "predicate_label": "gens",
+    "predicate_id": "",
+    "count": 44
+  },
+  {
+    "predicate_label": "motto text",
+    "predicate_id": "",
+    "count": 44
+  },
+  {
+    "predicate_label": "Scandinavian middle family name",
+    "predicate_id": "",
+    "count": 44
+  },
+  {
+    "predicate_label": "effective temperature",
+    "predicate_id": "",
+    "count": 43
+  },
+  {
+    "predicate_label": "significant person",
+    "predicate_id": "",
+    "count": 43
+  },
+  {
+    "predicate_label": "colorist",
+    "predicate_id": "",
+    "count": 43
+  },
+  {
+    "predicate_label": "contributed to creative work",
+    "predicate_id": "",
+    "count": 41
+  },
+  {
+    "predicate_label": "home world",
+    "predicate_id": "",
+    "count": 41
+  },
+  {
+    "predicate_label": "offers view on",
+    "predicate_id": "",
+    "count": 41
+  },
+  {
+    "predicate_label": "overlies",
+    "predicate_id": "",
+    "count": 41
+  },
+  {
+    "predicate_label": "engine configuration",
+    "predicate_id": "",
+    "count": 41
+  },
+  {
+    "predicate_label": "league level above",
+    "predicate_id": "",
+    "count": 40
+  },
+  {
+    "predicate_label": "has melody",
+    "predicate_id": "",
+    "count": 40
+  },
+  {
+    "predicate_label": "charted in",
+    "predicate_id": "",
+    "count": 39
+  },
+  {
+    "predicate_label": "number of speakers",
+    "predicate_id": "",
+    "count": 39
+  },
+  {
+    "predicate_label": "interaction",
+    "predicate_id": "",
+    "count": 39
+  },
+  {
+    "predicate_label": "translator",
+    "predicate_id": "",
+    "count": 39
+  },
+  {
+    "predicate_label": "Gram staining",
+    "predicate_id": "",
+    "count": 39
+  },
+  {
+    "predicate_label": "defendant",
+    "predicate_id": "",
+    "count": 38
+  },
+  {
+    "predicate_label": "route of administration",
+    "predicate_id": "",
+    "count": 38
+  },
+  {
+    "predicate_label": "launch contractor",
+    "predicate_id": "",
+    "count": 38
+  },
+  {
+    "predicate_label": "economy of topic",
+    "predicate_id": "",
+    "count": 37
+  },
+  {
+    "predicate_label": "editor-in-chief",
+    "predicate_id": "",
+    "count": 37
+  },
+  {
+    "predicate_label": "general classification of race participants",
+    "predicate_id": "",
+    "count": 37
+  },
+  {
+    "predicate_label": "mascot",
+    "predicate_id": "",
+    "count": 37
+  },
+  {
+    "predicate_label": "total points in career",
+    "predicate_id": "",
+    "count": 36
+  },
+  {
+    "predicate_label": "product certification",
+    "predicate_id": "",
+    "count": 36
+  },
+  {
+    "predicate_label": "has facility",
+    "predicate_id": "",
+    "count": 36
+  },
+  {
+    "predicate_label": "suggests the existence of",
+    "predicate_id": "",
+    "count": 36
+  },
+  {
+    "predicate_label": "worn by",
+    "predicate_id": "",
+    "count": 36
+  },
+  {
+    "predicate_label": "underlies",
+    "predicate_id": "",
+    "count": 35
+  },
+  {
+    "predicate_label": "designated as terrorist by",
+    "predicate_id": "",
+    "count": 35
+  },
+  {
+    "predicate_label": "place of origin (Switzerland)",
+    "predicate_id": "",
+    "count": 35
+  },
+  {
+    "predicate_label": "start grade",
+    "predicate_id": "",
+    "count": 34
+  },
+  {
+    "predicate_label": "approved by",
+    "predicate_id": "",
+    "count": 34
+  },
+  {
+    "predicate_label": "adjacent building",
+    "predicate_id": "",
+    "count": 34
+  },
+  {
+    "predicate_label": "date depicted",
+    "predicate_id": "",
+    "count": 34
+  },
+  {
+    "predicate_label": "linguistic typology",
+    "predicate_id": "",
+    "count": 34
+  },
+  {
+    "predicate_label": "molecular function",
+    "predicate_id": "",
+    "count": 33
+  },
+  {
+    "predicate_label": "appointed by",
+    "predicate_id": "",
+    "count": 33
+  },
+  {
+    "predicate_label": "CITES Appendix",
+    "predicate_id": "",
+    "count": 32
+  },
+  {
+    "predicate_label": "executive body",
+    "predicate_id": "",
+    "count": 32
+  },
+  {
+    "predicate_label": "innervates",
+    "predicate_id": "",
+    "count": 32
+  },
+  {
+    "predicate_label": "victim",
+    "predicate_id": "",
+    "count": 32
+  },
+  {
+    "predicate_label": "enacted date",
+    "predicate_id": "",
+    "count": 31
+  },
+  {
+    "predicate_label": "ancestral home",
+    "predicate_id": "",
+    "count": 31
+  },
+  {
+    "predicate_label": "gross tonnage",
+    "predicate_id": "",
+    "count": 31
+  },
+  {
+    "predicate_label": "connector",
+    "predicate_id": "",
+    "count": 31
+  },
+  {
+    "predicate_label": "has active ingredient",
+    "predicate_id": "",
+    "count": 31
+  },
+  {
+    "predicate_label": "religious name",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "named by",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "port of registry",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "total assists in career",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "musical conductor",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "time of object orbit decay",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "employees",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "writable file format",
+    "predicate_id": "",
+    "count": 30
+  },
+  {
+    "predicate_label": "honorific suffix",
+    "predicate_id": "",
+    "count": 29
+  },
+  {
+    "predicate_label": "objective of project or action",
+    "predicate_id": "",
+    "count": 29
+  },
+  {
+    "predicate_label": "copyright status",
+    "predicate_id": "",
+    "count": 29
+  },
+  {
+    "predicate_label": "conversion to standard unit",
+    "predicate_id": "",
+    "count": 28
+  },
+  {
+    "predicate_label": "issued by",
+    "predicate_id": "",
+    "count": 28
+  },
+  {
+    "predicate_label": "wears",
+    "predicate_id": "",
+    "count": 28
+  },
+  {
+    "predicate_label": "type foundry",
+    "predicate_id": "",
+    "count": 26
+  },
+  {
+    "predicate_label": "host",
+    "predicate_id": "",
+    "count": 26
+  },
+  {
+    "predicate_label": "programmer",
+    "predicate_id": "",
+    "count": 26
+  },
+  {
+    "predicate_label": "structure replaced by",
+    "predicate_id": "",
+    "count": 25
+  },
+  {
+    "predicate_label": "history of topic",
+    "predicate_id": "",
+    "count": 25
+  },
+  {
+    "predicate_label": "recording or performance of",
+    "predicate_id": "",
+    "count": 25
+  },
+  {
+    "predicate_label": "geomorphological unit",
+    "predicate_id": "",
+    "count": 24
+  },
+  {
+    "predicate_label": "official residence",
+    "predicate_id": "",
+    "count": 24
+  },
+  {
+    "predicate_label": "historical region",
+    "predicate_id": "",
+    "count": 24
+  },
+  {
+    "predicate_label": "attendance",
+    "predicate_id": "",
+    "count": 24
+  },
+  {
+    "predicate_label": "exemplar of",
+    "predicate_id": "",
+    "count": 24
+  },
+  {
+    "predicate_label": "set in environment",
+    "predicate_id": "",
+    "count": 23
+  },
+  {
+    "predicate_label": "religion or world view",
+    "predicate_id": "",
+    "count": 23
+  },
+  {
+    "predicate_label": "marriageable age",
+    "predicate_id": "",
+    "count": 23
+  },
+  {
+    "predicate_label": "discovery method",
+    "predicate_id": "",
+    "count": 23
+  },
+  {
+    "predicate_label": "radial velocity",
+    "predicate_id": "",
+    "count": 23
+  },
+  {
+    "predicate_label": "spacecraft docking/undocking date",
+    "predicate_id": "",
+    "count": 23
+  },
+  {
+    "predicate_label": "original combination",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "polymer of",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "working title",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "instruction set",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "orbital period",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "prize money",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "greater than",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "solid solution series with",
+    "predicate_id": "",
+    "count": 22
+  },
+  {
+    "predicate_label": "has list",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "World Health Organisation  international non-proprietary name",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "indexed in bibliographic review",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "patronym or matronym for this name",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "has fruit type",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "trading name",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "structure replaces",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "recording location",
+    "predicate_id": "",
+    "count": 21
+  },
+  {
+    "predicate_label": "supports programming language",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "investor",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "species kept",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "location of landing",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "typing discipline",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "in opposition to",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "grants",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "NATO code for grade",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "cites work",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "armament",
+    "predicate_id": "",
+    "count": 20
+  },
+  {
+    "predicate_label": "stated in",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "production designer",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "soundtrack release",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "discography",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "anthem",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "academic thesis",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "total goals in career",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "temporal range start",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "number of episodes",
+    "predicate_id": "",
+    "count": 19
+  },
+  {
+    "predicate_label": "Gregorian calendar start date",
+    "predicate_id": "",
+    "count": 18
+  },
+  {
+    "predicate_label": "develops from",
+    "predicate_id": "",
+    "count": 18
+  },
+  {
+    "predicate_label": "sexual orientation",
+    "predicate_id": "",
+    "count": 18
+  },
+  {
+    "predicate_label": "patronym or matronym for this person",
+    "predicate_id": "",
+    "count": 18
+  },
+  {
+    "predicate_label": "computes solution to",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "domain of saint or deity",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "face value",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "animator",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "binding of software library",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "mount",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "online service",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "officially opened by",
+    "predicate_id": "",
+    "count": 17
+  },
+  {
+    "predicate_label": "main building contractor",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "script directionality",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "Christian liturgical rite",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "literal translation",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "official color",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "output method",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "member count",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "streak color",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "copyright holder",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "vehicle normally used",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "proved by",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "foundational text",
+    "predicate_id": "",
+    "count": 16
+  },
+  {
+    "predicate_label": "less than",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "statement is subject of",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "penalty minutes in career",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "time of earliest written record",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "towards",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "has lyrics",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "asteroid family",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "microarchitecture",
+    "predicate_id": "",
+    "count": 15
+  },
+  {
+    "predicate_label": "theme music",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "filmography",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "central bank",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "significant place",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "caliber",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "pendant of",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "member of military unit",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "list of characters",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "habitat",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "adapted by",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "UTC timezone offset",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "ratified by",
+    "predicate_id": "",
+    "count": 14
+  },
+  {
+    "predicate_label": "cause of destruction",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "contributing factor of",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "final event",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "gender inflection of surname",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "number of graves",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "does not have part",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "carries scientific instrument",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "has listed ingredient",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "World Health Organisation international non-proprietary name",
+    "predicate_id": "",
+    "count": 13
+  },
+  {
+    "predicate_label": "derived from organism type",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "currency symbol description",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "costume designer",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "has anatomical branch",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "of",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "character designer",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "perpetrator",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "official symbol",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "Roman agnomen",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "pathogen transmission process",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "applies to part",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "valid in period",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "patronage",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "ICTV virus genome composition",
+    "predicate_id": "",
+    "count": 12
+  },
+  {
+    "predicate_label": "coat of arms",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "liturgical rite",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "coolant",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "package management system",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "protocol",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "central bank/issuer",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "price",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "bowling style",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "prerequisite",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "beam",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "record held",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "flower color",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "replaced synonym (for nom. nov.)",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "family name identical to this given name",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "category combines topics",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "official religion",
+    "predicate_id": "",
+    "count": 11
+  },
+  {
+    "predicate_label": "has pet",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "redshift",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "number of households",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "via",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "iconographic symbol",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "next higher rank",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "party chief representative",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "academic appointment",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "temporal range end",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "foods traditionally associated",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "minor planet group",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "M sin i",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "pole position",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "first line",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "character role",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "destroyed",
+    "predicate_id": "",
+    "count": 10
+  },
+  {
+    "predicate_label": "demographics of topic",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "radius",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "serving temperature",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "godparent",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "plaintiff",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "board member",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "flag",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "decays to",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "house publication",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "reissue of",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "has phenotype",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "conversion to SI unit",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "unmarried partner",
+    "predicate_id": "",
+    "count": 9
+  },
+  {
+    "predicate_label": "has vertex figure",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "first family name in Portuguese name",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "number of hospital beds",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "speed",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "exonerated of",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "addressee",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "geography of topic",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "funder",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "students count",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "medical examinations",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "number of deaths",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "notation",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "stepparent",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "has immediate cause",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "spore print color",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "companion of",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "venous drainage",
+    "predicate_id": "",
+    "count": 8
+  },
+  {
+    "predicate_label": "established from medical condition",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "donated by",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "together with",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "female population",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "satellite bus",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "has contributing factor",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "complies with",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "accredited by",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "does not have quality",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "eye color",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "inhibitor of",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "visitors per year",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "delta of",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "political coalition",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "curator",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "solved by",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "structural engineer",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "fictional analog of",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "total produced",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "energy storage capacity",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "inscription",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "number of participants",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "number of parts of this work",
+    "predicate_id": "",
+    "count": 7
+  },
+  {
+    "predicate_label": "rector",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "by-product of",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "innervated by",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "cost",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "health specialty",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "recommended unit of measurement",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "throughput",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "lowest point",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "language regulatory body",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "space group",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "antiparticle",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "arterial supply",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "hair color",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "derivative",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "intangible cultural heritage status",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "measurement scale",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "parallax",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "grammatical option indicates",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "date of baptism in early childhood",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "sexually homologous with",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "Fach",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "orbital eccentricity",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "mushroom ecological type",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "mother house",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "presented in",
+    "predicate_id": "",
+    "count": 6
+  },
+  {
+    "predicate_label": "absolute magnitude",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "risk factor",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "male population",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "used metre",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "valid in place",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "symbol of",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "extinction date",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "motto",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "guidance system",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "camera setup",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "related category",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "category contains",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "direction relative to location",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "peak bagging classification",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "update method",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "quantity buried",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "playing hand",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "discharge",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "dan/kyu rank",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "amended by",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "immediate cause of",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "public transport stop",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "modified version of",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "possible medical findings",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "youth wing",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "general manager",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "animal species kept",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "monomer of",
+    "predicate_id": "",
+    "count": 5
+  },
+  {
+    "predicate_label": "FAO risk status",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "lifestyle",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "catchphrase",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "directions",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "conjugate acid",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "pronunciation",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "albedo",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "unveiled by",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "music video",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "base",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "tautomer of",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "date of burial or cremation",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "sports competition competed at",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "scheduled service destination",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "mode of inheritance",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "has facet polytope",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "source of material",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "art director",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "artistic director",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "highest judicial authority",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "handedness",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "dissertation submitted to",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "original film format",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "volume as quantity",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "appears in the heritage monument list",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "temperature",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "daily patronage",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "printed by",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "main food source",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "display technology",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "diaspora",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "reply to",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "docking port",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "bore",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "repealed by",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "letterer",
+    "predicate_id": "",
+    "count": 4
+  },
+  {
+    "predicate_label": "has natural reservoir",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "Lagrangian point",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "partnership with",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "captain",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "main regulatory text",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "number of seats in legislature",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "IUCN protected areas category",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "conjugate base",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "people or cargo transported",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "GPU",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "scenographer",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "generalization of",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "narrative motif",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "maximum temperature record",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "longest span",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "battery life",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "muscle insertion",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "explosive velocity",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "pseudo crystal habit",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "historic region",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "statistical leader",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "relative to",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "color produced",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "samples from work",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "stroke",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "number of branches",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "including",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "is metaclass for",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "semi-major axis of an orbit",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "catalog",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "visitor centre",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "luminosity",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "half-life",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "thickness",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "film crew member",
+    "predicate_id": "",
+    "count": 3
+  },
+  {
+    "predicate_label": "taxon especially protected in area",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "student organization of",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "exhibition history",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "clearance",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "molecular weight",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "means of locomotion",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "minimum temperature record",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "elector",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "parliamentary group",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "location of the point of view",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "ESRB rating",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "permanent duplicated item",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "wheelbase",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "type locality (biology)",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "superpartner of",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "undercarriage",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "points awarded",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "subdivision of this unit",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "number of players in region",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "located on linear feature",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "compulsory education (maximum age)",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "collection creator",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "draft",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "pet",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "photographer",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "Human Development Index",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "epithet",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "definition domain",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "symbolizes",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "urban population",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "class",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "criterion used",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "determination method",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "battery capacity",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "invasive to",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "blessed by",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "agonist of",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "stellar rotational velocity",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "number of processor cores",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "repeals",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "hydrated form of",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "blocker of",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "side effect",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "referee",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "average flow",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "number of units",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "perimeter",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "focal height",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "has pattern",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "quantity",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "event interval",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "time scale",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "electronegativity",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "data transfer speed",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "connection speed",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "has operator",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "received signal type",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "damaged",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "next lower rank",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "Saros cycle of eclipse",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "attested in",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "co-driver",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "fuel system",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "prohibits",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "sourced from source",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "archaeological site of",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "sitter",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "compatible with",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "decreased expression in",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "aspect ratio (W:H)",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "eccentricity",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "by-product",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "parent cell line",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "computer performance",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "topic's main template",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "has grammatical case",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "source of income",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "nominated by",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "maximum operating altitude",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "voting system",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "quotes work",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "metallicity",
+    "predicate_id": "",
+    "count": 2
+  },
+  {
+    "predicate_label": "rural population",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "average speed",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "metrically compatible typeface",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "film score",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "budget",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "sensors",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "professional name (Japan)",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "storyboard artist",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "place of discovery",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "model year",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "mandates",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "acknowledged",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "academic major",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "location of destruction",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "weight",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "partner of",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "location of spacecraft launch",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "conservation status",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "theorised by",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "condemned by",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "transmitted signal type",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "removed feature",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "captured with",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "network bands",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "Digital Rights Management system",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "primary destinations",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "number of injured",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "national flower",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "eligible voters",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "entry receptor",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "double star with",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "Alexa rank",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "emblematic symbol",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "higher than",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "elected in",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "cut type",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "annual energy output",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "place of registry",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "film script",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "investigated by",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "quantity symbol (LaTeX)",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "is pollinator of",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "fracturing",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "website account on",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "archived in",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "muscle origin",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "fandom",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "facial hair",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "date of resignation",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "memory capacity",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "references work, tradition or theory",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "parallel street",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "for work",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "chief operating officer",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "wingspan",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "luminous intensity",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "educational stage",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "defender",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "lawyer",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "number of pages",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "decay mode",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "statement supported by",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "artist files at",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "points classification",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "emblematic item",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "type of lens",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "attraction to",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "mathematical inverse",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "reciprocal of",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "distributary",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "lighthouse range",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "has grammatical person",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "first aid measures",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "statistical unit",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "supplement to",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "principal investigator",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "vertical clearance",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "number of stars",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "taxon found at location",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "cardinality of this set",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "file format",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "periapsis date",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "density",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "specific gravity",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "port calls",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "script style",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "number",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "muscle action",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "has disease",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "category's main topic",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "twinned administrative body",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "maximum current",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "parliamentary term",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "start of covered period",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "kernel",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "narrative universe",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "socket supported",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "on focus list of Wikimedia project",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "research intervention",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "describes a project that uses",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "melting point",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "party",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "student population",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "cognomen",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "introduced feature",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "impact factor",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "codomain",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "official podcast",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "MPAA film rating",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "introduced on",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "era name",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "baptized by",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "vertex figure",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "number of hotels",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "electorate",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "choral conductor",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "depicted format",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "below",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "cell shape",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "designer",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "day of regular release",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "focal length",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "model",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "conversion to euro",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "emergency services",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "substitute/deputy/replacement of office/officeholder",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "age of candidacy",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "number of visitors",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "crystal habit",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "port",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "vice-county",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "official journal",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "regulates (molecular biology)",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "conductor",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "emirate",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "identity element",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "laws applied",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "BBFC rating",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "payload mass",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "latest date",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "colonel-in-chief",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "faster than",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "earthquake magnitude on the moment magnitude scale",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "base salary",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "type of electrification",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "diplomatic mission sent",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "stereoisomer of",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "observed in",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "list of works",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "place of marriage",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "extinct date",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "donated to",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "currency symbol",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "follower of",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "biological variant of",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "degree of difficulty",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "card network",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "rotational velocity",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "spatial reference system",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "video system",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "Chancellor",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "cumulative elevation gain",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "possession",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "units sold",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "admissible rule in",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "chef",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "floors above ground",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "has superpartner",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "time of spacecraft launch",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "storage device",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "limbo",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "term length of office",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "speed limit",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "possessed by spirit",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "manager",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "inscription mentions",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "apparent temperature",
+    "predicate_id": "",
+    "count": 1
+  },
+  {
+    "predicate_label": "UNESCO language status",
+    "predicate_id": "",
+    "count": 1
+  }
+]

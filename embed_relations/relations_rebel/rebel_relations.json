@@ -1,0 +1,4307 @@
+[
+  {
+    "label": "country",
+    "id": "P17",
+    "count": 1212863
+  },
+  {
+    "label": "located in the administrative territorial entity",
+    "id": "P131",
+    "count": 1204134
+  },
+  {
+    "label": "contains administrative territorial entity",
+    "id": "P150",
+    "count": 712830
+  },
+  {
+    "label": "instance of",
+    "id": "P31",
+    "count": 368492
+  },
+  {
+    "label": "shares border with",
+    "id": "P47",
+    "count": 188498
+  },
+  {
+    "label": "part of",
+    "id": "P361",
+    "count": 140973
+  },
+  {
+    "label": "sport",
+    "id": "P641",
+    "count": 119227
+  },
+  {
+    "label": "performer",
+    "id": "P175",
+    "count": 100046
+  },
+  {
+    "label": "has part",
+    "id": "P527",
+    "count": 95933
+  },
+  {
+    "label": "parent taxon",
+    "id": "P171",
+    "count": 90669
+  },
+  {
+    "label": "genre",
+    "id": "P136",
+    "count": 77887
+  },
+  {
+    "label": "subclass of",
+    "id": "P279",
+    "count": 68902
+  },
+  {
+    "label": "capital",
+    "id": "P36",
+    "count": 47135
+  },
+  {
+    "label": "author",
+    "id": "P50",
+    "count": 45344
+  },
+  {
+    "label": "location",
+    "id": "P276",
+    "count": 45340
+  },
+  {
+    "label": "headquarters location",
+    "id": "P159",
+    "count": 36188
+  },
+  {
+    "label": "cast member",
+    "id": "P161",
+    "count": 28841
+  },
+  {
+    "label": "located in or next to body of water",
+    "id": "P206",
+    "count": 28061
+  },
+  {
+    "label": "country of citizenship",
+    "id": "P27",
+    "count": 27128
+  },
+  {
+    "label": "league",
+    "id": "P118",
+    "count": 26574
+  },
+  {
+    "label": "member of political party",
+    "id": "P102",
+    "count": 26292
+  },
+  {
+    "label": "position held",
+    "id": "P39",
+    "count": 26172
+  },
+  {
+    "label": "country of origin",
+    "id": "P495",
+    "count": 23227
+  },
+  {
+    "label": "spouse",
+    "id": "P26",
+    "count": 21863
+  },
+  {
+    "label": "place of birth",
+    "id": "P19",
+    "count": 20124
+  },
+  {
+    "label": "followed by",
+    "id": "P156",
+    "count": 20028
+  },
+  {
+    "label": "sibling",
+    "id": "P3373",
+    "count": 19896
+  },
+  {
+    "label": "conflict",
+    "id": "P607",
+    "count": 19469
+  },
+  {
+    "label": "record label",
+    "id": "P264",
+    "count": 19101
+  },
+  {
+    "label": "director",
+    "id": "P57",
+    "count": 18794
+  },
+  {
+    "label": "owned by",
+    "id": "P127",
+    "count": 18787
+  },
+  {
+    "label": "mountain range",
+    "id": "P4552",
+    "count": 18761
+  },
+  {
+    "label": "member of",
+    "id": "P463",
+    "count": 18473
+  },
+  {
+    "label": "notable work",
+    "id": "P800",
+    "count": 17497
+  },
+  {
+    "label": "member of sports team",
+    "id": "P54",
+    "count": 15402
+  },
+  {
+    "label": "mouth of the watercourse",
+    "id": "P403",
+    "count": 15324
+  },
+  {
+    "label": "part of the series",
+    "id": "P179",
+    "count": 15320
+  },
+  {
+    "label": "manufacturer",
+    "id": "P176",
+    "count": 15250
+  },
+  {
+    "label": "operator",
+    "id": "P137",
+    "count": 14042
+  },
+  {
+    "label": "child",
+    "id": "P40",
+    "count": 13717
+  },
+  {
+    "label": "tributary",
+    "id": "P974",
+    "count": 13531
+  },
+  {
+    "label": "publisher",
+    "id": "P123",
+    "count": 13015
+  },
+  {
+    "label": "parent organization",
+    "id": "P749",
+    "count": 12800
+  },
+  {
+    "label": "applies to jurisdiction",
+    "id": "P1001",
+    "count": 12651
+  },
+  {
+    "label": "follows",
+    "id": "P155",
+    "count": 12613
+  },
+  {
+    "label": "participant",
+    "id": "P710",
+    "count": 12067
+  },
+  {
+    "label": "father",
+    "id": "P22",
+    "count": 11992
+  },
+  {
+    "label": "subsidiary",
+    "id": "P355",
+    "count": 11773
+  },
+  {
+    "label": "creator",
+    "id": "P170",
+    "count": 11274
+  },
+  {
+    "label": "sports season of league or competition",
+    "id": "P3450",
+    "count": 11150
+  },
+  {
+    "label": "present in work",
+    "id": "P1441",
+    "count": 10532
+  },
+  {
+    "label": "occupation",
+    "id": "P106",
+    "count": 10336
+  },
+  {
+    "label": "located on terrain feature",
+    "id": "P706",
+    "count": 10245
+  },
+  {
+    "label": "composer",
+    "id": "P86",
+    "count": 9813
+  },
+  {
+    "label": "continent",
+    "id": "P30",
+    "count": 9601
+  },
+  {
+    "label": "diplomatic relation",
+    "id": "P530",
+    "count": 9488
+  },
+  {
+    "label": "developer",
+    "id": "P178",
+    "count": 9051
+  },
+  {
+    "label": "product or material produced",
+    "id": "P1056",
+    "count": 8638
+  },
+  {
+    "label": "capital of",
+    "id": "P1376",
+    "count": 8574
+  },
+  {
+    "label": "educated at",
+    "id": "P69",
+    "count": 8392
+  },
+  {
+    "label": "employer",
+    "id": "P108",
+    "count": 8311
+  },
+  {
+    "label": "language used",
+    "id": "P2936",
+    "count": 8209
+  },
+  {
+    "label": "owner of",
+    "id": "P1830",
+    "count": 7899
+  },
+  {
+    "label": "named after",
+    "id": "P138",
+    "count": 7822
+  },
+  {
+    "label": "participant in",
+    "id": "P1344",
+    "count": 7786
+  },
+  {
+    "label": "encodes",
+    "id": "P688",
+    "count": 7609
+  },
+  {
+    "label": "location of formation",
+    "id": "P740",
+    "count": 7457
+  },
+  {
+    "label": "founded by",
+    "id": "P112",
+    "count": 7287
+  },
+  {
+    "label": "facet of",
+    "id": "P1269",
+    "count": 7107
+  },
+  {
+    "label": "constellation",
+    "id": "P59",
+    "count": 6622
+  },
+  {
+    "label": "platform",
+    "id": "P400",
+    "count": 6532
+  },
+  {
+    "label": "award received",
+    "id": "P166",
+    "count": 6448
+  },
+  {
+    "label": "original broadcaster",
+    "id": "P449",
+    "count": 6402
+  },
+  {
+    "label": "use",
+    "id": "P366",
+    "count": 6079
+  },
+  {
+    "label": "place served by transport hub",
+    "id": "P931",
+    "count": 5918
+  },
+  {
+    "label": "organizer",
+    "id": "P664",
+    "count": 5905
+  },
+  {
+    "label": "twinned administrative body",
+    "id": "P190",
+    "count": 5814
+  },
+  {
+    "label": "connecting line",
+    "id": "P81",
+    "count": 5679
+  },
+  {
+    "label": "winner",
+    "id": "P1346",
+    "count": 5673
+  },
+  {
+    "label": "field of work",
+    "id": "P101",
+    "count": 5591
+  },
+  {
+    "label": "religion",
+    "id": "P140",
+    "count": 5574
+  },
+  {
+    "label": "uses",
+    "id": "P2283",
+    "count": 5562
+  },
+  {
+    "label": "basin country",
+    "id": "P205",
+    "count": 5541
+  },
+  {
+    "label": "replaces",
+    "id": "P1365",
+    "count": 5373
+  },
+  {
+    "label": "opposite of",
+    "id": "P461",
+    "count": 5262
+  },
+  {
+    "label": "licensed to broadcast to",
+    "id": "P1408",
+    "count": 5157
+  },
+  {
+    "label": "characters",
+    "id": "P674",
+    "count": 4510
+  },
+  {
+    "label": "family",
+    "id": "P53",
+    "count": 4482
+  },
+  {
+    "label": "conferred by",
+    "id": "P1027",
+    "count": 4356
+  },
+  {
+    "label": "replaced by",
+    "id": "P1366",
+    "count": 4337
+  },
+  {
+    "label": "ethnic group",
+    "id": "P172",
+    "count": 4084
+  },
+  {
+    "label": "crosses",
+    "id": "P177",
+    "count": 4056
+  },
+  {
+    "label": "military branch",
+    "id": "P241",
+    "count": 4047
+  },
+  {
+    "label": "heritage designation",
+    "id": "P1435",
+    "count": 3947
+  },
+  {
+    "label": "production company",
+    "id": "P272",
+    "count": 3947
+  },
+  {
+    "label": "main subject",
+    "id": "P921",
+    "count": 3833
+  },
+  {
+    "label": "connects with",
+    "id": "P2789",
+    "count": 3791
+  },
+  {
+    "label": "language of work or name",
+    "id": "P407",
+    "count": 3513
+  },
+  {
+    "label": "legislative body",
+    "id": "P194",
+    "count": 3466
+  },
+  {
+    "label": "distributed by",
+    "id": "P750",
+    "count": 3420
+  },
+  {
+    "label": "time period",
+    "id": "P2348",
+    "count": 3411
+  },
+  {
+    "label": "occupant",
+    "id": "P466",
+    "count": 3393
+  },
+  {
+    "label": "has parts of the class",
+    "id": "P2670",
+    "count": 3338
+  },
+  {
+    "label": "participating team",
+    "id": "P1923",
+    "count": 3333
+  },
+  {
+    "label": "different from",
+    "id": "P1889",
+    "count": 3167
+  },
+  {
+    "label": "based on",
+    "id": "P144",
+    "count": 3067
+  },
+  {
+    "label": "industry",
+    "id": "P452",
+    "count": 3025
+  },
+  {
+    "label": "political ideology",
+    "id": "P1142",
+    "count": 3000
+  },
+  {
+    "label": "producer",
+    "id": "P162",
+    "count": 2853
+  },
+  {
+    "label": "work location",
+    "id": "P937",
+    "count": 2852
+  },
+  {
+    "label": "studied by",
+    "id": "P2579",
+    "count": 2827
+  },
+  {
+    "label": "mother",
+    "id": "P25",
+    "count": 2825
+  },
+  {
+    "label": "screenwriter",
+    "id": "P58",
+    "count": 2669
+  },
+  {
+    "label": "operating system",
+    "id": "P306",
+    "count": 2600
+  },
+  {
+    "label": "affiliation",
+    "id": "P1416",
+    "count": 2583
+  },
+  {
+    "label": "influenced by",
+    "id": "P737",
+    "count": 2570
+  },
+  {
+    "label": "subject has role",
+    "id": "P2868",
+    "count": 2557
+  },
+  {
+    "label": "season",
+    "id": "P4908",
+    "count": 2533
+  },
+  {
+    "label": "officeholder",
+    "id": "P1308",
+    "count": 2497
+  },
+  {
+    "label": "taxonomic type",
+    "id": "P427",
+    "count": 2433
+  },
+  {
+    "label": "home venue",
+    "id": "P115",
+    "count": 2389
+  },
+  {
+    "label": "instrument",
+    "id": "P1303",
+    "count": 2384
+  },
+  {
+    "label": "appointed by",
+    "id": "P748",
+    "count": 2347
+  },
+  {
+    "label": "place of death",
+    "id": "P20",
+    "count": 2325
+  },
+  {
+    "label": "contains settlement",
+    "id": "P1383",
+    "count": 2320
+  },
+  {
+    "label": "religious order",
+    "id": "P611",
+    "count": 2249
+  },
+  {
+    "label": "season of club or team",
+    "id": "P5138",
+    "count": 2095
+  },
+  {
+    "label": "has effect",
+    "id": "P1542",
+    "count": 2004
+  },
+  {
+    "label": "movement",
+    "id": "P135",
+    "count": 1997
+  },
+  {
+    "label": "architect",
+    "id": "P84",
+    "count": 1991
+  },
+  {
+    "label": "maintained by",
+    "id": "P126",
+    "count": 1980
+  },
+  {
+    "label": "material used",
+    "id": "P186",
+    "count": 1964
+  },
+  {
+    "label": "inflows",
+    "id": "P200",
+    "count": 1956
+  },
+  {
+    "label": "place of publication",
+    "id": "P291",
+    "count": 1931
+  },
+  {
+    "label": "located in protected area",
+    "id": "P3018",
+    "count": 1914
+  },
+  {
+    "label": "operating area",
+    "id": "P2541",
+    "count": 1859
+  },
+  {
+    "label": "chairperson",
+    "id": "P488",
+    "count": 1810
+  },
+  {
+    "label": "nominated for",
+    "id": "P1411",
+    "count": 1807
+  },
+  {
+    "label": "studies",
+    "id": "P2578",
+    "count": 1754
+  },
+  {
+    "label": "position played on team / speciality",
+    "id": "P413",
+    "count": 1699
+  },
+  {
+    "label": "school district",
+    "id": "P5353",
+    "count": 1673
+  },
+  {
+    "label": "terminus",
+    "id": "P559",
+    "count": 1671
+  },
+  {
+    "label": "writing language",
+    "id": "P6886",
+    "count": 1658
+  },
+  {
+    "label": "said to be the same as",
+    "id": "P460",
+    "count": 1644
+  },
+  {
+    "label": "designed by",
+    "id": "P287",
+    "count": 1640
+  },
+  {
+    "label": "residence",
+    "id": "P551",
+    "count": 1612
+  },
+  {
+    "label": "candidacy in election",
+    "id": "P3602",
+    "count": 1612
+  },
+  {
+    "label": "architectural style",
+    "id": "P149",
+    "count": 1593
+  },
+  {
+    "label": "discoverer or inventor",
+    "id": "P61",
+    "count": 1498
+  },
+  {
+    "label": "significant event",
+    "id": "P793",
+    "count": 1492
+  },
+  {
+    "label": "endemic to",
+    "id": "P183",
+    "count": 1492
+  },
+  {
+    "label": "represents",
+    "id": "P1268",
+    "count": 1487
+  },
+  {
+    "label": "radio format",
+    "id": "P415",
+    "count": 1475
+  },
+  {
+    "label": "historic county",
+    "id": "P7959",
+    "count": 1430
+  },
+  {
+    "label": "relative",
+    "id": "P1038",
+    "count": 1381
+  },
+  {
+    "label": "highest point",
+    "id": "P610",
+    "count": 1356
+  },
+  {
+    "label": "programming language",
+    "id": "P277",
+    "count": 1299
+  },
+  {
+    "label": "legislated by",
+    "id": "P467",
+    "count": 1285
+  },
+  {
+    "label": "item operated",
+    "id": "P121",
+    "count": 1277
+  },
+  {
+    "label": "military rank",
+    "id": "P410",
+    "count": 1266
+  },
+  {
+    "label": "sports discipline competed in",
+    "id": "P2416",
+    "count": 1249
+  },
+  {
+    "label": "has cause",
+    "id": "P828",
+    "count": 1249
+  },
+  {
+    "label": "competition class",
+    "id": "P2094",
+    "count": 1240
+  },
+  {
+    "label": "used by",
+    "id": "P1535",
+    "count": 1231
+  },
+  {
+    "label": "office held by head of government",
+    "id": "P1313",
+    "count": 1225
+  },
+  {
+    "label": "lyrics by",
+    "id": "P676",
+    "count": 1194
+  },
+  {
+    "label": "authority",
+    "id": "P797",
+    "count": 1186
+  },
+  {
+    "label": "presenter",
+    "id": "P371",
+    "count": 1158
+  },
+  {
+    "label": "successful candidate",
+    "id": "P991",
+    "count": 1147
+  },
+  {
+    "label": "candidate",
+    "id": "P726",
+    "count": 1140
+  },
+  {
+    "label": "located on street",
+    "id": "P669",
+    "count": 1124
+  },
+  {
+    "label": "head of state",
+    "id": "P35",
+    "count": 1121
+  },
+  {
+    "label": "is a list of",
+    "id": "P360",
+    "count": 1115
+  },
+  {
+    "label": "indigenous to",
+    "id": "P2341",
+    "count": 1113
+  },
+  {
+    "label": "located on astronomical body",
+    "id": "P376",
+    "count": 1088
+  },
+  {
+    "label": "editor",
+    "id": "P98",
+    "count": 1057
+  },
+  {
+    "label": "Gram staining",
+    "id": "P2597",
+    "count": 1048
+  },
+  {
+    "label": "animal breed",
+    "id": "P4743",
+    "count": 1040
+  },
+  {
+    "label": "writing system",
+    "id": "P282",
+    "count": 1028
+  },
+  {
+    "label": "librettist",
+    "id": "P87",
+    "count": 1015
+  },
+  {
+    "label": "depicts",
+    "id": "P180",
+    "count": 996
+  },
+  {
+    "label": "narrative location",
+    "id": "P840",
+    "count": 993
+  },
+  {
+    "label": "office held by head of the organization",
+    "id": "P2388",
+    "count": 991
+  },
+  {
+    "label": "drug used for treatment",
+    "id": "P2176",
+    "count": 982
+  },
+  {
+    "label": "field of this occupation",
+    "id": "P425",
+    "count": 961
+  },
+  {
+    "label": "medical condition treated",
+    "id": "P2175",
+    "count": 949
+  },
+  {
+    "label": "molecular function",
+    "id": "P680",
+    "count": 947
+  },
+  {
+    "label": "brand",
+    "id": "P1716",
+    "count": 934
+  },
+  {
+    "label": "stock exchange",
+    "id": "P414",
+    "count": 915
+  },
+  {
+    "label": "practiced by",
+    "id": "P3095",
+    "count": 907
+  },
+  {
+    "label": "origin of the watercourse",
+    "id": "P885",
+    "count": 901
+  },
+  {
+    "label": "student of",
+    "id": "P1066",
+    "count": 899
+  },
+  {
+    "label": "derivative work",
+    "id": "P4969",
+    "count": 888
+  },
+  {
+    "label": "lake outflow",
+    "id": "P201",
+    "count": 883
+  },
+  {
+    "label": "diocese",
+    "id": "P708",
+    "count": 882
+  },
+  {
+    "label": "court",
+    "id": "P4884",
+    "count": 881
+  },
+  {
+    "label": "worshipped by",
+    "id": "P1049",
+    "count": 875
+  },
+  {
+    "label": "student",
+    "id": "P802",
+    "count": 867
+  },
+  {
+    "label": "organization directed by the office or position",
+    "id": "P2389",
+    "count": 866
+  },
+  {
+    "label": "carries",
+    "id": "P2505",
+    "count": 857
+  },
+  {
+    "label": "surface played on",
+    "id": "P765",
+    "count": 836
+  },
+  {
+    "label": "collection",
+    "id": "P195",
+    "count": 818
+  },
+  {
+    "label": "office contested",
+    "id": "P541",
+    "count": 810
+  },
+  {
+    "label": "adjacent station",
+    "id": "P197",
+    "count": 796
+  },
+  {
+    "label": "taxon rank",
+    "id": "P105",
+    "count": 793
+  },
+  {
+    "label": "from narrative universe",
+    "id": "P1080",
+    "count": 791
+  },
+  {
+    "label": "parent astronomical body",
+    "id": "P397",
+    "count": 788
+  },
+  {
+    "label": "head of government",
+    "id": "P6",
+    "count": 782
+  },
+  {
+    "label": "has list",
+    "id": "P2354",
+    "count": 780
+  },
+  {
+    "label": "terminus location",
+    "id": "P609",
+    "count": 778
+  },
+  {
+    "label": "airline hub",
+    "id": "P113",
+    "count": 748
+  },
+  {
+    "label": "located in the statistical territorial entity",
+    "id": "P8138",
+    "count": 717
+  },
+  {
+    "label": "executive body",
+    "id": "P208",
+    "count": 715
+  },
+  {
+    "label": "located in present-day administrative territorial entity",
+    "id": "P3842",
+    "count": 683
+  },
+  {
+    "label": "signatory",
+    "id": "P1891",
+    "count": 649
+  },
+  {
+    "label": "tracklist",
+    "id": "P658",
+    "count": 648
+  },
+  {
+    "label": "place of burial",
+    "id": "P119",
+    "count": 628
+  },
+  {
+    "label": "this taxon is source of",
+    "id": "P1672",
+    "count": 622
+  },
+  {
+    "label": "victory",
+    "id": "P2522",
+    "count": 607
+  },
+  {
+    "label": "sponsor",
+    "id": "P859",
+    "count": 601
+  },
+  {
+    "label": "has works in the collection",
+    "id": "P6379",
+    "count": 583
+  },
+  {
+    "label": "has boundary",
+    "id": "P4777",
+    "count": 569
+  },
+  {
+    "label": "found in taxon",
+    "id": "P703",
+    "count": 565
+  },
+  {
+    "label": "partially coincident with",
+    "id": "P1382",
+    "count": 561
+  },
+  {
+    "label": "media franchise",
+    "id": "P8345",
+    "count": 559
+  },
+  {
+    "label": "highway system",
+    "id": "P16",
+    "count": 554
+  },
+  {
+    "label": "published in",
+    "id": "P1433",
+    "count": 519
+  },
+  {
+    "label": "political alignment",
+    "id": "P1387",
+    "count": 513
+  },
+  {
+    "label": "territory claimed by",
+    "id": "P1336",
+    "count": 513
+  },
+  {
+    "label": "track gauge",
+    "id": "P1064",
+    "count": 502
+  },
+  {
+    "label": "minor planet group",
+    "id": "P196",
+    "count": 498
+  },
+  {
+    "label": "director / manager",
+    "id": "P1037",
+    "count": 490
+  },
+  {
+    "label": "model item",
+    "id": "P5869",
+    "count": 486
+  },
+  {
+    "label": "after a work by",
+    "id": "P1877",
+    "count": 478
+  },
+  {
+    "label": "country for sport",
+    "id": "P1532",
+    "count": 474
+  },
+  {
+    "label": "voice type",
+    "id": "P412",
+    "count": 473
+  },
+  {
+    "label": "league system",
+    "id": "P6587",
+    "count": 463
+  },
+  {
+    "label": "enemy of",
+    "id": "P7047",
+    "count": 459
+  },
+  {
+    "label": "official language",
+    "id": "P37",
+    "count": 454
+  },
+  {
+    "label": "symptoms",
+    "id": "P780",
+    "count": 440
+  },
+  {
+    "label": "office held by head of state",
+    "id": "P1906",
+    "count": 433
+  },
+  {
+    "label": "commissioned by",
+    "id": "P88",
+    "count": 432
+  },
+  {
+    "label": "child astronomical body",
+    "id": "P398",
+    "count": 425
+  },
+  {
+    "label": "start point",
+    "id": "P1427",
+    "count": 421
+  },
+  {
+    "label": "significant person",
+    "id": "P3342",
+    "count": 417
+  },
+  {
+    "label": "allegiance",
+    "id": "P945",
+    "count": 405
+  },
+  {
+    "label": "enclave within",
+    "id": "P501",
+    "count": 398
+  },
+  {
+    "label": "connecting service",
+    "id": "P1192",
+    "count": 391
+  },
+  {
+    "label": "dedicated to",
+    "id": "P825",
+    "count": 387
+  },
+  {
+    "label": "destination point",
+    "id": "P1444",
+    "count": 377
+  },
+  {
+    "label": "culture",
+    "id": "P2596",
+    "count": 372
+  },
+  {
+    "label": "standards body",
+    "id": "P1462",
+    "count": 365
+  },
+  {
+    "label": "illustrator",
+    "id": "P110",
+    "count": 364
+  },
+  {
+    "label": "ammunition",
+    "id": "P739",
+    "count": 363
+  },
+  {
+    "label": "noble title",
+    "id": "P97",
+    "count": 351
+  },
+  {
+    "label": "drainage basin",
+    "id": "P4614",
+    "count": 350
+  },
+  {
+    "label": "crew member",
+    "id": "P1029",
+    "count": 341
+  },
+  {
+    "label": "list of characters",
+    "id": "P1881",
+    "count": 340
+  },
+  {
+    "label": "space launch vehicle",
+    "id": "P375",
+    "count": 338
+  },
+  {
+    "label": "broadcast by",
+    "id": "P3301",
+    "count": 337
+  },
+  {
+    "label": "lakes on river",
+    "id": "P469",
+    "count": 336
+  },
+  {
+    "label": "commemorates",
+    "id": "P547",
+    "count": 335
+  },
+  {
+    "label": "target",
+    "id": "P533",
+    "count": 334
+  },
+  {
+    "label": "contains",
+    "id": "P4330",
+    "count": 332
+  },
+  {
+    "label": "currency",
+    "id": "P38",
+    "count": 323
+  },
+  {
+    "label": "original language of film or TV show",
+    "id": "P364",
+    "count": 321
+  },
+  {
+    "label": "qualifies for event",
+    "id": "P3085",
+    "count": 316
+  },
+  {
+    "label": "interested in",
+    "id": "P2650",
+    "count": 313
+  },
+  {
+    "label": "anthem",
+    "id": "P85",
+    "count": 310
+  },
+  {
+    "label": "voice actor",
+    "id": "P725",
+    "count": 309
+  },
+  {
+    "label": "described by source",
+    "id": "P1343",
+    "count": 302
+  },
+  {
+    "label": "stock market index",
+    "id": "P3679",
+    "count": 301
+  },
+  {
+    "label": "manifestation of",
+    "id": "P1557",
+    "count": 292
+  },
+  {
+    "label": "business division",
+    "id": "P199",
+    "count": 289
+  },
+  {
+    "label": "has edition or translation",
+    "id": "P747",
+    "count": 289
+  },
+  {
+    "label": "official residence",
+    "id": "P263",
+    "count": 283
+  },
+  {
+    "label": "substitute/deputy/replacement of office/officeholder",
+    "id": "P2098",
+    "count": 281
+  },
+  {
+    "label": "top-level Internet domain",
+    "id": "P78",
+    "count": 278
+  },
+  {
+    "label": "genetic association",
+    "id": "P2293",
+    "count": 273
+  },
+  {
+    "label": "has written for",
+    "id": "P6872",
+    "count": 256
+  },
+  {
+    "label": "final event",
+    "id": "P3967",
+    "count": 254
+  },
+  {
+    "label": "history of topic",
+    "id": "P2184",
+    "count": 250
+  },
+  {
+    "label": "legal form",
+    "id": "P1454",
+    "count": 244
+  },
+  {
+    "label": "vehicle",
+    "id": "P1876",
+    "count": 244
+  },
+  {
+    "label": "separated from",
+    "id": "P807",
+    "count": 242
+  },
+  {
+    "label": "central bank",
+    "id": "P1304",
+    "count": 239
+  },
+  {
+    "label": "dam",
+    "id": "P4792",
+    "count": 235
+  },
+  {
+    "label": "chief executive officer",
+    "id": "P169",
+    "count": 234
+  },
+  {
+    "label": "cathedral",
+    "id": "P1885",
+    "count": 230
+  },
+  {
+    "label": "foundational text",
+    "id": "P457",
+    "count": 227
+  },
+  {
+    "label": "place of detention",
+    "id": "P2632",
+    "count": 226
+  },
+  {
+    "label": "head coach",
+    "id": "P286",
+    "count": 225
+  },
+  {
+    "label": "wheel arrangement",
+    "id": "P2978",
+    "count": 219
+  },
+  {
+    "label": "measured physical quantity",
+    "id": "P111",
+    "count": 217
+  },
+  {
+    "label": "newspaper format",
+    "id": "P3912",
+    "count": 217
+  },
+  {
+    "label": "produced by",
+    "id": "P2849",
+    "count": 215
+  },
+  {
+    "label": "astronaut mission",
+    "id": "P450",
+    "count": 214
+  },
+  {
+    "label": "killed by",
+    "id": "P157",
+    "count": 214
+  },
+  {
+    "label": "dialect of",
+    "id": "P4913",
+    "count": 213
+  },
+  {
+    "label": "significant place",
+    "id": "P7153",
+    "count": 213
+  },
+  {
+    "label": "series spin-off",
+    "id": "P2512",
+    "count": 211
+  },
+  {
+    "label": "inspired by",
+    "id": "P941",
+    "count": 211
+  },
+  {
+    "label": "reservoir created",
+    "id": "P4661",
+    "count": 207
+  },
+  {
+    "label": "main regulatory text",
+    "id": "P92",
+    "count": 205
+  },
+  {
+    "label": "afflicts",
+    "id": "P689",
+    "count": 204
+  },
+  {
+    "label": "coach of sports team",
+    "id": "P6087",
+    "count": 202
+  },
+  {
+    "label": "patron saint",
+    "id": "P417",
+    "count": 200
+  },
+  {
+    "label": "natural product of taxon",
+    "id": "P1582",
+    "count": 197
+  },
+  {
+    "label": "crystal system",
+    "id": "P556",
+    "count": 197
+  },
+  {
+    "label": "calculated from",
+    "id": "P4934",
+    "count": 195
+  },
+  {
+    "label": "game mode",
+    "id": "P404",
+    "count": 195
+  },
+  {
+    "label": "anatomical location",
+    "id": "P927",
+    "count": 195
+  },
+  {
+    "label": "parent club",
+    "id": "P831",
+    "count": 190
+  },
+  {
+    "label": "powered by",
+    "id": "P516",
+    "count": 189
+  },
+  {
+    "label": "software engine",
+    "id": "P408",
+    "count": 184
+  },
+  {
+    "label": "located in time zone",
+    "id": "P421",
+    "count": 180
+  },
+  {
+    "label": "incarnation of",
+    "id": "P3701",
+    "count": 175
+  },
+  {
+    "label": "sidekick of",
+    "id": "P2546",
+    "count": 174
+  },
+  {
+    "label": "IUCN conservation status",
+    "id": "P141",
+    "count": 174
+  },
+  {
+    "label": "fabrication method",
+    "id": "P2079",
+    "count": 173
+  },
+  {
+    "label": "location of creation",
+    "id": "P1071",
+    "count": 172
+  },
+  {
+    "label": "partner in business or sport",
+    "id": "P1327",
+    "count": 170
+  },
+  {
+    "label": "chromosome",
+    "id": "P1057",
+    "count": 170
+  },
+  {
+    "label": "commanded by",
+    "id": "P4791",
+    "count": 169
+  },
+  {
+    "label": "implementation of",
+    "id": "P4428",
+    "count": 168
+  },
+  {
+    "label": "regulated by",
+    "id": "P3719",
+    "count": 166
+  },
+  {
+    "label": "this zoological name is coordinate with",
+    "id": "P2743",
+    "count": 165
+  },
+  {
+    "label": "fictional universe described in",
+    "id": "P1445",
+    "count": 161
+  },
+  {
+    "label": "programming paradigm",
+    "id": "P3966",
+    "count": 161
+  },
+  {
+    "label": "has quality",
+    "id": "P1552",
+    "count": 161
+  },
+  {
+    "label": "filming location",
+    "id": "P915",
+    "count": 158
+  },
+  {
+    "label": "family name",
+    "id": "P734",
+    "count": 157
+  },
+  {
+    "label": "edition or translation of",
+    "id": "P629",
+    "count": 156
+  },
+  {
+    "label": "cuisine",
+    "id": "P2012",
+    "count": 154
+  },
+  {
+    "label": "online service",
+    "id": "P2361",
+    "count": 149
+  },
+  {
+    "label": "location of discovery",
+    "id": "P189",
+    "count": 148
+  },
+  {
+    "label": "takes place in fictional universe",
+    "id": "P1434",
+    "count": 145
+  },
+  {
+    "label": "historical region",
+    "id": "P6885",
+    "count": 144
+  },
+  {
+    "label": "depicted by",
+    "id": "P1299",
+    "count": 141
+  },
+  {
+    "label": "canonization status",
+    "id": "P411",
+    "count": 141
+  },
+  {
+    "label": "languages spoken, written or signed",
+    "id": "P1412",
+    "count": 139
+  },
+  {
+    "label": "game mechanics",
+    "id": "P4151",
+    "count": 136
+  },
+  {
+    "label": "copyright license",
+    "id": "P275",
+    "count": 135
+  },
+  {
+    "label": "physically interacts with",
+    "id": "P129",
+    "count": 135
+  },
+  {
+    "label": "director of photography",
+    "id": "P344",
+    "count": 129
+  },
+  {
+    "label": "unmarried partner",
+    "id": "P451",
+    "count": 128
+  },
+  {
+    "label": "title of chess person",
+    "id": "P2962",
+    "count": 127
+  },
+  {
+    "label": "location of first performance",
+    "id": "P4647",
+    "count": 124
+  },
+  {
+    "label": "convicted of",
+    "id": "P1399",
+    "count": 123
+  },
+  {
+    "label": "health specialty",
+    "id": "P1995",
+    "count": 122
+  },
+  {
+    "label": "film editor",
+    "id": "P1040",
+    "count": 120
+  },
+  {
+    "label": "vessel class",
+    "id": "P289",
+    "count": 120
+  },
+  {
+    "label": "coordinate location",
+    "id": "P625",
+    "count": 120
+  },
+  {
+    "label": "list of episodes",
+    "id": "P1811",
+    "count": 117
+  },
+  {
+    "label": "grants",
+    "id": "P5460",
+    "count": 116
+  },
+  {
+    "label": "vehicle normally used",
+    "id": "P3438",
+    "count": 115
+  },
+  {
+    "label": "mascot",
+    "id": "P822",
+    "count": 114
+  },
+  {
+    "label": "amended by",
+    "id": "P2567",
+    "count": 114
+  },
+  {
+    "label": "source of energy",
+    "id": "P618",
+    "count": 114
+  },
+  {
+    "label": "musical conductor",
+    "id": "P3300",
+    "count": 109
+  },
+  {
+    "label": "color",
+    "id": "P462",
+    "count": 109
+  },
+  {
+    "label": "readable file format",
+    "id": "P1072",
+    "count": 105
+  },
+  {
+    "label": "contributor to the creative work or subject",
+    "id": "P767",
+    "count": 105
+  },
+  {
+    "label": "domain of saint or deity",
+    "id": "P2925",
+    "count": 104
+  },
+  {
+    "label": "native language",
+    "id": "P103",
+    "count": 102
+  },
+  {
+    "label": "objective of project or action",
+    "id": "P3712",
+    "count": 102
+  },
+  {
+    "label": "distribution format",
+    "id": "P437",
+    "count": 102
+  },
+  {
+    "label": "flag",
+    "id": "P163",
+    "count": 99
+  },
+  {
+    "label": "type of variable star",
+    "id": "P881",
+    "count": 99
+  },
+  {
+    "label": "basic form of government",
+    "id": "P122",
+    "count": 98
+  },
+  {
+    "label": "choreographer",
+    "id": "P1809",
+    "count": 98
+  },
+  {
+    "label": "exclave of",
+    "id": "P500",
+    "count": 97
+  },
+  {
+    "label": "represented by",
+    "id": "P1875",
+    "count": 96
+  },
+  {
+    "label": "cause of death",
+    "id": "P509",
+    "count": 95
+  },
+  {
+    "label": "country of registry",
+    "id": "P8047",
+    "count": 94
+  },
+  {
+    "label": "has fruit type",
+    "id": "P4000",
+    "count": 91
+  },
+  {
+    "label": "league level below",
+    "id": "P2500",
+    "count": 90
+  },
+  {
+    "label": "discography",
+    "id": "P358",
+    "count": 89
+  },
+  {
+    "label": "advertises",
+    "id": "P6291",
+    "count": 89
+  },
+  {
+    "label": "house publication",
+    "id": "P2813",
+    "count": 87
+  },
+  {
+    "label": "product certification",
+    "id": "P1389",
+    "count": 85
+  },
+  {
+    "label": "depends on software",
+    "id": "P1547",
+    "count": 85
+  },
+  {
+    "label": "language regulatory body",
+    "id": "P1018",
+    "count": 85
+  },
+  {
+    "label": "possible treatment",
+    "id": "P924",
+    "count": 85
+  },
+  {
+    "label": "measurement scale",
+    "id": "P1880",
+    "count": 84
+  },
+  {
+    "label": "mount",
+    "id": "P3091",
+    "count": 83
+  },
+  {
+    "label": "given name",
+    "id": "P735",
+    "count": 83
+  },
+  {
+    "label": "statement describes",
+    "id": "P2384",
+    "count": 82
+  },
+  {
+    "label": "merged into",
+    "id": "P7888",
+    "count": 80
+  },
+  {
+    "label": "youth wing",
+    "id": "P4379",
+    "count": 80
+  },
+  {
+    "label": "medical condition",
+    "id": "P1050",
+    "count": 80
+  },
+  {
+    "label": "instrumentation",
+    "id": "P870",
+    "count": 79
+  },
+  {
+    "label": "archives at",
+    "id": "P485",
+    "count": 78
+  },
+  {
+    "label": "site of astronomical discovery",
+    "id": "P65",
+    "count": 77
+  },
+  {
+    "label": "soundtrack release",
+    "id": "P406",
+    "count": 77
+  },
+  {
+    "label": "cites work",
+    "id": "P2860",
+    "count": 77
+  },
+  {
+    "label": "vaccine for",
+    "id": "P1924",
+    "count": 72
+  },
+  {
+    "label": "drafted by",
+    "id": "P647",
+    "count": 72
+  },
+  {
+    "label": "economy of topic",
+    "id": "P8744",
+    "count": 72
+  },
+  {
+    "label": "gens",
+    "id": "P5025",
+    "count": 70
+  },
+  {
+    "label": "airline alliance",
+    "id": "P114",
+    "count": 69
+  },
+  {
+    "label": "valid in period",
+    "id": "P1264",
+    "count": 69
+  },
+  {
+    "label": "narrative role",
+    "id": "P5800",
+    "count": 69
+  },
+  {
+    "label": "overlies",
+    "id": "P568",
+    "count": 67
+  },
+  {
+    "label": "GUI toolkit or framework",
+    "id": "P1414",
+    "count": 66
+  },
+  {
+    "label": "has contributing factor",
+    "id": "P1479",
+    "count": 66
+  },
+  {
+    "label": "highest judicial authority",
+    "id": "P209",
+    "count": 65
+  },
+  {
+    "label": "board member",
+    "id": "P3320",
+    "count": 65
+  },
+  {
+    "label": "member of the crew of",
+    "id": "P5096",
+    "count": 64
+  },
+  {
+    "label": "armament",
+    "id": "P520",
+    "count": 64
+  },
+  {
+    "label": "speaker",
+    "id": "P823",
+    "count": 64
+  },
+  {
+    "label": "geography of topic",
+    "id": "P2633",
+    "count": 63
+  },
+  {
+    "label": "temporal range start",
+    "id": "P523",
+    "count": 61
+  },
+  {
+    "label": "Catholic rite",
+    "id": "P3501",
+    "count": 60
+  },
+  {
+    "label": "public holiday",
+    "id": "P832",
+    "count": 60
+  },
+  {
+    "label": "form of creative work",
+    "id": "P7937",
+    "count": 60
+  },
+  {
+    "label": "issued by",
+    "id": "P2378",
+    "count": 59
+  },
+  {
+    "label": "central bank/issuer",
+    "id": "P562",
+    "count": 58
+  },
+  {
+    "label": "parent of this hybrid, breed, or cultivar",
+    "id": "P1531",
+    "count": 58
+  },
+  {
+    "label": "list of works",
+    "id": "P1455",
+    "count": 56
+  },
+  {
+    "label": "carries scientific instrument",
+    "id": "P1202",
+    "count": 56
+  },
+  {
+    "label": "executive producer",
+    "id": "P1431",
+    "count": 54
+  },
+  {
+    "label": "package management system",
+    "id": "P3033",
+    "count": 53
+  },
+  {
+    "label": "theme music",
+    "id": "P942",
+    "count": 52
+  },
+  {
+    "label": "has pet",
+    "id": "P1429",
+    "count": 52
+  },
+  {
+    "label": "underlies",
+    "id": "P567",
+    "count": 51
+  },
+  {
+    "label": "named by",
+    "id": "P3938",
+    "count": 50
+  },
+  {
+    "label": "perpetrator",
+    "id": "P8031",
+    "count": 50
+  },
+  {
+    "label": "measures",
+    "id": "P2575",
+    "count": 50
+  },
+  {
+    "label": "train depot",
+    "id": "P834",
+    "count": 50
+  },
+  {
+    "label": "interaction",
+    "id": "P517",
+    "count": 49
+  },
+  {
+    "label": "coat of arms",
+    "id": "P237",
+    "count": 49
+  },
+  {
+    "label": "sex or gender",
+    "id": "P21",
+    "count": 49
+  },
+  {
+    "label": "risk factor",
+    "id": "P5642",
+    "count": 49
+  },
+  {
+    "label": "linguistic typology",
+    "id": "P4132",
+    "count": 49
+  },
+  {
+    "label": "edibility",
+    "id": "P789",
+    "count": 48
+  },
+  {
+    "label": "doctoral student",
+    "id": "P185",
+    "count": 48
+  },
+  {
+    "label": "day in year for periodic occurrence",
+    "id": "P837",
+    "count": 48
+  },
+  {
+    "label": "secretary general",
+    "id": "P3975",
+    "count": 48
+  },
+  {
+    "label": "CPU",
+    "id": "P880",
+    "count": 48
+  },
+  {
+    "label": "ancestral home",
+    "id": "P66",
+    "count": 46
+  },
+  {
+    "label": "tonality",
+    "id": "P826",
+    "count": 45
+  },
+  {
+    "label": "engine configuration",
+    "id": "P1002",
+    "count": 45
+  },
+  {
+    "label": "interchange station",
+    "id": "P833",
+    "count": 45
+  },
+  {
+    "label": "cover art by",
+    "id": "P736",
+    "count": 45
+  },
+  {
+    "label": "wears",
+    "id": "P3828",
+    "count": 45
+  },
+  {
+    "label": "honorific prefix",
+    "id": "P511",
+    "count": 45
+  },
+  {
+    "label": "translator",
+    "id": "P655",
+    "count": 44
+  },
+  {
+    "label": "home world",
+    "id": "P1165",
+    "count": 43
+  },
+  {
+    "label": "asteroid spectral type",
+    "id": "P720",
+    "count": 43
+  },
+  {
+    "label": "social classification",
+    "id": "P3716",
+    "count": 43
+  },
+  {
+    "label": "league level above",
+    "id": "P2499",
+    "count": 43
+  },
+  {
+    "label": "motto",
+    "id": "P1546",
+    "count": 42
+  },
+  {
+    "label": "computes solution to",
+    "id": "P2159",
+    "count": 42
+  },
+  {
+    "label": "polymer of",
+    "id": "P4600",
+    "count": 41
+  },
+  {
+    "label": "promoted",
+    "id": "P2881",
+    "count": 41
+  },
+  {
+    "label": "structure replaced by",
+    "id": "P167",
+    "count": 40
+  },
+  {
+    "label": "appears in the form of",
+    "id": "P4675",
+    "count": 40
+  },
+  {
+    "label": "coextensive with",
+    "id": "P3403",
+    "count": 40
+  },
+  {
+    "label": "supports programming language",
+    "id": "P3985",
+    "count": 39
+  },
+  {
+    "label": "cause of destruction",
+    "id": "P770",
+    "count": 39
+  },
+  {
+    "label": "political coalition",
+    "id": "P5832",
+    "count": 39
+  },
+  {
+    "label": "parent peak",
+    "id": "P3137",
+    "count": 38
+  },
+  {
+    "label": "doctoral advisor",
+    "id": "P184",
+    "count": 38
+  },
+  {
+    "label": "monomer of",
+    "id": "P4599",
+    "count": 37
+  },
+  {
+    "label": "pole position",
+    "id": "P3764",
+    "count": 37
+  },
+  {
+    "label": "develops from",
+    "id": "P3094",
+    "count": 37
+  },
+  {
+    "label": "academic degree",
+    "id": "P512",
+    "count": 37
+  },
+  {
+    "label": "contributing factor of",
+    "id": "P1537",
+    "count": 36
+  },
+  {
+    "label": "next higher rank",
+    "id": "P3730",
+    "count": 36
+  },
+  {
+    "label": "type foundry",
+    "id": "P4586",
+    "count": 36
+  },
+  {
+    "label": "iconographic symbol",
+    "id": "P4185",
+    "count": 34
+  },
+  {
+    "label": "suggests the existence of",
+    "id": "P5132",
+    "count": 34
+  },
+  {
+    "label": "scheduled service destination",
+    "id": "P521",
+    "count": 34
+  },
+  {
+    "label": "stepparent",
+    "id": "P3448",
+    "count": 33
+  },
+  {
+    "label": "co-driver",
+    "id": "P2095",
+    "count": 33
+  },
+  {
+    "label": "colorist",
+    "id": "P6338",
+    "count": 32
+  },
+  {
+    "label": "designed to carry",
+    "id": "P3349",
+    "count": 32
+  },
+  {
+    "label": "defendant",
+    "id": "P1591",
+    "count": 32
+  },
+  {
+    "label": "approved by",
+    "id": "P790",
+    "count": 32
+  },
+  {
+    "label": "business model",
+    "id": "P7936",
+    "count": 31
+  },
+  {
+    "label": "location of landing",
+    "id": "P1158",
+    "count": 31
+  },
+  {
+    "label": "via",
+    "id": "P2825",
+    "count": 31
+  },
+  {
+    "label": "has grammatical case",
+    "id": "P2989",
+    "count": 31
+  },
+  {
+    "label": "has active ingredient",
+    "id": "P3781",
+    "count": 30
+  },
+  {
+    "label": "godparent",
+    "id": "P1290",
+    "count": 30
+  },
+  {
+    "label": "charge",
+    "id": "P1595",
+    "count": 30
+  },
+  {
+    "label": "structure replaces",
+    "id": "P1398",
+    "count": 29
+  },
+  {
+    "label": "set in period",
+    "id": "P2408",
+    "count": 29
+  },
+  {
+    "label": "primary destinations",
+    "id": "P1302",
+    "count": 29
+  },
+  {
+    "label": "emulates",
+    "id": "P4043",
+    "count": 29
+  },
+  {
+    "label": "recommended unit of measurement",
+    "id": "P8111",
+    "count": 29
+  },
+  {
+    "label": "greater than",
+    "id": "P5135",
+    "count": 29
+  },
+  {
+    "label": "anatomical branch of",
+    "id": "P3261",
+    "count": 29
+  },
+  {
+    "label": "has facet polytope",
+    "id": "P1312",
+    "count": 29
+  },
+  {
+    "label": "type of orbit",
+    "id": "P522",
+    "count": 28
+  },
+  {
+    "label": "microarchitecture",
+    "id": "P6889",
+    "count": 28
+  },
+  {
+    "label": "designated as terrorist by",
+    "id": "P3461",
+    "count": 28
+  },
+  {
+    "label": "writable file format",
+    "id": "P1073",
+    "count": 28
+  },
+  {
+    "label": "cell component",
+    "id": "P681",
+    "count": 27
+  },
+  {
+    "label": "proved by",
+    "id": "P1318",
+    "count": 27
+  },
+  {
+    "label": "production designer",
+    "id": "P2554",
+    "count": 27
+  },
+  {
+    "label": "charted in",
+    "id": "P2291",
+    "count": 27
+  },
+  {
+    "label": "record held",
+    "id": "P1000",
+    "count": 27
+  },
+  {
+    "label": "socket supported",
+    "id": "P1041",
+    "count": 27
+  },
+  {
+    "label": "partnership with",
+    "id": "P2652",
+    "count": 27
+  },
+  {
+    "label": "instruction set",
+    "id": "P1068",
+    "count": 27
+  },
+  {
+    "label": "has anatomical branch",
+    "id": "P3262",
+    "count": 26
+  },
+  {
+    "label": "fictional analog of",
+    "id": "P1074",
+    "count": 26
+  },
+  {
+    "label": "host",
+    "id": "P2975",
+    "count": 25
+  },
+  {
+    "label": "supported sports team",
+    "id": "P6758",
+    "count": 25
+  },
+  {
+    "label": "has phenotype",
+    "id": "P6532",
+    "count": 24
+  },
+  {
+    "label": "home port",
+    "id": "P504",
+    "count": 24
+  },
+  {
+    "label": "statement is subject of",
+    "id": "P805",
+    "count": 24
+  },
+  {
+    "label": "destroyed",
+    "id": "P3082",
+    "count": 24
+  },
+  {
+    "label": "antiparticle",
+    "id": "P2152",
+    "count": 24
+  },
+  {
+    "label": "offers view on",
+    "id": "P3173",
+    "count": 23
+  },
+  {
+    "label": "medical examinations",
+    "id": "P923",
+    "count": 23
+  },
+  {
+    "label": "reward program",
+    "id": "P4446",
+    "count": 23
+  },
+  {
+    "label": "month of the year",
+    "id": "P2922",
+    "count": 23
+  },
+  {
+    "label": "species kept",
+    "id": "P1990",
+    "count": 22
+  },
+  {
+    "label": "consecrator",
+    "id": "P1598",
+    "count": 22
+  },
+  {
+    "label": "structural engineer",
+    "id": "P631",
+    "count": 22
+  },
+  {
+    "label": "feast day",
+    "id": "P841",
+    "count": 22
+  },
+  {
+    "label": "shape",
+    "id": "P1419",
+    "count": 22
+  },
+  {
+    "label": "adjacent building",
+    "id": "P3032",
+    "count": 22
+  },
+  {
+    "label": "general classification of race participants",
+    "id": "P2321",
+    "count": 21
+  },
+  {
+    "label": "contributed to creative work",
+    "id": "P3919",
+    "count": 21
+  },
+  {
+    "label": "plaintiff",
+    "id": "P1620",
+    "count": 21
+  },
+  {
+    "label": "manner of death",
+    "id": "P1196",
+    "count": 21
+  },
+  {
+    "label": "in opposition to",
+    "id": "P5004",
+    "count": 21
+  },
+  {
+    "label": "next crossing upstream",
+    "id": "P2673",
+    "count": 21
+  },
+  {
+    "label": "official religion",
+    "id": "P3075",
+    "count": 21
+  },
+  {
+    "label": "official symbol",
+    "id": "P2238",
+    "count": 21
+  },
+  {
+    "label": "guidance system",
+    "id": "P624",
+    "count": 21
+  },
+  {
+    "label": "first appearance",
+    "id": "P4584",
+    "count": 20
+  },
+  {
+    "label": "seal description",
+    "id": "P418",
+    "count": 20
+  },
+  {
+    "label": "notation",
+    "id": "P913",
+    "count": 20
+  },
+  {
+    "label": "territory overlaps",
+    "id": "P3179",
+    "count": 20
+  },
+  {
+    "label": "has facility",
+    "id": "P912",
+    "count": 19
+  },
+  {
+    "label": "active ingredient in",
+    "id": "P3780",
+    "count": 19
+  },
+  {
+    "label": "professorship",
+    "id": "P803",
+    "count": 19
+  },
+  {
+    "label": "solved by",
+    "id": "P1136",
+    "count": 19
+  },
+  {
+    "label": "patronym or matronym for this person",
+    "id": "P5056",
+    "count": 19
+  },
+  {
+    "label": "exemplar of",
+    "id": "P1574",
+    "count": 18
+  },
+  {
+    "label": "investor",
+    "id": "P1951",
+    "count": 18
+  },
+  {
+    "label": "party chief representative",
+    "id": "P210",
+    "count": 18
+  },
+  {
+    "label": "expansion of",
+    "id": "P8646",
+    "count": 18
+  },
+  {
+    "label": "points/goal scored by",
+    "id": "P1363",
+    "count": 18
+  },
+  {
+    "label": "asteroid family",
+    "id": "P744",
+    "count": 18
+  },
+  {
+    "label": "geomorphological unit",
+    "id": "P4688",
+    "count": 18
+  },
+  {
+    "label": "biological process",
+    "id": "P682",
+    "count": 17
+  },
+  {
+    "label": "update method",
+    "id": "P4387",
+    "count": 17
+  },
+  {
+    "label": "source of material",
+    "id": "P2647",
+    "count": 17
+  },
+  {
+    "label": "diaspora",
+    "id": "P3833",
+    "count": 17
+  },
+  {
+    "label": "fandom",
+    "id": "P8693",
+    "count": 17
+  },
+  {
+    "label": "solid solution series with",
+    "id": "P2155",
+    "count": 17
+  },
+  {
+    "label": "currency symbol description",
+    "id": "P489",
+    "count": 17
+  },
+  {
+    "label": "programmer",
+    "id": "P943",
+    "count": 16
+  },
+  {
+    "label": "possible medical findings",
+    "id": "P5131",
+    "count": 16
+  },
+  {
+    "label": "editor-in-chief",
+    "id": "P5769",
+    "count": 16
+  },
+  {
+    "label": "climbing route",
+    "id": "P7309",
+    "count": 16
+  },
+  {
+    "label": "input method",
+    "id": "P479",
+    "count": 15
+  },
+  {
+    "label": "companion of",
+    "id": "P399",
+    "count": 15
+  },
+  {
+    "label": "port of registry",
+    "id": "P532",
+    "count": 15
+  },
+  {
+    "label": "lowest point",
+    "id": "P1589",
+    "count": 15
+  },
+  {
+    "label": "costume designer",
+    "id": "P2515",
+    "count": 15
+  },
+  {
+    "label": "dual to",
+    "id": "P1322",
+    "count": 15
+  },
+  {
+    "label": "taxon synonym",
+    "id": "P1420",
+    "count": 15
+  },
+  {
+    "label": "item disputed by",
+    "id": "P7378",
+    "count": 14
+  },
+  {
+    "label": "honorific suffix",
+    "id": "P1035",
+    "count": 14
+  },
+  {
+    "label": "foods traditionally associated",
+    "id": "P868",
+    "count": 14
+  },
+  {
+    "label": "Fach",
+    "id": "P1731",
+    "count": 14
+  },
+  {
+    "label": "captain",
+    "id": "P634",
+    "count": 14
+  },
+  {
+    "label": "lifestyle",
+    "id": "P1576",
+    "count": 14
+  },
+  {
+    "label": "type locality (geology)",
+    "id": "P2695",
+    "count": 14
+  },
+  {
+    "label": "commander of (DEPRECATED)",
+    "id": "P598",
+    "count": 13
+  },
+  {
+    "label": "intangible cultural heritage status",
+    "id": "P3259",
+    "count": 13
+  },
+  {
+    "label": "rector",
+    "id": "P1075",
+    "count": 13
+  },
+  {
+    "label": "visitor centre",
+    "id": "P2872",
+    "count": 13
+  },
+  {
+    "label": "has melody",
+    "id": "P1625",
+    "count": 13
+  },
+  {
+    "label": "copyright holder",
+    "id": "P3931",
+    "count": 13
+  },
+  {
+    "label": "next lower rank",
+    "id": "P3729",
+    "count": 13
+  },
+  {
+    "label": "filmography",
+    "id": "P1283",
+    "count": 12
+  },
+  {
+    "label": "category of associated people",
+    "id": "P1792",
+    "count": 12
+  },
+  {
+    "label": "addressee",
+    "id": "P1817",
+    "count": 12
+  },
+  {
+    "label": "intended public",
+    "id": "P2360",
+    "count": 12
+  },
+  {
+    "label": "members have occupation",
+    "id": "P3989",
+    "count": 12
+  },
+  {
+    "label": "parallel street",
+    "id": "P8702",
+    "count": 12
+  },
+  {
+    "label": "applies to part",
+    "id": "P518",
+    "count": 12
+  },
+  {
+    "label": "indexed in bibliographic review",
+    "id": "P8875",
+    "count": 12
+  },
+  {
+    "label": "has immediate cause",
+    "id": "P1478",
+    "count": 12
+  },
+  {
+    "label": "does not have part",
+    "id": "P3113",
+    "count": 12
+  },
+  {
+    "label": "worn by",
+    "id": "P7376",
+    "count": 12
+  },
+  {
+    "label": "inhibitor of",
+    "id": "P3776",
+    "count": 11
+  },
+  {
+    "label": "elector",
+    "id": "P2319",
+    "count": 11
+  },
+  {
+    "label": "order of battle",
+    "id": "P4220",
+    "count": 11
+  },
+  {
+    "label": "wing configuration",
+    "id": "P1654",
+    "count": 11
+  },
+  {
+    "label": "list of monuments",
+    "id": "P1456",
+    "count": 11
+  },
+  {
+    "label": "given name version for other gender",
+    "id": "P1560",
+    "count": 11
+  },
+  {
+    "label": "era name",
+    "id": "P6902",
+    "count": 11
+  },
+  {
+    "label": "recorded at studio or venue",
+    "id": "P483",
+    "count": 11
+  },
+  {
+    "label": "research site",
+    "id": "P6153",
+    "count": 11
+  },
+  {
+    "label": "associated electoral district",
+    "id": "P7938",
+    "count": 10
+  },
+  {
+    "label": "pathogen transmission process",
+    "id": "P1060",
+    "count": 10
+  },
+  {
+    "label": "next crossing downstream",
+    "id": "P2674",
+    "count": 10
+  },
+  {
+    "label": "binding of software library",
+    "id": "P1372",
+    "count": 10
+  },
+  {
+    "label": "produced sound",
+    "id": "P4733",
+    "count": 10
+  },
+  {
+    "label": "follower of",
+    "id": "P1775",
+    "count": 10
+  },
+  {
+    "label": "victim",
+    "id": "P8032",
+    "count": 10
+  },
+  {
+    "label": "type of electrification",
+    "id": "P930",
+    "count": 10
+  },
+  {
+    "label": "main building contractor",
+    "id": "P193",
+    "count": 10
+  },
+  {
+    "label": "route of administration",
+    "id": "P636",
+    "count": 9
+  },
+  {
+    "label": "peak bagging classification",
+    "id": "P8450",
+    "count": 9
+  },
+  {
+    "label": "adapted by",
+    "id": "P5202",
+    "count": 9
+  },
+  {
+    "label": "ratified by",
+    "id": "P6193",
+    "count": 9
+  },
+  {
+    "label": "curator",
+    "id": "P1640",
+    "count": 9
+  },
+  {
+    "label": "referee",
+    "id": "P1652",
+    "count": 9
+  },
+  {
+    "label": "innervates",
+    "id": "P3190",
+    "count": 9
+  },
+  {
+    "label": "donated by",
+    "id": "P1028",
+    "count": 9
+  },
+  {
+    "label": "has vertex figure",
+    "id": "P1678",
+    "count": 9
+  },
+  {
+    "label": "habitat",
+    "id": "P2974",
+    "count": 9
+  },
+  {
+    "label": "introduced feature",
+    "id": "P751",
+    "count": 9
+  },
+  {
+    "label": "emergency phone number",
+    "id": "P2852",
+    "count": 9
+  },
+  {
+    "label": "sexual orientation",
+    "id": "P91",
+    "count": 9
+  },
+  {
+    "label": "arterial supply",
+    "id": "P2286",
+    "count": 9
+  },
+  {
+    "label": "investigated by",
+    "id": "P1840",
+    "count": 8
+  },
+  {
+    "label": "connector",
+    "id": "P2935",
+    "count": 8
+  },
+  {
+    "label": "conjugate acid",
+    "id": "P4147",
+    "count": 8
+  },
+  {
+    "label": "conjugate base",
+    "id": "P4149",
+    "count": 8
+  },
+  {
+    "label": "mother house",
+    "id": "P612",
+    "count": 8
+  },
+  {
+    "label": "narrative motif",
+    "id": "P6962",
+    "count": 8
+  },
+  {
+    "label": "film crew member",
+    "id": "P3092",
+    "count": 8
+  },
+  {
+    "label": "encoded by",
+    "id": "P702",
+    "count": 8
+  },
+  {
+    "label": "substrate of",
+    "id": "P2414",
+    "count": 8
+  },
+  {
+    "label": "immediate cause of",
+    "id": "P1536",
+    "count": 8
+  },
+  {
+    "label": "less than",
+    "id": "P5136",
+    "count": 8
+  },
+  {
+    "label": "taxon author",
+    "id": "P405",
+    "count": 8
+  },
+  {
+    "label": "repealed by",
+    "id": "P2568",
+    "count": 7
+  },
+  {
+    "label": "stated in",
+    "id": "P248",
+    "count": 7
+  },
+  {
+    "label": "chief operating officer",
+    "id": "P1789",
+    "count": 7
+  },
+  {
+    "label": "located in the ecclesiastical territorial entity",
+    "id": "P5607",
+    "count": 7
+  },
+  {
+    "label": "volcano observatory",
+    "id": "P3815",
+    "count": 7
+  },
+  {
+    "label": "majority opinion by",
+    "id": "P5826",
+    "count": 7
+  },
+  {
+    "label": "mandates",
+    "id": "P4424",
+    "count": 7
+  },
+  {
+    "label": "protocol",
+    "id": "P2700",
+    "count": 7
+  },
+  {
+    "label": "discovery method",
+    "id": "P1046",
+    "count": 7
+  },
+  {
+    "label": "character designer",
+    "id": "P8670",
+    "count": 7
+  },
+  {
+    "label": "animator",
+    "id": "P6942",
+    "count": 7
+  },
+  {
+    "label": "modified version of",
+    "id": "P5059",
+    "count": 7
+  },
+  {
+    "label": "penalty",
+    "id": "P1596",
+    "count": 7
+  },
+  {
+    "label": "towards",
+    "id": "P5051",
+    "count": 7
+  },
+  {
+    "label": "statistical leader",
+    "id": "P3279",
+    "count": 7
+  },
+  {
+    "label": "Digital Rights Management system",
+    "id": "P1032",
+    "count": 7
+  },
+  {
+    "label": "launch contractor",
+    "id": "P1079",
+    "count": 6
+  },
+  {
+    "label": "relegated",
+    "id": "P2882",
+    "count": 6
+  },
+  {
+    "label": "narrator",
+    "id": "P2438",
+    "count": 6
+  },
+  {
+    "label": "interleaves with",
+    "id": "P514",
+    "count": 6
+  },
+  {
+    "label": "mod of",
+    "id": "P7075",
+    "count": 6
+  },
+  {
+    "label": "judge",
+    "id": "P1594",
+    "count": 6
+  },
+  {
+    "label": "innervated by",
+    "id": "P3189",
+    "count": 6
+  },
+  {
+    "label": "output method",
+    "id": "P5196",
+    "count": 6
+  },
+  {
+    "label": "main food source",
+    "id": "P1034",
+    "count": 6
+  },
+  {
+    "label": "record or record progression",
+    "id": "P2869",
+    "count": 6
+  },
+  {
+    "label": "biological phase",
+    "id": "P4774",
+    "count": 6
+  },
+  {
+    "label": "regulates (molecular biology)",
+    "id": "P128",
+    "count": 6
+  },
+  {
+    "label": "mushroom ecological type",
+    "id": "P788",
+    "count": 5
+  },
+  {
+    "label": "general manager",
+    "id": "P505",
+    "count": 5
+  },
+  {
+    "label": "by-product of",
+    "id": "P2822",
+    "count": 5
+  },
+  {
+    "label": "acknowledged",
+    "id": "P7137",
+    "count": 5
+  },
+  {
+    "label": "of",
+    "id": "P642",
+    "count": 5
+  },
+  {
+    "label": "has grammatical mood",
+    "id": "P3161",
+    "count": 5
+  },
+  {
+    "label": "avionics",
+    "id": "P878",
+    "count": 5
+  },
+  {
+    "label": "art director",
+    "id": "P3174",
+    "count": 5
+  },
+  {
+    "label": "superhuman feature or ability",
+    "id": "P2563",
+    "count": 5
+  },
+  {
+    "label": "magnetic ordering",
+    "id": "P922",
+    "count": 5
+  },
+  {
+    "label": "has tense",
+    "id": "P3103",
+    "count": 5
+  },
+  {
+    "label": "used metre",
+    "id": "P2551",
+    "count": 5
+  },
+  {
+    "label": "definition domain",
+    "id": "P1568",
+    "count": 5
+  },
+  {
+    "label": "established from medical condition",
+    "id": "P5166",
+    "count": 5
+  },
+  {
+    "label": "fastest lap",
+    "id": "P5053",
+    "count": 5
+  },
+  {
+    "label": "significant drug interaction",
+    "id": "P769",
+    "count": 5
+  },
+  {
+    "label": "is metaclass for",
+    "id": "P8225",
+    "count": 5
+  },
+  {
+    "label": "complies with",
+    "id": "P5009",
+    "count": 5
+  },
+  {
+    "label": "satellite bus",
+    "id": "P707",
+    "count": 5
+  },
+  {
+    "label": "Roman cognomen",
+    "id": "P2365",
+    "count": 5
+  },
+  {
+    "label": "director of archaeological fieldwork",
+    "id": "P4345",
+    "count": 5
+  },
+  {
+    "label": "prohibits",
+    "id": "P8739",
+    "count": 5
+  },
+  {
+    "label": "printed by",
+    "id": "P872",
+    "count": 5
+  },
+  {
+    "label": "has natural reservoir",
+    "id": "P1605",
+    "count": 4
+  },
+  {
+    "label": "first aid measures",
+    "id": "P2239",
+    "count": 4
+  },
+  {
+    "label": "electoral district",
+    "id": "P768",
+    "count": 4
+  },
+  {
+    "label": "display technology",
+    "id": "P5307",
+    "count": 4
+  },
+  {
+    "label": "bowling style",
+    "id": "P2545",
+    "count": 4
+  },
+  {
+    "label": "laws applied",
+    "id": "P3014",
+    "count": 4
+  },
+  {
+    "label": "venous drainage",
+    "id": "P2289",
+    "count": 4
+  },
+  {
+    "label": "landscape architect",
+    "id": "P7514",
+    "count": 4
+  },
+  {
+    "label": "does not have quality",
+    "id": "P6477",
+    "count": 4
+  },
+  {
+    "label": "collection creator",
+    "id": "P6241",
+    "count": 4
+  },
+  {
+    "label": "OSI Model layer location",
+    "id": "P5805",
+    "count": 4
+  },
+  {
+    "label": "copyright status",
+    "id": "P6216",
+    "count": 4
+  },
+  {
+    "label": "typically sells",
+    "id": "P7163",
+    "count": 4
+  },
+  {
+    "label": "character role",
+    "id": "P453",
+    "count": 4
+  },
+  {
+    "label": "attested in",
+    "id": "P5323",
+    "count": 4
+  },
+  {
+    "label": "sports competition competed at",
+    "id": "P5249",
+    "count": 4
+  },
+  {
+    "label": "by-product",
+    "id": "P2821",
+    "count": 4
+  },
+  {
+    "label": "ICTV virus genome composition",
+    "id": "P4628",
+    "count": 4
+  },
+  {
+    "label": "academic thesis",
+    "id": "P1026",
+    "count": 4
+  },
+  {
+    "label": "taxa especially protected in area",
+    "id": "P6569",
+    "count": 4
+  },
+  {
+    "label": "development of anatomical structure",
+    "id": "P4843",
+    "count": 4
+  },
+  {
+    "label": "ortholog",
+    "id": "P684",
+    "count": 4
+  },
+  {
+    "label": "style of karate",
+    "id": "P7406",
+    "count": 4
+  },
+  {
+    "label": "end cause",
+    "id": "P1534",
+    "count": 4
+  },
+  {
+    "label": "pendant of",
+    "id": "P1639",
+    "count": 4
+  },
+  {
+    "label": "day of week",
+    "id": "P2894",
+    "count": 4
+  },
+  {
+    "label": "debut participant",
+    "id": "P2318",
+    "count": 3
+  },
+  {
+    "label": "Open Data portal",
+    "id": "P8402",
+    "count": 3
+  },
+  {
+    "label": "election called by",
+    "id": "P7508",
+    "count": 3
+  },
+  {
+    "label": "category combines topics",
+    "id": "P971",
+    "count": 3
+  },
+  {
+    "label": "samples from work",
+    "id": "P5707",
+    "count": 3
+  },
+  {
+    "label": "camera setup",
+    "id": "P4312",
+    "count": 3
+  },
+  {
+    "label": "member of the deme",
+    "id": "P2462",
+    "count": 3
+  },
+  {
+    "label": "together with",
+    "id": "P1706",
+    "count": 3
+  },
+  {
+    "label": "invasive to",
+    "id": "P5588",
+    "count": 3
+  },
+  {
+    "label": "biological variant of",
+    "id": "P3433",
+    "count": 3
+  },
+  {
+    "label": "therapeutic area",
+    "id": "P4044",
+    "count": 3
+  },
+  {
+    "label": "facial hair",
+    "id": "P8852",
+    "count": 3
+  },
+  {
+    "label": "applies to people",
+    "id": "P6001",
+    "count": 3
+  },
+  {
+    "label": "place of origin (Switzerland)",
+    "id": "P1321",
+    "count": 3
+  },
+  {
+    "label": "grammatical option indicates",
+    "id": "P2591",
+    "count": 3
+  },
+  {
+    "label": "disjoint union of",
+    "id": "P2738",
+    "count": 3
+  },
+  {
+    "label": "military casualty classification",
+    "id": "P1347",
+    "count": 3
+  },
+  {
+    "label": "temporal range end",
+    "id": "P524",
+    "count": 3
+  },
+  {
+    "label": "proxy",
+    "id": "P1393",
+    "count": 3
+  },
+  {
+    "label": "statement supported by",
+    "id": "P3680",
+    "count": 3
+  },
+  {
+    "label": "Roman agnomen",
+    "id": "P2366",
+    "count": 3
+  },
+  {
+    "label": "stereoisomer of",
+    "id": "P3364",
+    "count": 3
+  },
+  {
+    "label": "damaged",
+    "id": "P3081",
+    "count": 3
+  },
+  {
+    "label": "muscle insertion",
+    "id": "P3491",
+    "count": 3
+  },
+  {
+    "label": "official color or colors",
+    "id": "P6364",
+    "count": 3
+  },
+  {
+    "label": "people or cargo transported",
+    "id": "P3437",
+    "count": 3
+  },
+  {
+    "label": "symbol of",
+    "id": "P8058",
+    "count": 3
+  },
+  {
+    "label": "means of locomotion",
+    "id": "P3512",
+    "count": 3
+  },
+  {
+    "label": "sexually homologous with",
+    "id": "P4545",
+    "count": 3
+  },
+  {
+    "label": "points classification",
+    "id": "P3494",
+    "count": 2
+  },
+  {
+    "label": "file format",
+    "id": "P2701",
+    "count": 2
+  },
+  {
+    "label": "parent cell line",
+    "id": "P3432",
+    "count": 2
+  },
+  {
+    "label": "Code of nomenclature",
+    "id": "P944",
+    "count": 2
+  },
+  {
+    "label": "codomain",
+    "id": "P1571",
+    "count": 2
+  },
+  {
+    "label": "demonym of",
+    "id": "P6271",
+    "count": 2
+  },
+  {
+    "label": "theorised by",
+    "id": "P8403",
+    "count": 2
+  },
+  {
+    "label": "trophy awarded",
+    "id": "P4622",
+    "count": 2
+  },
+  {
+    "label": "generalization of",
+    "id": "P7719",
+    "count": 2
+  },
+  {
+    "label": "superpartner of",
+    "id": "P2376",
+    "count": 2
+  },
+  {
+    "label": "has superpartner",
+    "id": "P2375",
+    "count": 2
+  },
+  {
+    "label": "fuel system",
+    "id": "P1211",
+    "count": 2
+  },
+  {
+    "label": "side effect",
+    "id": "P1909",
+    "count": 2
+  },
+  {
+    "label": "academic major",
+    "id": "P812",
+    "count": 2
+  },
+  {
+    "label": "elected in",
+    "id": "P2715",
+    "count": 2
+  },
+  {
+    "label": "valid in place",
+    "id": "P3005",
+    "count": 2
+  },
+  {
+    "label": "agonist of",
+    "id": "P3772",
+    "count": 2
+  },
+  {
+    "label": "parliamentary term",
+    "id": "P2937",
+    "count": 2
+  },
+  {
+    "label": "coolant",
+    "id": "P588",
+    "count": 2
+  },
+  {
+    "label": "relevant qualification",
+    "id": "P4968",
+    "count": 2
+  },
+  {
+    "label": "original film format",
+    "id": "P3803",
+    "count": 2
+  },
+  {
+    "label": "handedness",
+    "id": "P552",
+    "count": 2
+  },
+  {
+    "label": "size designation",
+    "id": "P8030",
+    "count": 2
+  },
+  {
+    "label": "distributary",
+    "id": "P5998",
+    "count": 2
+  },
+  {
+    "label": "flag bearer",
+    "id": "P3022",
+    "count": 2
+  },
+  {
+    "label": "fossil found in this unit",
+    "id": "P1137",
+    "count": 2
+  },
+  {
+    "label": "dedicated heritage entity",
+    "id": "P8786",
+    "count": 2
+  },
+  {
+    "label": "mode of inheritance",
+    "id": "P1199",
+    "count": 2
+  },
+  {
+    "label": "catalog",
+    "id": "P972",
+    "count": 2
+  },
+  {
+    "label": "symbolizes",
+    "id": "P4878",
+    "count": 2
+  },
+  {
+    "label": "scenographer",
+    "id": "P4608",
+    "count": 2
+  },
+  {
+    "label": "prosecutor",
+    "id": "P1592",
+    "count": 2
+  },
+  {
+    "label": "gait",
+    "id": "P2839",
+    "count": 2
+  },
+  {
+    "label": "plot expanded in",
+    "id": "P5940",
+    "count": 2
+  },
+  {
+    "label": "GPU",
+    "id": "P2560",
+    "count": 2
+  },
+  {
+    "label": "patient of",
+    "id": "P3205",
+    "count": 2
+  },
+  {
+    "label": "presynaptic connection",
+    "id": "P925",
+    "count": 2
+  },
+  {
+    "label": "related category",
+    "id": "P7084",
+    "count": 2
+  },
+  {
+    "label": "decays to",
+    "id": "P816",
+    "count": 2
+  },
+  {
+    "label": "may prevent",
+    "id": "P4954",
+    "count": 2
+  },
+  {
+    "label": "script directionality",
+    "id": "P1406",
+    "count": 2
+  },
+  {
+    "label": "direction",
+    "id": "P560",
+    "count": 2
+  },
+  {
+    "label": "author of foreword",
+    "id": "P2679",
+    "count": 2
+  },
+  {
+    "label": "antagonist muscle",
+    "id": "P2329",
+    "count": 2
+  },
+  {
+    "label": "nominated by",
+    "id": "P4353",
+    "count": 2
+  },
+  {
+    "label": "taxa found at location",
+    "id": "P6803",
+    "count": 2
+  },
+  {
+    "label": "member of military unit",
+    "id": "P7779",
+    "count": 2
+  },
+  {
+    "label": "parish church",
+    "id": "P8289",
+    "count": 1
+  },
+  {
+    "label": "public transport stop",
+    "id": "P8453",
+    "count": 1
+  },
+  {
+    "label": "storyboard artist",
+    "id": "P3275",
+    "count": 1
+  },
+  {
+    "label": "card network",
+    "id": "P4443",
+    "count": 1
+  },
+  {
+    "label": "railway signalling system",
+    "id": "P3019",
+    "count": 1
+  },
+  {
+    "label": "torch lit by",
+    "id": "P545",
+    "count": 1
+  },
+  {
+    "label": "choral conductor",
+    "id": "P5024",
+    "count": 1
+  },
+  {
+    "label": "educational stage",
+    "id": "P7374",
+    "count": 1
+  },
+  {
+    "label": "typeface/font used",
+    "id": "P2739",
+    "count": 1
+  },
+  {
+    "label": "has operator",
+    "id": "P8866",
+    "count": 1
+  },
+  {
+    "label": "unveiled by",
+    "id": "P1656",
+    "count": 1
+  },
+  {
+    "label": "exhibition history",
+    "id": "P608",
+    "count": 1
+  },
+  {
+    "label": "tournament format",
+    "id": "P8127",
+    "count": 1
+  },
+  {
+    "label": "voting system",
+    "id": "P8196",
+    "count": 1
+  },
+  {
+    "label": "criterion used",
+    "id": "P1013",
+    "count": 1
+  },
+  {
+    "label": "is verso of",
+    "id": "P2682",
+    "count": 1
+  },
+  {
+    "label": "website account on",
+    "id": "P553",
+    "count": 1
+  },
+  {
+    "label": "possible creator",
+    "id": "P1779",
+    "count": 1
+  },
+  {
+    "label": "defender",
+    "id": "P1593",
+    "count": 1
+  },
+  {
+    "label": "set in environment",
+    "id": "P8411",
+    "count": 1
+  },
+  {
+    "label": "game artist",
+    "id": "P3080",
+    "count": 1
+  },
+  {
+    "label": "has lyrics",
+    "id": "P6439",
+    "count": 1
+  },
+  {
+    "label": "Vox-ATypI classification",
+    "id": "P1878",
+    "count": 1
+  },
+  {
+    "label": "prerequisite",
+    "id": "P4967",
+    "count": 1
+  },
+  {
+    "label": "copyright representative",
+    "id": "P6275",
+    "count": 1
+  },
+  {
+    "label": "possessed by spirit",
+    "id": "P4292",
+    "count": 1
+  },
+  {
+    "label": "determination method",
+    "id": "P459",
+    "count": 1
+  },
+  {
+    "label": "astronomical filter",
+    "id": "P1227",
+    "count": 1
+  },
+  {
+    "label": "payment types accepted",
+    "id": "P2851",
+    "count": 1
+  },
+  {
+    "label": "blocker of",
+    "id": "P3774",
+    "count": 1
+  },
+  {
+    "label": "relative to",
+    "id": "P2210",
+    "count": 1
+  },
+  {
+    "label": "appears in the heritage monument list",
+    "id": "P2817",
+    "count": 1
+  },
+  {
+    "label": "key col",
+    "id": "P7479",
+    "count": 1
+  },
+  {
+    "label": "does not have effect",
+    "id": "P7167",
+    "count": 1
+  },
+  {
+    "label": "radix",
+    "id": "P3264",
+    "count": 1
+  },
+  {
+    "label": "season starts",
+    "id": "P4794",
+    "count": 1
+  },
+  {
+    "label": "online access status",
+    "id": "P6954",
+    "count": 1
+  },
+  {
+    "label": "parliamentary group",
+    "id": "P4100",
+    "count": 1
+  },
+  {
+    "label": "positive therapeutic predictor",
+    "id": "P3354",
+    "count": 1
+  },
+  {
+    "label": "postsynaptic connection",
+    "id": "P926",
+    "count": 1
+  },
+  {
+    "label": "signed form",
+    "id": "P3969",
+    "count": 1
+  },
+  {
+    "label": "external auditor",
+    "id": "P8571",
+    "count": 1
+  },
+  {
+    "label": "located on linear feature",
+    "id": "P795",
+    "count": 1
+  },
+  {
+    "label": "epithet",
+    "id": "P8822",
+    "count": 1
+  },
+  {
+    "label": "including",
+    "id": "P1012",
+    "count": 1
+  },
+  {
+    "label": "phase point",
+    "id": "P873",
+    "count": 1
+  },
+  {
+    "label": "quotes work",
+    "id": "P6166",
+    "count": 1
+  },
+  {
+    "label": "admissible rule in",
+    "id": "P2577",
+    "count": 1
+  },
+  {
+    "label": "recovered by",
+    "id": "P3093",
+    "count": 1
+  },
+  {
+    "label": "real estate developer",
+    "id": "P6237",
+    "count": 1
+  },
+  {
+    "label": "Roman praenomen",
+    "id": "P2358",
+    "count": 1
+  },
+  {
+    "label": "references work, tradition or theory",
+    "id": "P8371",
+    "count": 1
+  },
+  {
+    "label": "base",
+    "id": "P3263",
+    "count": 1
+  },
+  {
+    "label": "decay mode",
+    "id": "P817",
+    "count": 1
+  },
+  {
+    "label": "permanent duplicated item",
+    "id": "P2959",
+    "count": 1
+  },
+  {
+    "label": "chassis",
+    "id": "P7045",
+    "count": 1
+  },
+  {
+    "label": "undercarriage",
+    "id": "P1637",
+    "count": 1
+  },
+  {
+    "label": "prime factor",
+    "id": "P5236",
+    "count": 1
+  },
+  {
+    "label": "maintenance method",
+    "id": "P6440",
+    "count": 1
+  },
+  {
+    "label": "has decorative pattern",
+    "id": "P5422",
+    "count": 1
+  },
+  {
+    "label": "funder",
+    "id": "P8324",
+    "count": 1
+  },
+  {
+    "label": "storage device",
+    "id": "P4788",
+    "count": 1
+  },
+  {
+    "label": "student organization of",
+    "id": "P6840",
+    "count": 1
+  },
+  {
+    "label": "for work",
+    "id": "P1686",
+    "count": 1
+  },
+  {
+    "label": "exonerated of",
+    "id": "P7781",
+    "count": 1
+  },
+  {
+    "label": "broader concept",
+    "id": "P4900",
+    "count": 1
+  },
+  {
+    "label": "input set",
+    "id": "P1851",
+    "count": 1
+  },
+  {
+    "label": "cabinet",
+    "id": "P5054",
+    "count": 1
+  },
+  {
+    "label": "docking port",
+    "id": "P546",
+    "count": 1
+  },
+  {
+    "label": "has census",
+    "id": "P8701",
+    "count": 1
+  }
+]

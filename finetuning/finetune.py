@@ -25,6 +25,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--model",   required=True, help="HuggingFace model ID")
 parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen", "tum_full", "tum_p99"], default="rebel")
 parser.add_argument("--run",     default="", help="Optional run name suffix for log file")
+parser.add_argument("--lr",      type=float, default=2e-4, help="Learning rate")
 args = parser.parse_args()
 
 MODEL_ID    = args.model
@@ -57,7 +58,7 @@ run = wandb.init(
         "dataset":      args.dataset,
         "run":          args.run,
         "epochs":       8,
-        "learning_rate": 2e-4,
+        "learning_rate": args.lr,
         "batch_size":   8,
         "lora_r":       16,
         "lora_alpha":   32,
@@ -151,7 +152,7 @@ training_args = SFTConfig(
     per_device_train_batch_size=8,
     gradient_accumulation_steps=2,
     optim="adamw_torch_fused",
-    learning_rate=2e-4,
+    learning_rate=args.lr,
     bf16=True,
     logging_steps=50,
     max_grad_norm=0.3,

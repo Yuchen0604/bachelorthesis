@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH -J 3e4_inf
-#SBATCH -w gpu-nvidia-h100
+#SBATCH -J 2_3e4_inf
+#SBATCH -w gpu-nvidia-h200-3
 #SBATCH --gres=gpu:nvidia:1
 #SBATCH -t 24:00:00
 

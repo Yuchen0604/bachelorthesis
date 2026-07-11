@@ -31,6 +31,33 @@ DATASET_CONFIG = {
             "tekgen_test":  "test",
         },
     },
+    "tum_full": {
+        "data_dir": "./data_tum/tum_full-20k",
+        "out_dir":  "./data_tum/dataset-instruct-20k-full",
+        "splits": {
+            "tum_full_train": "train",
+            "tum_full_valid": "valid",
+            "tum_full_test":  "test",
+        },
+    },
+    "tum_p99": {
+        "data_dir": "./data_tum/tum_p99-20k",
+        "out_dir":  "./data_tum/dataset-instruct-20k-p99",
+        "splits": {
+            "tum_p99_train": "train",
+            "tum_p99_valid": "valid",
+            "tum_p99_test":  "test",
+        },
+    },
+    "tum_p99_new": {
+        "data_dir": "./data_tum/tum_p99_new",
+        "out_dir":  "./data_tum/dataset-instruct-large-p99_new",
+        "splits": {
+            "tum_p99_new_train": "train",
+            "tum_p99_new_valid": "valid",
+            "tum_p99_new_test":  "test",
+        },
+    },
 }
 
 SYSTEM_PROMPT = (
@@ -65,7 +92,7 @@ def build_assistant_output(triples, candidate_relations):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen"], default="rebel")
+    parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen", "tum_full", "tum_p99", "tum_p99_new"], default="rebel")
     args = parser.parse_args()
 
     cfg = DATASET_CONFIG[args.dataset]

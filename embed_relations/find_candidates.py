@@ -29,6 +29,17 @@ DATASET_CONFIG = {
         "cache_path": os.path.join(base_dir, "sbert_embeddings_tekgen.npz"),
         "splits":     ["tekgen_train", "tekgen_valid", "tekgen_test"],
     },
+    "tum": {
+        "data_dir":   os.path.join(base_dir, "..", "data_tum", "tum"),
+        "cache_path": os.path.join(base_dir, "sbert_embeddings_tum.npz"),
+        "splits":     ["wiki_s2t_full", "wiki_s2t_p99"],
+    },
+    "tum_p99_new": {
+        "data_dir":    os.path.join(base_dir, "..", "data_tum", "tum"),
+        "output_dir":  os.path.join(base_dir, "..", "data_tum", "re_data"),
+        "cache_path":  os.path.join(base_dir, "sbert_embeddings_tum_p99_new.npz"),
+        "splits":      ["wiki_s2t_p99_new"],
+    },
 }
 
 
@@ -84,11 +95,13 @@ def build_candidates(gold_labels, all_relations, embeddings, relation_index, K):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen"], default="rebel")
+    parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen", "tum", "tum_p99_new"], default="rebel")
     args = parser.parse_args()
 
     cfg = DATASET_CONFIG[args.dataset]
-    data_dir, splits = cfg["data_dir"], cfg["splits"]
+    data_dir   = cfg["data_dir"]
+    output_dir = cfg.get("output_dir", data_dir)
+    splits     = cfg["splits"]
 
     all_relations, embeddings = load_embeddings(cfg["cache_path"])
     total = len(all_relations)
@@ -96,9 +109,11 @@ def main():
     relation_index = {r: i for i, r in enumerate(all_relations)}
     print(f"Total relations: {total},  K = {K}\n")
 
+    os.makedirs(output_dir, exist_ok=True)
+
     for split in splits:
-        input_path  = os.path.join(data_dir, f"{split}.jsonl")
-        output_path = os.path.join(data_dir, f"{split}_cn{CN}.jsonl")
+        input_path  = os.path.join(data_dir,   f"{split}.jsonl")
+        output_path = os.path.join(output_dir, f"{split}_cn{CN}.jsonl")
         print(f"Processing {split} ...")
 
         written = 0

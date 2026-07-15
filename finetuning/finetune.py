@@ -27,6 +27,7 @@ parser.add_argument("--model",   required=True, help="HuggingFace model ID")
 parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen", "tum_full", "tum_p99", "tum_p99_new"], default="rebel")
 parser.add_argument("--run",     default="", help="Optional run name suffix for log file")
 parser.add_argument("--lr",      type=float, default=2e-4, help="Learning rate")
+parser.add_argument("--lora_r",  type=int,   default=16,   help="LoRA rank")
 args = parser.parse_args()
 
 MODEL_ID    = args.model
@@ -61,8 +62,8 @@ run = wandb.init(
         "epochs":       8,
         "learning_rate": args.lr,
         "batch_size":   8,
-        "lora_r":       16,
-        "lora_alpha":   32,
+        "lora_r":       args.lora_r,
+        "lora_alpha":   args.lora_r * 2,
     },
 )
 
@@ -79,8 +80,8 @@ logging.info(f"Loading model: {MODEL_ID}")
 # 2. LoRA Configuration
 # =====================================================
 peft_config = LoraConfig(
-    r=16,
-    lora_alpha=32,
+    r=args.lora_r,
+    lora_alpha=args.lora_r * 2,
     lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM",

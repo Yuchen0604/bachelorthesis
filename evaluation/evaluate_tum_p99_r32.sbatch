@@ -25,20 +25,5 @@ run_inference() {
     done
 }
 
-# r32 Qwen → all test sets
-run_inference Qwen/Qwen2.5-1.5B-Instruct  Qwen2.5-1.5B-Instruct-tum_p99-qlora_hparam_r32  rebel
-run_inference Qwen/Qwen2.5-1.5B-Instruct  Qwen2.5-1.5B-Instruct-tum_p99-qlora_hparam_r32  lagrange
-run_inference Qwen/Qwen2.5-1.5B-Instruct  Qwen2.5-1.5B-Instruct-tum_p99-qlora_hparam_r32  tum_full
-run_inference Qwen/Qwen2.5-1.5B-Instruct  Qwen2.5-1.5B-Instruct-tum_p99-qlora_hparam_r32  tum_p99
-
-# r32 Llama → all test sets
-run_inference meta-llama/Llama-3.2-1B-Instruct  Llama-3.2-1B-Instruct-tum_p99-qlora_hparam_r32  rebel
-run_inference meta-llama/Llama-3.2-1B-Instruct  Llama-3.2-1B-Instruct-tum_p99-qlora_hparam_r32  lagrange
-run_inference meta-llama/Llama-3.2-1B-Instruct  Llama-3.2-1B-Instruct-tum_p99-qlora_hparam_r32  tum_full
-run_inference meta-llama/Llama-3.2-1B-Instruct  Llama-3.2-1B-Instruct-tum_p99-qlora_hparam_r32  tum_p99
-
-# r32 Gemma → all test sets
-run_inference google/gemma-3-1b-it  gemma-3-1b-it-tum_p99-qlora_hparam_r32  rebel
-run_inference google/gemma-3-1b-it  gemma-3-1b-it-tum_p99-qlora_hparam_r32  lagrange
-run_inference google/gemma-3-1b-it  gemma-3-1b-it-tum_p99-qlora_hparam_r32  tum_full
+# r32 Gemma → tum_p99 
 run_inference google/gemma-3-1b-it  gemma-3-1b-it-tum_p99-qlora_hparam_r32  tum_p99

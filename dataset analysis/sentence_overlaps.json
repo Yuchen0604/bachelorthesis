@@ -1,0 +1,520 @@
+[
+  {
+    "compared_with": "tekgen",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Cyanocobalamin is available as a generic medication and over the counter.",
+    "tekgen_sentence": "Cyanocobalamin is available as a generic medication and over the counter.",
+    "tum_p99_new": [
+      "cyanocobalamin | has use | medication"
+    ],
+    "tekgen": [
+      "Cyanocobalamin | instance of | Medication"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": true,
+    "tum_p99_new_sentence": "Mount Wachusett is a mountain in Massachusetts.",
+    "wikinre_sentence": "Mount Wachusett is a mountain in Massachusetts .",
+    "tum_p99_new": [
+      "Mount Wachusett | located in the administrative territorial entity | Massachusetts"
+    ],
+    "wikinre": [
+      "Mount Wachusett | located in the administrative territorial entity | Massachusetts"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Permethrin works by disrupting the function of the neurons of lice and scabies mites.",
+    "lagrange_sentence": "permethrin works by disrupting the function of the neurons of lice and scabies mites.",
+    "tum_p99_new": [
+      "permethrin | medical condition treated | scabies",
+      "scabies | drug or therapy used for treatment | permethrin"
+    ],
+    "lagrange": [
+      "permethrin | medical condition treated | scabies"
+    ]
+  },
+  {
+    "compared_with": "rebel",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Montagne du Charbon (1,932 m) is a mountain in the Bauges in Savoie, France.",
+    "rebel_sentence": "Montagne du Charbon (1,932 m) is a mountain in the Bauges in Savoie, France. ",
+    "tum_p99_new": [
+      "Montagne du Charbon | country | France"
+    ],
+    "rebel": [
+      "Bauges | country | France",
+      "Bauges | located in the administrative territorial entity | Savoie",
+      "Montagne du Charbon | located in the administrative territorial entity | Savoie",
+      "Montagne du Charbon | mountain range | Bauges",
+      "Savoie | country | France"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "In 1797, Antonio Canova went to Vienna, but only a year later, in 1798, Antonio Canova returned to Possagno for a year.",
+    "wikinre_sentence": "In 1797 , Antonio Canova went to Vienna , but only a year later , in 1798 , Antonio Canova returned to Possagno for a year .",
+    "tum_p99_new": [
+      "Antonio Canova | work location | Vienna"
+    ],
+    "wikinre": [
+      "Antonio Canova | place of birth | Possagno"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Monturull is a mountain of Catalonia, Spain.",
+    "wikinre_sentence": "Monturull is a mountain of Catalonia , Spain .",
+    "tum_p99_new": [
+      "Monturull | country | Spain",
+      "Spain | contains the administrative territorial entity | Catalonia"
+    ],
+    "wikinre": [
+      "Monturull | country | Spain"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Mount Balbi is a Holocene stratovolcano located in the northern portion of the island of Bougainville, Papua New Guinea.",
+    "wikinre_sentence": "Mount Balbi is a Holocene stratovolcano located in the northern portion of the island of Bougainville , Papua New Guinea .",
+    "tum_p99_new": [
+      "Mount Balbi | country | Papua New Guinea",
+      "Papua New Guinea | located in/on physical feature | New Guinea"
+    ],
+    "wikinre": [
+      "Mount Balbi | country | Papua New Guinea"
+    ]
+  },
+  {
+    "compared_with": "tekgen",
+    "same_triples": false,
+    "tum_p99_new_sentence": "The 1940 Air Terminal Museum is a museum located in Houston, Texas, United States, at William P. Hobby Airport.",
+    "tekgen_sentence": "The 1940 Air Terminal Museum is a museum located in Houston, Texas, United States, at William P. Hobby Airport.",
+    "tum_p99_new": [
+      "1940 Air Terminal Museum | country | United States",
+      "1940 Air Terminal Museum | located in the administrative territorial entity | Texas",
+      "1940 Air Terminal Museum | location | Houston",
+      "Texas | located in the administrative territorial entity | United States",
+      "United States | contains the administrative territorial entity | Texas"
+    ],
+    "tekgen": [
+      "1940 Air Terminal Museum | country | United States"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "The Loing is a long river in central France, a left tributary of the Seine.",
+    "wikinre_sentence": "The Loing is a long river in central France , a left tributary of the Seine .",
+    "tum_p99_new": [
+      "Loing | located on linear feature | Seine",
+      "Seine | basin country | France",
+      "Seine | tributary | Loing"
+    ],
+    "wikinre": [
+      "Loing | country | France",
+      "Loing | located on linear feature | Seine",
+      "Loing | mouth of the watercourse | Seine"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "The St. James Civic Centre is a multipurpose recreation complex located in the St. James district of Winnipeg, Manitoba, Canada.",
+    "lagrange_sentence": "The St. James Civic Centre is a multipurpose recreation complex located in the St. James district of Winnipeg, Manitoba, Canada.",
+    "tum_p99_new": [
+      "Canada | contains the administrative territorial entity | Manitoba",
+      "St. James Civic Centre | country | Canada",
+      "St. James Civic Centre | located in the administrative territorial entity | Winnipeg",
+      "Winnipeg | country | Canada",
+      "Winnipeg | part of | Manitoba"
+    ],
+    "lagrange": [
+      "Canada | contains administrative territorial entity | Manitoba",
+      "Manitoba | located in the administrative territorial entity | Canada",
+      "St. James Civic Centre | country | Canada",
+      "St. James Civic Centre | located in the administrative territorial entity | Manitoba",
+      "St. James Civic Centre | located in the administrative territorial entity | Winnipeg",
+      "Winnipeg | country | Canada",
+      "Winnipeg | part of | Manitoba"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Emperor Tomato Ketchup is the fourth studio album by English-French rock band Stereolab.",
+    "lagrange_sentence": "Emperor Tomato Ketchup is the fourth studio album by English-French rock band Stereolab.",
+    "tum_p99_new": [
+      "Emperor Tomato Ketchup | form of creative work | studio album",
+      "Emperor Tomato Ketchup | performer | Stereolab"
+    ],
+    "lagrange": [
+      "Emperor Tomato Ketchup | instance of | album",
+      "Stereolab | instance of | musical group"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Francis I of France was the son of Charles, Count of Angoulême, and Louise of Savoy.",
+    "lagrange_sentence": "Francis I of France was the son of Charles, Count of Angoulême, and Louise of Savoy.",
+    "tum_p99_new": [
+      "Charles | child | Francis I of France",
+      "Charles | noble title | count",
+      "Charles | spouse | Louise of Savoy",
+      "Francis I of France | mother | Louise of Savoy",
+      "Louise of Savoy | spouse | Charles"
+    ],
+    "lagrange": [
+      "Charles | spouse | Louise of Savoy",
+      "Francis I of France | father | Charles",
+      "Francis I of France | mother | Louise of Savoy"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Barchfeld is a village and a former municipality in the Wartburgkreis district of Thuringia, Germany.",
+    "wikinre_sentence": "Barchfeld is a village and a former municipality in the Wartburgkreis district of Thuringia , Germany .",
+    "tum_p99_new": [
+      "Barchfeld | country | Germany",
+      "Germany | contains the administrative territorial entity | Thuringia"
+    ],
+    "wikinre": [
+      "Barchfeld | country | Germany"
+    ]
+  },
+  {
+    "compared_with": "rebel",
+    "same_triples": false,
+    "tum_p99_new_sentence": "The South Fork Kings River is a tributary of the Kings River in the Sierra Nevada of Fresno County, California.",
+    "rebel_sentence": "The South Fork Kings River is a tributary of the Kings River in the Sierra Nevada of Fresno County, California. ",
+    "tum_p99_new": [
+      "California | contains the administrative territorial entity | Fresno County",
+      "Kings River | located in the administrative territorial entity | Fresno County",
+      "Kings River | tributary | South Fork Kings River",
+      "South Fork Kings River | located in the administrative territorial entity | California"
+    ],
+    "rebel": [
+      "California | contains administrative territorial entity | Fresno County, California",
+      "Fresno County, California | located in the administrative territorial entity | California",
+      "Kings River (California) | located in the administrative territorial entity | Fresno County, California",
+      "Kings River (California) | tributary | South Fork Kings River",
+      "Sierra Nevada (U.S.) | located in the administrative territorial entity | California",
+      "South Fork Kings River | located in the administrative territorial entity | California",
+      "South Fork Kings River | mouth of the watercourse | Kings River (California)"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Mort is a fantasy novel by British writer Terry Pratchett.",
+    "wikinre_sentence": "Mort is a fantasy novel by British writer Terry Pratchett .",
+    "tum_p99_new": [
+      "Mort | author | Terry Pratchett",
+      "Mort | form of creative work | novel",
+      "Mort | genre | fantasy",
+      "Terry Pratchett | genre | fantasy",
+      "Terry Pratchett | occupation | writer"
+    ],
+    "wikinre": [
+      "Mort | author | Terry Pratchett"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "The Abukuma River flows north through Fukushima Prefecture's Nakadōri region, past the cities of Shirakawa, Sukagawa, Kōriyama, Nihonmatsu, Date, and Fukushima.",
+    "lagrange_sentence": "The Abukuma River flows north through Fukushima Prefecture's Nakadōri region, past the cities of Shirakawa, Sukagawa, Kōriyama, Nihonmatsu, Date, and Fukushima.",
+    "tum_p99_new": [
+      "Abukuma River | located in the administrative territorial entity | Fukushima Prefecture",
+      "Fukushima Prefecture | contains the administrative territorial entity | Date",
+      "Fukushima Prefecture | contains the administrative territorial entity | Fukushima",
+      "Fukushima Prefecture | contains the administrative territorial entity | Kōriyama",
+      "Fukushima Prefecture | contains the administrative territorial entity | Nihonmatsu",
+      "Fukushima Prefecture | contains the administrative territorial entity | Shirakawa",
+      "Fukushima Prefecture | contains the administrative territorial entity | Sukagawa"
+    ],
+    "lagrange": [
+      "Abukuma River | located in the administrative territorial entity | Fukushima Prefecture",
+      "Fukushima Prefecture | contains administrative territorial entity | Date",
+      "Fukushima Prefecture | contains administrative territorial entity | Nihonmatsu",
+      "Fukushima Prefecture | contains administrative territorial entity | Shirakawa",
+      "Fukushima Prefecture | contains administrative territorial entity | Sukagawa"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": true,
+    "tum_p99_new_sentence": "Akan Volcanic Complex is located within Akan National Park, about 50 km Northwest of Kushiro in eastern Hokkaidō, Japan.",
+    "wikinre_sentence": "Akan Volcanic Complex is located within Akan National Park , about 50 km Northwest of Kushiro in eastern Hokkaidō , Japan .",
+    "tum_p99_new": [
+      "Akan Volcanic Complex | country | Japan"
+    ],
+    "wikinre": [
+      "Akan Volcanic Complex | country | Japan"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Christian IV's Brewhouse (Danish: Christian IV's Bryghus) is a building in Copenhagen, Denmark, dating from 1608.",
+    "lagrange_sentence": "Christian IV's Brewhouse (Danish: Christian IV's Bryghus) is a building in Copenhagen, Denmark, dating from 1608.",
+    "tum_p99_new": [
+      "Christian IV's Brewhouse | country | Denmark",
+      "Denmark | language used | Danish"
+    ],
+    "lagrange": [
+      "Christian IV's Brewhouse | inception | 1608",
+      "Christian IV's Brewhouse | instance of | building",
+      "Copenhagen Municipality | country | Denmark"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Pic de Peguera is a mountain of Catalonia, Spain.",
+    "wikinre_sentence": "Pic de Peguera is a mountain of Catalonia , Spain .",
+    "tum_p99_new": [
+      "Pic de Peguera | country | Spain",
+      "Spain | contains the administrative territorial entity | Catalonia"
+    ],
+    "wikinre": [
+      "Pic de Peguera | country | Spain"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Piz Neir is a mountain of the Albula Alps, overlooking Bivio in the canton of Graubünden.",
+    "wikinre_sentence": "Piz Neir is a mountain of the Albula Alps , overlooking Bivio in the canton of Graubünden .",
+    "tum_p99_new": [
+      "Piz Neir | mountain range | Albula Alps"
+    ],
+    "wikinre": [
+      "Piz Neir | located on terrain feature | Albula Alps",
+      "Piz Neir | part of | Albula Alps"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Palais Hoyos is an Art Nouveau building in the Landstraße district of Vienna, Austria.",
+    "wikinre_sentence": "Palais Hoyos is an Art Nouveau building in the Landstraße district of Vienna , Austria .",
+    "tum_p99_new": [
+      "Austria | contains the administrative territorial entity | Vienna",
+      "Landstraße | located in the administrative territorial entity | Vienna",
+      "Palais Hoyos | country | Austria",
+      "Palais Hoyos | located in the administrative territorial entity | Landstraße",
+      "Palais Hoyos | located in the administrative territorial entity | Vienna",
+      "Vienna | contains the administrative territorial entity | Landstraße",
+      "Vienna | country | Austria",
+      "Vienna | located in the administrative territorial entity | Austria"
+    ],
+    "wikinre": [
+      "Palais Hoyos | architectural style | Art Nouveau",
+      "Palais Hoyos | country | Austria",
+      "Palais Hoyos | located in the administrative territorial entity | Vienna"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Mount Klabat is the highest volcano on Sulawesi island, located in the east of Manado city, North Sulawesi, Indonesia.",
+    "wikinre_sentence": "Mount Klabat is the highest volcano on Sulawesi island , located in the east of Manado city , North Sulawesi , Indonesia .",
+    "tum_p99_new": [
+      "Indonesia | contains the administrative territorial entity | North Sulawesi",
+      "Indonesia | located in/on physical feature | Sulawesi",
+      "Mount Klabat | country | Indonesia",
+      "Mount Klabat | located in/on physical feature | Sulawesi"
+    ],
+    "wikinre": [
+      "Mount Klabat | country | Indonesia",
+      "Mount Klabat | part of | Sulawesi"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Deferoxamine (DFOA), also known as desferrioxamine and sold under the brand name Desferal, is a medication that binds iron and aluminium.",
+    "lagrange_sentence": "Deferoxamine (DFOA), also known as desferrioxamine and sold under the brand name Desferal, is a medication that binds iron and aluminium.",
+    "tum_p99_new": [
+      "Desferal | has active ingredient | deferoxamine",
+      "deferoxamine | active ingredient in | Desferal",
+      "deferoxamine | has use | medication"
+    ],
+    "lagrange": [
+      "deferoxamine | active ingredient in | Desferal",
+      "deferoxamine | instance of | medication"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Mount Pangrango is a dormant stratovolcano located in the Sunda Arc of West Java, Indonesia.",
+    "lagrange_sentence": "Mount Pangrango is a dormant stratovolcano located in the Sunda Arc of West Java, Indonesia.",
+    "tum_p99_new": [
+      "Indonesia | contains the administrative territorial entity | West Java",
+      "Indonesia | located in/on physical feature | Java",
+      "Java | located in the administrative territorial entity | Indonesia",
+      "Mount Pangrango | country | Indonesia",
+      "Mount Pangrango | located in/on physical feature | Java"
+    ],
+    "lagrange": [
+      "Java | country | Indonesia",
+      "Mount Pangrango | country | Indonesia",
+      "Mount Pangrango | instance of | stratovolcano",
+      "Mount Pangrango | located in the administrative territorial entity | Indonesia",
+      "Mount Pangrango | located in/on physical feature | Java"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Lancebranlette is a mountain of Savoie, France and of Aosta Valley, Italy.",
+    "wikinre_sentence": "Lancebranlette is a mountain of Savoie , France and of Aosta Valley , Italy .",
+    "tum_p99_new": [
+      "France | shares border with | Italy",
+      "Italy | contains the administrative territorial entity | Aosta Valley",
+      "Italy | shares border with | France",
+      "Lancebranlette | country | France",
+      "Lancebranlette | country | Italy"
+    ],
+    "wikinre": [
+      "Lancebranlette | country | Italy",
+      "Lancebranlette | located in the administrative territorial entity | Savoie"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Hayden Peak is a peak on the western edge of the High Uintas Wilderness in the Uinta-Wasatch-Cache National Forest in the western Uinta Mountain Range Summit County, Utah, United States.",
+    "lagrange_sentence": "Hayden Peak is a peak on the western edge of the High Uintas Wilderness in the Uinta-Wasatch-Cache National Forest in the western Uinta Mountain Range Summit County, Utah, United States.",
+    "tum_p99_new": [
+      "Hayden Peak | country | United States",
+      "Hayden Peak | located in protected area | High Uintas Wilderness",
+      "Hayden Peak | located in protected area | Wasatch-Cache National Forest",
+      "Hayden Peak | located in the administrative territorial entity | Summit County",
+      "Summit County | located in the administrative territorial entity | Utah",
+      "United States | contains the administrative territorial entity | Utah",
+      "mountain | has part(s) of the class | summit",
+      "mountain | has part(s) | summit",
+      "mountain | part of | mountain range"
+    ],
+    "lagrange": [
+      "Hayden Peak | country | United States of America",
+      "Hayden Peak | located in the administrative territorial entity | Summit County",
+      "Hayden Peak | mountain range | Uinta Mountains",
+      "High Uintas Wilderness | country | United States of America",
+      "High Uintas Wilderness | located in the administrative territorial entity | Summit County",
+      "Summit County | country | United States of America",
+      "Summit County | located in the administrative territorial entity | Utah",
+      "Uinta Mountains | country | United States of America",
+      "Uinta Mountains | located in the administrative territorial entity | Summit County",
+      "United States of America | contains administrative territorial entity | Utah",
+      "Wasatch-Cache National Forest | country | United States of America",
+      "Wasatch-Cache National Forest | located in the administrative territorial entity | Utah"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Lonerism is the second studio album by Australian musical project Tame Impala, released on 5 October 2012 by Modular Recordings.",
+    "lagrange_sentence": "Lonerism is the second studio album by Australian musical project Tame Impala, released on 5 October 2012 by Modular Recordings.",
+    "tum_p99_new": [
+      "Lonerism | form of creative work | studio album",
+      "Lonerism | performer | Tame Impala",
+      "Lonerism | record label | Modular Recordings",
+      "Tame Impala | record label | Modular Recordings"
+    ],
+    "lagrange": [
+      "Lonerism | instance of | album",
+      "Lonerism | performer | Tame Impala",
+      "Lonerism | publication date | 2012",
+      "Lonerism | publication date | 5 October 2012",
+      "Tame Impala | instance of | musical group"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": true,
+    "tum_p99_new_sentence": "Michelle Pfeiffer attended Fountain Valley High School, graduating in 1976.",
+    "wikinre_sentence": "Michelle Pfeiffer attended Fountain Valley High School , graduating in 1976 .",
+    "tum_p99_new": [
+      "Michelle Pfeiffer | educated at | Fountain Valley High School"
+    ],
+    "wikinre": [
+      "Michelle Pfeiffer | educated at | Fountain Valley High School"
+    ]
+  },
+  {
+    "compared_with": "wikinre",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Piz Cambrena is a mountain in the Bernina Range of the Alps, overlooking the Lago Bianco in the canton of Graubünden.",
+    "wikinre_sentence": "Piz Cambrena is a mountain in the Bernina Range of the Alps , overlooking the Lago Bianco in the canton of Graubünden .",
+    "tum_p99_new": [
+      "Piz Cambrena | mountain range | Bernina Range"
+    ],
+    "wikinre": [
+      "Piz Cambrena | located on terrain feature | Bernina Range",
+      "Piz Cambrena | part of | Bernina Range"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "South Durras is a small village on the South Coast of New South Wales, Australia.",
+    "lagrange_sentence": "South Durras is a small village on the South Coast of New South Wales, Australia.",
+    "tum_p99_new": [
+      "Australia | contains the administrative territorial entity | New South Wales",
+      "New South Wales | located in the administrative territorial entity | Australia",
+      "South Durras | country | Australia",
+      "South Durras | located in the administrative territorial entity | New South Wales"
+    ],
+    "lagrange": [
+      "New South Wales | country | Australia",
+      "New South Wales | located in the administrative territorial entity | Australia",
+      "South Durras | located in the administrative territorial entity | New South Wales"
+    ]
+  },
+  {
+    "compared_with": "lagrange",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Adriaen van der Werff (21 January 1659 – 12 November 1722) was a Dutch painter of portraits and erotic, devotional and mythological scenes.",
+    "lagrange_sentence": "Adriaen van der Werff (21 January 1659 – 12 November 1722) was a Dutch painter of portraits and erotic, devotional and mythological scenes.",
+    "tum_p99_new": [
+      "Adriaen van der Werff | occupation | painter"
+    ],
+    "lagrange": [
+      "Adriaen van der Werff | date of birth | 1659",
+      "Adriaen van der Werff | date of birth | 21 January 1659",
+      "Adriaen van der Werff | date of death | 12 November 1722",
+      "Adriaen van der Werff | date of death | 1722",
+      "Adriaen van der Werff | family name | Werff",
+      "Adriaen van der Werff | given name | Adriaen",
+      "Adriaen van der Werff | languages spoken, written or signed | Dutch",
+      "Adriaen van der Werff | occupation | painter"
+    ]
+  },
+  {
+    "compared_with": "rebel",
+    "same_triples": false,
+    "tum_p99_new_sentence": "Palacio Taranco, located in front of the Plaza Zabala, in the heart of the Old City of Montevideo, Uruguay, is a palace erected in the early 20th century during a period in which the architectural style was influenced by French architecture.",
+    "rebel_sentence": "Palacio Taranco, located in front of the Plaza Zabala, in the heart of the Old City of Montevideo, Uruguay, is a palace erected in the early 20th century during a period in which the architectural style was influenced by French architecture. ",
+    "tum_p99_new": [
+      "Montevideo | country | Uruguay",
+      "Palacio Taranco | country | Uruguay",
+      "Palacio Taranco | located in the administrative territorial entity | Montevideo"
+    ],
+    "rebel": [
+      "Montevideo | country | Uruguay",
+      "Palacio Taranco | located in the administrative territorial entity | Montevideo",
+      "Plaza Zabala | located in the administrative territorial entity | Montevideo"
+    ]
+  }
+]

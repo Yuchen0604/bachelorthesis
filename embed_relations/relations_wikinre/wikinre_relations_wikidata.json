@@ -1,0 +1,950 @@
+[
+  {
+    "predicate_label": "country",
+    "predicate_id": "P17",
+    "count": 127670,
+    "wikidata_description": "sovereign state that this subject item is in (not to be used for human beings)"
+  },
+  {
+    "predicate_label": "located in the administrative territorial entity",
+    "predicate_id": "P131",
+    "count": 68533,
+    "wikidata_description": "the item is located on the territory of the following administrative entity. Use P276 for specifying locations that are non-administrative places and for items about events. Use P1382 if the item falls only partially into the administrative entity"
+  },
+  {
+    "predicate_label": "country of citizenship",
+    "predicate_id": "P27",
+    "count": 38904,
+    "wikidata_description": "the object is a country that recognizes the subject as its citizen"
+  },
+  {
+    "predicate_label": "place of birth",
+    "predicate_id": "P19",
+    "count": 19474,
+    "wikidata_description": "most specific known birth location of a person, animal or fictional character"
+  },
+  {
+    "predicate_label": "educated at",
+    "predicate_id": "P69",
+    "count": 16459,
+    "wikidata_description": "educational institution attended by subject"
+  },
+  {
+    "predicate_label": "director",
+    "predicate_id": "P57",
+    "count": 12892,
+    "wikidata_description": "director(s) of film, TV-series, stageplay, video game or similar"
+  },
+  {
+    "predicate_label": "place of death",
+    "predicate_id": "P20",
+    "count": 11729,
+    "wikidata_description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character"
+  },
+  {
+    "predicate_label": "cast member",
+    "predicate_id": "P161",
+    "count": 7064,
+    "wikidata_description": "actor in the subject production [use \"character role\" (P453) and/or \"name of the character role\" (P4633) as qualifiers] [use \"voice actor\" (P725) for voice-only role] - [use \"recorded participant\" (P11108) for non-fiction productions]"
+  },
+  {
+    "predicate_label": "author",
+    "predicate_id": "P50",
+    "count": 4268,
+    "wikidata_description": "main creator(s) of a written work (use on works, not humans); use P2093 (author name string) when Wikidata item is unknown or does not exist"
+  },
+  {
+    "predicate_label": "headquarters location",
+    "predicate_id": "P159",
+    "count": 4170,
+    "wikidata_description": "city or town where an organization's headquarters is or has been situated. Use P276 qualifier for specific building"
+  },
+  {
+    "predicate_label": "screenwriter",
+    "predicate_id": "P58",
+    "count": 4062,
+    "wikidata_description": "person(s) who wrote the script for subject item"
+  },
+  {
+    "predicate_label": "employer",
+    "predicate_id": "P108",
+    "count": 3533,
+    "wikidata_description": "person or organization for which the subject works or worked"
+  },
+  {
+    "predicate_label": "member of sports team",
+    "predicate_id": "P54",
+    "count": 2346,
+    "wikidata_description": "sports teams or clubs that the subject represents or represented"
+  },
+  {
+    "predicate_label": "part of",
+    "predicate_id": "P361",
+    "count": 2152,
+    "wikidata_description": "object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A), inverse property of \"has part\" (P527, see also \"has parts of the class\" (P2670))"
+  },
+  {
+    "predicate_label": "place of burial",
+    "predicate_id": "P119",
+    "count": 1445,
+    "wikidata_description": "location of grave, resting place, place of ash-scattering, etc. (e.g., town/city or cemetery) for a person or animal. There may be several places: e.g., re-burials, parts of body buried separately."
+  },
+  {
+    "predicate_label": "participant in",
+    "predicate_id": "P1344",
+    "count": 1350,
+    "wikidata_description": "event in which a person, organization or creative work was/is a participant; inverse of P710 or P1923"
+  },
+  {
+    "predicate_label": "award received",
+    "predicate_id": "P166",
+    "count": 1101,
+    "wikidata_description": "award or recognition received by a person, organization or creative work"
+  },
+  {
+    "predicate_label": "located on terrain feature",
+    "predicate_id": "P706",
+    "count": 1079,
+    "wikidata_description": "located on the specified (geo)physical feature. Should not be used when the value is only political/administrative (P131) or a mountain range (P4552). Use P206 for things in/on bodies of water."
+  },
+  {
+    "predicate_label": "named after",
+    "predicate_id": "P138",
+    "count": 1056,
+    "wikidata_description": "entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier \"applies to name\" (P5168) can be used to indicate which one"
+  },
+  {
+    "predicate_label": "original language of film or TV show",
+    "predicate_id": "P364",
+    "count": 981,
+    "wikidata_description": "language in which a film or a performance work was originally created. Deprecated for written works and songs; use P407 (\"language of work or name\") instead."
+  },
+  {
+    "predicate_label": "member of",
+    "predicate_id": "P463",
+    "count": 974,
+    "wikidata_description": "organization, club or musical group to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a political position, such as a member of parliament (use P39 for that)"
+  },
+  {
+    "predicate_label": "residence",
+    "predicate_id": "P551",
+    "count": 912,
+    "wikidata_description": "the place where the person is or has been, resident"
+  },
+  {
+    "predicate_label": "country of origin",
+    "predicate_id": "P495",
+    "count": 745,
+    "wikidata_description": "country of origin of this item (creative work, food, phrase, product, etc.)"
+  },
+  {
+    "predicate_label": "producer",
+    "predicate_id": "P162",
+    "count": 614,
+    "wikidata_description": "person(s) who produced the film, musical work, theatrical production, etc. (for film, this does not include executive producers, associate producers, etc.) [for production company, use P272, video games - use P178]"
+  },
+  {
+    "predicate_label": "work location",
+    "predicate_id": "P937",
+    "count": 457,
+    "wikidata_description": "location where persons or organisations were actively participating in employment, business or other work"
+  },
+  {
+    "predicate_label": "place served by transport hub",
+    "predicate_id": "P931",
+    "count": 387,
+    "wikidata_description": "territorial entity or entities served by this transport hub (airport, train station, etc.)"
+  },
+  {
+    "predicate_label": "owned by",
+    "predicate_id": "P127",
+    "count": 354,
+    "wikidata_description": "owner of the subject"
+  },
+  {
+    "predicate_label": "creator",
+    "predicate_id": "P170",
+    "count": 310,
+    "wikidata_description": "maker of this creative work or other object (where no more specific property exists)"
+  },
+  {
+    "predicate_label": "spouse",
+    "predicate_id": "P26",
+    "count": 298,
+    "wikidata_description": "the subject has the object as their spouse (husband, wife, partner, etc.). Use \"unmarried partner\" (P451) for non-married companions"
+  },
+  {
+    "predicate_label": "located in or next to body of water",
+    "predicate_id": "P206",
+    "count": 249,
+    "wikidata_description": "body of water on or next to which a place is located"
+  },
+  {
+    "predicate_label": "crosses",
+    "predicate_id": "P177",
+    "count": 231,
+    "wikidata_description": "obstacle (body of water, road, railway...) which this bridge (ferry, ford) crosses over or this tunnel goes under"
+  },
+  {
+    "predicate_label": "founded by",
+    "predicate_id": "P112",
+    "count": 211,
+    "wikidata_description": "founder or co-founder of this organization, religion, place or entity"
+  },
+  {
+    "predicate_label": "location of formation",
+    "predicate_id": "P740",
+    "count": 191,
+    "wikidata_description": "location where a group or organization was formed"
+  },
+  {
+    "predicate_label": "original broadcaster",
+    "predicate_id": "P449",
+    "count": 186,
+    "wikidata_description": "network(s) or service(s) that originally broadcast a radio or television program"
+  },
+  {
+    "predicate_label": "mouth of the watercourse",
+    "predicate_id": "P403",
+    "count": 170,
+    "wikidata_description": "the body of water to which the watercourse drains"
+  },
+  {
+    "predicate_label": "film editor",
+    "predicate_id": "P1040",
+    "count": 154,
+    "wikidata_description": "person who works with the raw footage, selecting shots and combining them into sequences to create a finished motion picture"
+  },
+  {
+    "predicate_label": "composer",
+    "predicate_id": "P86",
+    "count": 150,
+    "wikidata_description": "person(s) who wrote the music [for lyricist, use \"lyrics by\" (P676)]"
+  },
+  {
+    "predicate_label": "location",
+    "predicate_id": "P276",
+    "count": 147,
+    "wikidata_description": "location of the object, structure or event; use P131 to indicate the containing administrative entity, P8138 for statistical entities, or P706 for geographic entities; use P7153 for locations associated with the object"
+  },
+  {
+    "predicate_label": "student of",
+    "predicate_id": "P1066",
+    "count": 111,
+    "wikidata_description": "person who has taught this person"
+  },
+  {
+    "predicate_label": "production company",
+    "predicate_id": "P272",
+    "count": 111,
+    "wikidata_description": "company that produced this film, audio or performing arts work"
+  },
+  {
+    "predicate_label": "narrative location",
+    "predicate_id": "P840",
+    "count": 101,
+    "wikidata_description": "the narrative of the work is set in this location"
+  },
+  {
+    "predicate_label": "child",
+    "predicate_id": "P40",
+    "count": 101,
+    "wikidata_description": "subject has object as child. Do not use for stepchildren—use \"relative\" (P1038), qualified with \"kinship to subject\" (P1039)"
+  },
+  {
+    "predicate_label": "capital",
+    "predicate_id": "P36",
+    "count": 92,
+    "wikidata_description": "seat of government of a country, province, state or other type of administrative territorial entity"
+  },
+  {
+    "predicate_label": "relative",
+    "predicate_id": "P1038",
+    "count": 89,
+    "wikidata_description": "family member (qualify with \"kinship to subject\", P1039; for direct family member please use specific property)"
+  },
+  {
+    "predicate_label": "operator",
+    "predicate_id": "P137",
+    "count": 88,
+    "wikidata_description": "person, profession, organization or entity that operates the equipment, facility, or service"
+  },
+  {
+    "predicate_label": "unmarried partner",
+    "predicate_id": "P451",
+    "count": 84,
+    "wikidata_description": "someone with whom the person is in a relationship without being married. Use \"spouse\" (P26) for married couples"
+  },
+  {
+    "predicate_label": "architect",
+    "predicate_id": "P84",
+    "count": 82,
+    "wikidata_description": "person or architectural firm responsible for designing this building"
+  },
+  {
+    "predicate_label": "influenced by",
+    "predicate_id": "P737",
+    "count": 77,
+    "wikidata_description": "the subject (person, idea, etc.) was influenced or inspired by this object entity, e.g. \"Heidegger was influenced by Aristotle\""
+  },
+  {
+    "predicate_label": "director of photography",
+    "predicate_id": "P344",
+    "count": 75,
+    "wikidata_description": "person responsible for the framing, lighting, and filtration of the subject work"
+  },
+  {
+    "predicate_label": "distributed by",
+    "predicate_id": "P750",
+    "count": 72,
+    "wikidata_description": "distributor of a creative work; distributor for a record label; news agency; film distributor"
+  },
+  {
+    "predicate_label": "lake outflow",
+    "predicate_id": "P201",
+    "count": 58,
+    "wikidata_description": "rivers and other outflows waterway names. If evaporation or seepage are notable outflows, they may be included. Some terms may not be place names, e.g. evaporation"
+  },
+  {
+    "predicate_label": "conflict",
+    "predicate_id": "P607",
+    "count": 58,
+    "wikidata_description": "battles, wars or other military engagements in which the person or item participated"
+  },
+  {
+    "predicate_label": "doctoral advisor",
+    "predicate_id": "P184",
+    "count": 57,
+    "wikidata_description": "person who supervised the doctorate or PhD thesis of the subject"
+  },
+  {
+    "predicate_label": "religion",
+    "predicate_id": "P140",
+    "count": 50,
+    "wikidata_description": "religion of a person, organization or religious building, or associated with this subject"
+  },
+  {
+    "predicate_label": "member of political party",
+    "predicate_id": "P102",
+    "count": 50,
+    "wikidata_description": "the political party of which a person is or has been a member or otherwise affiliated"
+  },
+  {
+    "predicate_label": "place of detention",
+    "predicate_id": "P2632",
+    "count": 48,
+    "wikidata_description": "place where this person is or was detained"
+  },
+  {
+    "predicate_label": "presenter",
+    "predicate_id": "P371",
+    "count": 47,
+    "wikidata_description": "main role in presenting a radio or television program or a performing arts show"
+  },
+  {
+    "predicate_label": "filming location",
+    "predicate_id": "P915",
+    "count": 46,
+    "wikidata_description": "actual place where this scene/film was shot. For the setting, use \"narrative location\" (P840)"
+  },
+  {
+    "predicate_label": "continent",
+    "predicate_id": "P30",
+    "count": 45,
+    "wikidata_description": "continent of which the subject is a part"
+  },
+  {
+    "predicate_label": "illustrator",
+    "predicate_id": "P110",
+    "count": 45,
+    "wikidata_description": "person drawing the pictures or taking the photographs in a book or similar work"
+  },
+  {
+    "predicate_label": "inflows",
+    "predicate_id": "P200",
+    "count": 43,
+    "wikidata_description": "major inflow sources — rivers, aquifers, glacial runoff, etc. Some terms may not be place names, e.g. none"
+  },
+  {
+    "predicate_label": "position held",
+    "predicate_id": "P39",
+    "count": 42,
+    "wikidata_description": "subject currently or formerly holds the object position or public office"
+  },
+  {
+    "predicate_label": "country for sport",
+    "predicate_id": "P1532",
+    "count": 39,
+    "wikidata_description": "country a person or a team represents when playing a sport"
+  },
+  {
+    "predicate_label": "stock exchange",
+    "predicate_id": "P414",
+    "count": 39,
+    "wikidata_description": "exchange on which this company is traded"
+  },
+  {
+    "predicate_label": "part of the series",
+    "predicate_id": "P179",
+    "count": 38,
+    "wikidata_description": "series which contains the subject"
+  },
+  {
+    "predicate_label": "has part",
+    "predicate_id": "P527",
+    "count": 36,
+    "wikidata_description": "part of this subject; inverse property of \"part of\" (P361). See also \"has parts of the class\" (P2670)."
+  },
+  {
+    "predicate_label": "main subject",
+    "predicate_id": "P921",
+    "count": 35,
+    "wikidata_description": "primary topic of a work or act of communication"
+  },
+  {
+    "predicate_label": "based on",
+    "predicate_id": "P144",
+    "count": 32,
+    "wikidata_description": "the work(s) or inputs used as the basis for subject item; for fictional analog use P1074"
+  },
+  {
+    "predicate_label": "shares border with",
+    "predicate_id": "P47",
+    "count": 32,
+    "wikidata_description": "countries or administrative subdivisions, of equal level, that this item borders, either by land or water. A single common point is enough."
+  },
+  {
+    "predicate_label": "executive producer",
+    "predicate_id": "P1431",
+    "count": 31,
+    "wikidata_description": "executive producer of a movie, TV show, or other piece of media or entertainment"
+  },
+  {
+    "predicate_label": "publisher",
+    "predicate_id": "P123",
+    "count": 30,
+    "wikidata_description": "organization or person responsible for publishing a work, such as a book, periodical, printed music, podcast, game or software"
+  },
+  {
+    "predicate_label": "after a work by",
+    "predicate_id": "P1877",
+    "count": 28,
+    "wikidata_description": "artist whose work strongly inspired / was copied in this item"
+  },
+  {
+    "predicate_label": "located in protected area",
+    "predicate_id": "P3018",
+    "count": 25,
+    "wikidata_description": "protected area where a place or geographical feature is physically located"
+  },
+  {
+    "predicate_label": "sport",
+    "predicate_id": "P641",
+    "count": 24,
+    "wikidata_description": "sport that the subject participates or participated in or is associated with"
+  },
+  {
+    "predicate_label": "basin country",
+    "predicate_id": "P205",
+    "count": 23,
+    "wikidata_description": "country that have drainage to/from or border the body of water"
+  },
+  {
+    "predicate_label": "parent organization",
+    "predicate_id": "P749",
+    "count": 21,
+    "wikidata_description": "parent organization or unit of an organization or unit, opposite of child organization or unit (P355); use instance of (P31) to distinguish organization (Q43229) and organization unit (Q10387680)"
+  },
+  {
+    "predicate_label": "connecting line",
+    "predicate_id": "P81",
+    "count": 17,
+    "wikidata_description": "railway line(s) subject is directly connected to"
+  },
+  {
+    "predicate_label": "head coach",
+    "predicate_id": "P286",
+    "count": 15,
+    "wikidata_description": "on-field manager or head coach of a sports club (not to be confused with a general manager P505, which is not a coaching position) or person"
+  },
+  {
+    "predicate_label": "time period",
+    "predicate_id": "P2348",
+    "count": 14,
+    "wikidata_description": "time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred or with which it is associated"
+  },
+  {
+    "predicate_label": "chief executive officer",
+    "predicate_id": "P169",
+    "count": 13,
+    "wikidata_description": "highest-ranking corporate officer appointed as the CEO within an organization"
+  },
+  {
+    "predicate_label": "location of creation",
+    "predicate_id": "P1071",
+    "count": 13,
+    "wikidata_description": "place where the item was conceived or made; where applicable, location of final assembly"
+  },
+  {
+    "predicate_label": "subsidiary",
+    "predicate_id": "P355",
+    "count": 12,
+    "wikidata_description": "child organization/unit of an org./unit; usually a fully owned separate org.; for non-independent sub-units, see org. division (P199); opposite of parent org./unit (P749); use instance of (P31) to distinguish org. (Q43229) and org. unit (Q10387680)"
+  },
+  {
+    "predicate_label": "languages spoken, written or signed",
+    "predicate_id": "P1412",
+    "count": 12,
+    "wikidata_description": "language(s) that a person or a people speaks, writes or signs, including the native language(s)"
+  },
+  {
+    "predicate_label": "notable work",
+    "predicate_id": "P800",
+    "count": 12,
+    "wikidata_description": "notable scientific, artistic or literary work, or other work of significance among subject's works"
+  },
+  {
+    "predicate_label": "chairperson",
+    "predicate_id": "P488",
+    "count": 12,
+    "wikidata_description": "presiding member of an organization, group or body"
+  },
+  {
+    "predicate_label": "occupant",
+    "predicate_id": "P466",
+    "count": 11,
+    "wikidata_description": "person or organization occupying property"
+  },
+  {
+    "predicate_label": "manufacturer",
+    "predicate_id": "P176",
+    "count": 11,
+    "wikidata_description": "(main or final) manufacturer or producer of this product"
+  },
+  {
+    "predicate_label": "voice actor",
+    "predicate_id": "P725",
+    "count": 10,
+    "wikidata_description": "performer of a spoken role in a creative work such as animation, video game, radio drama, or dubbing over [use \"character role\" (P453) as qualifier] [use \"cast member\" (P161) for live acting]"
+  },
+  {
+    "predicate_label": "military branch",
+    "predicate_id": "P241",
+    "count": 10,
+    "wikidata_description": "branch to which this military unit, award, office, or person belongs, e.g. Royal Navy"
+  },
+  {
+    "predicate_label": "student",
+    "predicate_id": "P802",
+    "count": 10,
+    "wikidata_description": "notable student(s) of the subject individual"
+  },
+  {
+    "predicate_label": "partner in business or sport",
+    "predicate_id": "P1327",
+    "count": 10,
+    "wikidata_description": "professional collaborator"
+  },
+  {
+    "predicate_label": "killed by",
+    "predicate_id": "P157",
+    "count": 9,
+    "wikidata_description": "person or organization who killed the subject"
+  },
+  {
+    "predicate_label": "characters",
+    "predicate_id": "P674",
+    "count": 8,
+    "wikidata_description": "characters which appear in this item (like plays, operas, operettas, books, comics, films, TV series, video games)"
+  },
+  {
+    "predicate_label": "production designer",
+    "predicate_id": "P2554",
+    "count": 8,
+    "wikidata_description": "person(s) responsible for overall aesthetic of the story of this motion picture, play, video game or similar; responsible for visual concept, producing interior, exterior, location, graphics, etc; deals with many and varied logistic related to this"
+  },
+  {
+    "predicate_label": "genre",
+    "predicate_id": "P136",
+    "count": 7,
+    "wikidata_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic"
+  },
+  {
+    "predicate_label": "described by source",
+    "predicate_id": "P1343",
+    "count": 7,
+    "wikidata_description": "work where this item is described, in statistical contexts, a methodological note describing the data"
+  },
+  {
+    "predicate_label": "allegiance",
+    "predicate_id": "P945",
+    "count": 7,
+    "wikidata_description": "country (or other power) that the person or group serves"
+  },
+  {
+    "predicate_label": "family",
+    "predicate_id": "P53",
+    "count": 7,
+    "wikidata_description": "family, including dynasty and nobility houses. Not family name (use P734 for family name)."
+  },
+  {
+    "predicate_label": "record label",
+    "predicate_id": "P264",
+    "count": 7,
+    "wikidata_description": "brand and trademark associated with the marketing of subject music recordings and music videos"
+  },
+  {
+    "predicate_label": "heritage designation",
+    "predicate_id": "P1435",
+    "count": 7,
+    "wikidata_description": "heritage designation of a cultural or natural site"
+  },
+  {
+    "predicate_label": "archives at",
+    "predicate_id": "P485",
+    "count": 5,
+    "wikidata_description": "the institution holding the subject's archives"
+  },
+  {
+    "predicate_label": "performer",
+    "predicate_id": "P175",
+    "count": 5,
+    "wikidata_description": "actor, musician, band or other performer associated with this role or musical work"
+  },
+  {
+    "predicate_label": "terminus location",
+    "predicate_id": "P609",
+    "count": 5,
+    "wikidata_description": "location of the terminus of a linear feature"
+  },
+  {
+    "predicate_label": "religious order",
+    "predicate_id": "P611",
+    "count": 5,
+    "wikidata_description": "order of monks or nuns to which an individual, religious house, or rule belongs"
+  },
+  {
+    "predicate_label": "culture",
+    "predicate_id": "P2596",
+    "count": 4,
+    "wikidata_description": "human culture or people (or several cultures) associated with this item"
+  },
+  {
+    "predicate_label": "lyrics by",
+    "predicate_id": "P676",
+    "count": 4,
+    "wikidata_description": "author of song lyrics"
+  },
+  {
+    "predicate_label": "occupation",
+    "predicate_id": "P106",
+    "count": 4,
+    "wikidata_description": "occupation of a person. See also \"field of work\" (Property:P101), \"position held\" (Property:P39). Not for groups of people. There, use \"field of work\" (Property:P101), \"industry\" (Property:P452), \"members have occupation\" (Property:P3989)."
+  },
+  {
+    "predicate_label": "followed by",
+    "predicate_id": "P156",
+    "count": 4,
+    "wikidata_description": "immediately following item in a series of which the subject is a part, preferably use as qualifier of P179 [if the subject has been replaced, e.g. political offices, use \"replaced by\" (P1366)]"
+  },
+  {
+    "predicate_label": "designed by",
+    "predicate_id": "P287",
+    "count": 3,
+    "wikidata_description": "person or organization which designed the object. For buildings use \"architect\" (Property:P84)"
+  },
+  {
+    "predicate_label": "maintained by",
+    "predicate_id": "P126",
+    "count": 3,
+    "wikidata_description": "person or organization in charge of keeping the subject (for instance an infrastructure) in functioning order"
+  },
+  {
+    "predicate_label": "head of government",
+    "predicate_id": "P6",
+    "count": 3,
+    "wikidata_description": "head of the executive power of this town, city, municipality, state, country, or other governmental body"
+  },
+  {
+    "predicate_label": "cause of death",
+    "predicate_id": "P509",
+    "count": 3,
+    "wikidata_description": "underlying or immediate cause of death. Underlying cause (e.g. car accident, stomach cancer) preferred. Use 'manner of death' (P1196) for broadest category, e.g. natural causes, accident, homicide, suicide"
+  },
+  {
+    "predicate_label": "lowest point",
+    "predicate_id": "P1589",
+    "count": 3,
+    "wikidata_description": "point with lowest elevation in a region or path"
+  },
+  {
+    "predicate_label": "diocese",
+    "predicate_id": "P708",
+    "count": 3,
+    "wikidata_description": "administrative division of the church to which the element belongs; use P5607 for other types of ecclesiastical territorial entities"
+  },
+  {
+    "predicate_label": "drafted by",
+    "predicate_id": "P647",
+    "count": 3,
+    "wikidata_description": "which team the player was drafted by"
+  },
+  {
+    "predicate_label": "capital of",
+    "predicate_id": "P1376",
+    "count": 3,
+    "wikidata_description": "country, state, department, canton or other administrative division of which the municipality is the governmental seat"
+  },
+  {
+    "predicate_label": "located on street",
+    "predicate_id": "P669",
+    "count": 3,
+    "wikidata_description": "street, road, square, or trail, where the item is located. To add the number, use Property:P670 \"house number\" as qualifier. Use property P6375 \"street address\", if there is no item for the street"
+  },
+  {
+    "predicate_label": "connecting service",
+    "predicate_id": "P1192",
+    "count": 3,
+    "wikidata_description": "service stopping at a station"
+  },
+  {
+    "predicate_label": "carries",
+    "predicate_id": "P2505",
+    "count": 3,
+    "wikidata_description": "thoroughfare carried by a bridge, tunnel, or mountain pass"
+  },
+  {
+    "predicate_label": "father",
+    "predicate_id": "P22",
+    "count": 3,
+    "wikidata_description": "male parent of the subject. For stepfather, use \"stepparent\" (P3448)"
+  },
+  {
+    "predicate_label": "backup or reserve team or crew",
+    "predicate_id": "P3015",
+    "count": 3,
+    "wikidata_description": "team or crew that is kept ready to act as reserve"
+  },
+  {
+    "predicate_label": "doctoral student",
+    "predicate_id": "P185",
+    "count": 2,
+    "wikidata_description": "doctoral student(s) of a professor"
+  },
+  {
+    "predicate_label": "place of origin (Switzerland)",
+    "predicate_id": "P1321",
+    "count": 2,
+    "wikidata_description": "lieu d'origine/Heimatort/luogo d'origine of a Swiss national. Not be confused with place of birth or place of residence"
+  },
+  {
+    "predicate_label": "mother house",
+    "predicate_id": "P612",
+    "count": 2,
+    "wikidata_description": "principal house or community for a religious institute"
+  },
+  {
+    "predicate_label": "cover art by",
+    "predicate_id": "P736",
+    "count": 2,
+    "wikidata_description": "name of person or team creating cover artwork for book, record album, single record etc."
+  },
+  {
+    "predicate_label": "contains settlement",
+    "predicate_id": "P1383",
+    "count": 2,
+    "wikidata_description": "settlement which an administrative division contains"
+  },
+  {
+    "predicate_label": "sibling",
+    "predicate_id": "P3373",
+    "count": 2,
+    "wikidata_description": "the subject and the object have at least one common parent (brother, sister, etc. including half-siblings); use \"relative\" (P1038) for siblings-in-law (brother-in-law, sister-in-law, etc.) and step-siblings (step-brothers, step-sisters, etc.)"
+  },
+  {
+    "predicate_label": "origin of the watercourse",
+    "predicate_id": "P885",
+    "count": 2,
+    "wikidata_description": "main source of a river, stream or lake"
+  },
+  {
+    "predicate_label": "librettist",
+    "predicate_id": "P87",
+    "count": 2,
+    "wikidata_description": "author of the libretto (words) of an opera, operetta, oratorio or cantata, or of the book of a musical"
+  },
+  {
+    "predicate_label": "language of work or name",
+    "predicate_id": "P407",
+    "count": 2,
+    "wikidata_description": "language associated with this creative work (such as books, shows, songs, broadcasts or websites) or a name (for persons use \"native language\" (P103) and \"languages spoken, written or signed\" (P1412))"
+  },
+  {
+    "predicate_label": "narrator",
+    "predicate_id": "P2438",
+    "count": 2,
+    "wikidata_description": "narrator, character or person that tells the story"
+  },
+  {
+    "predicate_label": "film crew member",
+    "predicate_id": "P3092",
+    "count": 2,
+    "wikidata_description": "member of the crew creating an audiovisual work, used for miscellaneous roles qualified with the job title when no specific property exists. Don't use if such a property is available: notably for cast member (P161), director (P57), etc."
+  },
+  {
+    "predicate_label": "exclave of",
+    "predicate_id": "P500",
+    "count": 2,
+    "wikidata_description": "territory is legally or politically attached to a main territory with which it is not physically contiguous because of surrounding alien territory. It may also be an enclave."
+  },
+  {
+    "predicate_label": "movement",
+    "predicate_id": "P135",
+    "count": 2,
+    "wikidata_description": "literary, artistic, scientific or philosophical movement or scene associated with this person or work. For political ideologies use P1142."
+  },
+  {
+    "predicate_label": "twinned administrative body",
+    "predicate_id": "P190",
+    "count": 1,
+    "wikidata_description": "twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments"
+  },
+  {
+    "predicate_label": "affiliation",
+    "predicate_id": "P1416",
+    "count": 1,
+    "wikidata_description": "organization that a person or organization is affiliated with (not necessarily member of or employed by)"
+  },
+  {
+    "predicate_label": "broadcast by",
+    "predicate_id": "P3301",
+    "count": 1,
+    "wikidata_description": "channel, network, website or service that broadcast this item over radio, television or the Internet"
+  },
+  {
+    "predicate_label": "adjacent station",
+    "predicate_id": "P197",
+    "count": 1,
+    "wikidata_description": "the stations next to this station, sharing the same line(s)"
+  },
+  {
+    "predicate_label": "located on linear feature",
+    "predicate_id": "P795",
+    "count": 1,
+    "wikidata_description": "linear feature along which distance is specified from a specified datum point"
+  },
+  {
+    "predicate_label": "highway system",
+    "predicate_id": "P16",
+    "count": 1,
+    "wikidata_description": "network the infrastructure is a part of"
+  },
+  {
+    "predicate_label": "subclass of",
+    "predicate_id": "P279",
+    "count": 1,
+    "wikidata_description": "this item is a subclass (subset) of that item; ALL instances of this item are instances of that item; different from P31 (instance of), e.g.: volcano is a subclass of mountain; Everest is an instance of mountain"
+  },
+  {
+    "predicate_label": "located on astronomical body",
+    "predicate_id": "P376",
+    "count": 1,
+    "wikidata_description": "single astronomical body on which features or places are situated"
+  },
+  {
+    "predicate_label": "canonization status",
+    "predicate_id": "P411",
+    "count": 1,
+    "wikidata_description": "formal stage in the process of attaining sainthood per the subject's religious organization"
+  },
+  {
+    "predicate_label": "place of publication",
+    "predicate_id": "P291",
+    "count": 1,
+    "wikidata_description": "geographical place of publication of the edition (use 1st edition when referring to works)"
+  },
+  {
+    "predicate_label": "board member",
+    "predicate_id": "P3320",
+    "count": 1,
+    "wikidata_description": "member(s) of the board for an organization"
+  },
+  {
+    "predicate_label": "participant",
+    "predicate_id": "P710",
+    "count": 1,
+    "wikidata_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject). Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams."
+  },
+  {
+    "predicate_label": "home port",
+    "predicate_id": "P504",
+    "count": 1,
+    "wikidata_description": "shipping port of the vessel (if different from \"ship registry\"): For civilian ships, the primary port from which the ship operates. Port of registry →P532 should be listed in \"Ship registry\". For warships, this will be the ship's assigned naval base"
+  },
+  {
+    "predicate_label": "winner",
+    "predicate_id": "P1346",
+    "count": 1,
+    "wikidata_description": "winner of a competition or similar event, not to be used from the awardees record (instead use \"award received\" (P166), possibly qualified with \"for work\" (P1686)) nor for wars or battles"
+  },
+  {
+    "predicate_label": "airline hub",
+    "predicate_id": "P113",
+    "count": 1,
+    "wikidata_description": "airport that serves as a hub for an airline"
+  },
+  {
+    "predicate_label": "commander of (DEPRECATED)",
+    "predicate_id": "P598",
+    "count": 1,
+    "wikidata_description": "for persons who are notable as commanding officers, the units they commanded"
+  },
+  {
+    "predicate_label": "nominated for",
+    "predicate_id": "P1411",
+    "count": 1,
+    "wikidata_description": "award nomination received by a person, organisation or creative work (inspired from \"award received\" (Property:P166))"
+  },
+  {
+    "predicate_label": "recorded at studio or venue",
+    "predicate_id": "P483",
+    "count": 1,
+    "wikidata_description": "studio or location where a musical composition/release was recorded"
+  },
+  {
+    "predicate_label": "dedicated to",
+    "predicate_id": "P825",
+    "count": 1,
+    "wikidata_description": "person or organization to whom the subject was dedicated"
+  },
+  {
+    "predicate_label": "patron saint",
+    "predicate_id": "P417",
+    "count": 1,
+    "wikidata_description": "patron saint adopted by the subject"
+  },
+  {
+    "predicate_label": "architectural style",
+    "predicate_id": "P149",
+    "count": 1,
+    "wikidata_description": "architectural style of a structure"
+  },
+  {
+    "predicate_label": "follows",
+    "predicate_id": "P155",
+    "count": 1,
+    "wikidata_description": "immediately prior item in a series of which the subject is a part, preferably use as qualifier of P179 [if the subject has replaced the preceding item, e.g. political offices, use \"replaces\" (P1365)]"
+  },
+  {
+    "predicate_label": "main building contractor",
+    "predicate_id": "P193",
+    "count": 1,
+    "wikidata_description": "the main organization (or person) responsible for construction of this structure or building"
+  },
+  {
+    "predicate_label": "noble title",
+    "predicate_id": "P97",
+    "count": 1,
+    "wikidata_description": "titles held by the person"
+  }
+]

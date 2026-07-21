@@ -1,0 +1,792 @@
+[
+  {
+    "predicate_label": "country",
+    "predicate_id": "P17",
+    "count": 127670
+  },
+  {
+    "predicate_label": "located in the administrative territorial entity",
+    "predicate_id": "P131",
+    "count": 68533
+  },
+  {
+    "predicate_label": "country of citizenship",
+    "predicate_id": "P27",
+    "count": 38904
+  },
+  {
+    "predicate_label": "place of birth",
+    "predicate_id": "P19",
+    "count": 19474
+  },
+  {
+    "predicate_label": "educated at",
+    "predicate_id": "P69",
+    "count": 16459
+  },
+  {
+    "predicate_label": "director",
+    "predicate_id": "P57",
+    "count": 12892
+  },
+  {
+    "predicate_label": "place of death",
+    "predicate_id": "P20",
+    "count": 11729
+  },
+  {
+    "predicate_label": "cast member",
+    "predicate_id": "P161",
+    "count": 7064
+  },
+  {
+    "predicate_label": "author",
+    "predicate_id": "P50",
+    "count": 4268
+  },
+  {
+    "predicate_label": "headquarters location",
+    "predicate_id": "P159",
+    "count": 4170
+  },
+  {
+    "predicate_label": "screenwriter",
+    "predicate_id": "P58",
+    "count": 4062
+  },
+  {
+    "predicate_label": "employer",
+    "predicate_id": "P108",
+    "count": 3533
+  },
+  {
+    "predicate_label": "member of sports team",
+    "predicate_id": "P54",
+    "count": 2346
+  },
+  {
+    "predicate_label": "part of",
+    "predicate_id": "P361",
+    "count": 2152
+  },
+  {
+    "predicate_label": "place of burial",
+    "predicate_id": "P119",
+    "count": 1445
+  },
+  {
+    "predicate_label": "participant in",
+    "predicate_id": "P1344",
+    "count": 1350
+  },
+  {
+    "predicate_label": "award received",
+    "predicate_id": "P166",
+    "count": 1101
+  },
+  {
+    "predicate_label": "located on terrain feature",
+    "predicate_id": "P706",
+    "count": 1079
+  },
+  {
+    "predicate_label": "named after",
+    "predicate_id": "P138",
+    "count": 1056
+  },
+  {
+    "predicate_label": "original language of film or TV show",
+    "predicate_id": "P364",
+    "count": 981
+  },
+  {
+    "predicate_label": "member of",
+    "predicate_id": "P463",
+    "count": 974
+  },
+  {
+    "predicate_label": "residence",
+    "predicate_id": "P551",
+    "count": 912
+  },
+  {
+    "predicate_label": "country of origin",
+    "predicate_id": "P495",
+    "count": 745
+  },
+  {
+    "predicate_label": "producer",
+    "predicate_id": "P162",
+    "count": 614
+  },
+  {
+    "predicate_label": "work location",
+    "predicate_id": "P937",
+    "count": 457
+  },
+  {
+    "predicate_label": "place served by transport hub",
+    "predicate_id": "P931",
+    "count": 387
+  },
+  {
+    "predicate_label": "owned by",
+    "predicate_id": "P127",
+    "count": 354
+  },
+  {
+    "predicate_label": "creator",
+    "predicate_id": "P170",
+    "count": 310
+  },
+  {
+    "predicate_label": "spouse",
+    "predicate_id": "P26",
+    "count": 298
+  },
+  {
+    "predicate_label": "located in or next to body of water",
+    "predicate_id": "P206",
+    "count": 249
+  },
+  {
+    "predicate_label": "crosses",
+    "predicate_id": "P177",
+    "count": 231
+  },
+  {
+    "predicate_label": "founded by",
+    "predicate_id": "P112",
+    "count": 211
+  },
+  {
+    "predicate_label": "location of formation",
+    "predicate_id": "P740",
+    "count": 191
+  },
+  {
+    "predicate_label": "original broadcaster",
+    "predicate_id": "P449",
+    "count": 186
+  },
+  {
+    "predicate_label": "mouth of the watercourse",
+    "predicate_id": "P403",
+    "count": 170
+  },
+  {
+    "predicate_label": "film editor",
+    "predicate_id": "P1040",
+    "count": 154
+  },
+  {
+    "predicate_label": "composer",
+    "predicate_id": "P86",
+    "count": 150
+  },
+  {
+    "predicate_label": "location",
+    "predicate_id": "P276",
+    "count": 147
+  },
+  {
+    "predicate_label": "student of",
+    "predicate_id": "P1066",
+    "count": 111
+  },
+  {
+    "predicate_label": "production company",
+    "predicate_id": "P272",
+    "count": 111
+  },
+  {
+    "predicate_label": "narrative location",
+    "predicate_id": "P840",
+    "count": 101
+  },
+  {
+    "predicate_label": "child",
+    "predicate_id": "P40",
+    "count": 101
+  },
+  {
+    "predicate_label": "capital",
+    "predicate_id": "P36",
+    "count": 92
+  },
+  {
+    "predicate_label": "relative",
+    "predicate_id": "P1038",
+    "count": 89
+  },
+  {
+    "predicate_label": "operator",
+    "predicate_id": "P137",
+    "count": 88
+  },
+  {
+    "predicate_label": "unmarried partner",
+    "predicate_id": "P451",
+    "count": 84
+  },
+  {
+    "predicate_label": "architect",
+    "predicate_id": "P84",
+    "count": 82
+  },
+  {
+    "predicate_label": "influenced by",
+    "predicate_id": "P737",
+    "count": 77
+  },
+  {
+    "predicate_label": "director of photography",
+    "predicate_id": "P344",
+    "count": 75
+  },
+  {
+    "predicate_label": "distributed by",
+    "predicate_id": "P750",
+    "count": 72
+  },
+  {
+    "predicate_label": "lake outflow",
+    "predicate_id": "P201",
+    "count": 58
+  },
+  {
+    "predicate_label": "conflict",
+    "predicate_id": "P607",
+    "count": 58
+  },
+  {
+    "predicate_label": "doctoral advisor",
+    "predicate_id": "P184",
+    "count": 57
+  },
+  {
+    "predicate_label": "religion",
+    "predicate_id": "P140",
+    "count": 50
+  },
+  {
+    "predicate_label": "member of political party",
+    "predicate_id": "P102",
+    "count": 50
+  },
+  {
+    "predicate_label": "place of detention",
+    "predicate_id": "P2632",
+    "count": 48
+  },
+  {
+    "predicate_label": "presenter",
+    "predicate_id": "P371",
+    "count": 47
+  },
+  {
+    "predicate_label": "filming location",
+    "predicate_id": "P915",
+    "count": 46
+  },
+  {
+    "predicate_label": "continent",
+    "predicate_id": "P30",
+    "count": 45
+  },
+  {
+    "predicate_label": "illustrator",
+    "predicate_id": "P110",
+    "count": 45
+  },
+  {
+    "predicate_label": "inflows",
+    "predicate_id": "P200",
+    "count": 43
+  },
+  {
+    "predicate_label": "position held",
+    "predicate_id": "P39",
+    "count": 42
+  },
+  {
+    "predicate_label": "country for sport",
+    "predicate_id": "P1532",
+    "count": 39
+  },
+  {
+    "predicate_label": "stock exchange",
+    "predicate_id": "P414",
+    "count": 39
+  },
+  {
+    "predicate_label": "part of the series",
+    "predicate_id": "P179",
+    "count": 38
+  },
+  {
+    "predicate_label": "has part",
+    "predicate_id": "P527",
+    "count": 36
+  },
+  {
+    "predicate_label": "main subject",
+    "predicate_id": "P921",
+    "count": 35
+  },
+  {
+    "predicate_label": "based on",
+    "predicate_id": "P144",
+    "count": 32
+  },
+  {
+    "predicate_label": "shares border with",
+    "predicate_id": "P47",
+    "count": 32
+  },
+  {
+    "predicate_label": "executive producer",
+    "predicate_id": "P1431",
+    "count": 31
+  },
+  {
+    "predicate_label": "publisher",
+    "predicate_id": "P123",
+    "count": 30
+  },
+  {
+    "predicate_label": "after a work by",
+    "predicate_id": "P1877",
+    "count": 28
+  },
+  {
+    "predicate_label": "located in protected area",
+    "predicate_id": "P3018",
+    "count": 25
+  },
+  {
+    "predicate_label": "sport",
+    "predicate_id": "P641",
+    "count": 24
+  },
+  {
+    "predicate_label": "basin country",
+    "predicate_id": "P205",
+    "count": 23
+  },
+  {
+    "predicate_label": "parent organization",
+    "predicate_id": "P749",
+    "count": 21
+  },
+  {
+    "predicate_label": "connecting line",
+    "predicate_id": "P81",
+    "count": 17
+  },
+  {
+    "predicate_label": "head coach",
+    "predicate_id": "P286",
+    "count": 15
+  },
+  {
+    "predicate_label": "time period",
+    "predicate_id": "P2348",
+    "count": 14
+  },
+  {
+    "predicate_label": "chief executive officer",
+    "predicate_id": "P169",
+    "count": 13
+  },
+  {
+    "predicate_label": "location of creation",
+    "predicate_id": "P1071",
+    "count": 13
+  },
+  {
+    "predicate_label": "subsidiary",
+    "predicate_id": "P355",
+    "count": 12
+  },
+  {
+    "predicate_label": "languages spoken, written or signed",
+    "predicate_id": "P1412",
+    "count": 12
+  },
+  {
+    "predicate_label": "notable work",
+    "predicate_id": "P800",
+    "count": 12
+  },
+  {
+    "predicate_label": "chairperson",
+    "predicate_id": "P488",
+    "count": 12
+  },
+  {
+    "predicate_label": "occupant",
+    "predicate_id": "P466",
+    "count": 11
+  },
+  {
+    "predicate_label": "manufacturer",
+    "predicate_id": "P176",
+    "count": 11
+  },
+  {
+    "predicate_label": "voice actor",
+    "predicate_id": "P725",
+    "count": 10
+  },
+  {
+    "predicate_label": "military branch",
+    "predicate_id": "P241",
+    "count": 10
+  },
+  {
+    "predicate_label": "student",
+    "predicate_id": "P802",
+    "count": 10
+  },
+  {
+    "predicate_label": "partner in business or sport",
+    "predicate_id": "P1327",
+    "count": 10
+  },
+  {
+    "predicate_label": "killed by",
+    "predicate_id": "P157",
+    "count": 9
+  },
+  {
+    "predicate_label": "characters",
+    "predicate_id": "P674",
+    "count": 8
+  },
+  {
+    "predicate_label": "production designer",
+    "predicate_id": "P2554",
+    "count": 8
+  },
+  {
+    "predicate_label": "genre",
+    "predicate_id": "P136",
+    "count": 7
+  },
+  {
+    "predicate_label": "described by source",
+    "predicate_id": "P1343",
+    "count": 7
+  },
+  {
+    "predicate_label": "allegiance",
+    "predicate_id": "P945",
+    "count": 7
+  },
+  {
+    "predicate_label": "family",
+    "predicate_id": "P53",
+    "count": 7
+  },
+  {
+    "predicate_label": "record label",
+    "predicate_id": "P264",
+    "count": 7
+  },
+  {
+    "predicate_label": "heritage designation",
+    "predicate_id": "P1435",
+    "count": 7
+  },
+  {
+    "predicate_label": "archives at",
+    "predicate_id": "P485",
+    "count": 5
+  },
+  {
+    "predicate_label": "performer",
+    "predicate_id": "P175",
+    "count": 5
+  },
+  {
+    "predicate_label": "terminus location",
+    "predicate_id": "P609",
+    "count": 5
+  },
+  {
+    "predicate_label": "religious order",
+    "predicate_id": "P611",
+    "count": 5
+  },
+  {
+    "predicate_label": "culture",
+    "predicate_id": "P2596",
+    "count": 4
+  },
+  {
+    "predicate_label": "lyrics by",
+    "predicate_id": "P676",
+    "count": 4
+  },
+  {
+    "predicate_label": "occupation",
+    "predicate_id": "P106",
+    "count": 4
+  },
+  {
+    "predicate_label": "followed by",
+    "predicate_id": "P156",
+    "count": 4
+  },
+  {
+    "predicate_label": "designed by",
+    "predicate_id": "P287",
+    "count": 3
+  },
+  {
+    "predicate_label": "maintained by",
+    "predicate_id": "P126",
+    "count": 3
+  },
+  {
+    "predicate_label": "head of government",
+    "predicate_id": "P6",
+    "count": 3
+  },
+  {
+    "predicate_label": "cause of death",
+    "predicate_id": "P509",
+    "count": 3
+  },
+  {
+    "predicate_label": "lowest point",
+    "predicate_id": "P1589",
+    "count": 3
+  },
+  {
+    "predicate_label": "diocese",
+    "predicate_id": "P708",
+    "count": 3
+  },
+  {
+    "predicate_label": "drafted by",
+    "predicate_id": "P647",
+    "count": 3
+  },
+  {
+    "predicate_label": "capital of",
+    "predicate_id": "P1376",
+    "count": 3
+  },
+  {
+    "predicate_label": "located on street",
+    "predicate_id": "P669",
+    "count": 3
+  },
+  {
+    "predicate_label": "connecting service",
+    "predicate_id": "P1192",
+    "count": 3
+  },
+  {
+    "predicate_label": "carries",
+    "predicate_id": "P2505",
+    "count": 3
+  },
+  {
+    "predicate_label": "father",
+    "predicate_id": "P22",
+    "count": 3
+  },
+  {
+    "predicate_label": "backup or reserve team or crew",
+    "predicate_id": "P3015",
+    "count": 3
+  },
+  {
+    "predicate_label": "doctoral student",
+    "predicate_id": "P185",
+    "count": 2
+  },
+  {
+    "predicate_label": "place of origin (Switzerland)",
+    "predicate_id": "P1321",
+    "count": 2
+  },
+  {
+    "predicate_label": "mother house",
+    "predicate_id": "P612",
+    "count": 2
+  },
+  {
+    "predicate_label": "cover art by",
+    "predicate_id": "P736",
+    "count": 2
+  },
+  {
+    "predicate_label": "contains settlement",
+    "predicate_id": "P1383",
+    "count": 2
+  },
+  {
+    "predicate_label": "sibling",
+    "predicate_id": "P3373",
+    "count": 2
+  },
+  {
+    "predicate_label": "origin of the watercourse",
+    "predicate_id": "P885",
+    "count": 2
+  },
+  {
+    "predicate_label": "librettist",
+    "predicate_id": "P87",
+    "count": 2
+  },
+  {
+    "predicate_label": "language of work or name",
+    "predicate_id": "P407",
+    "count": 2
+  },
+  {
+    "predicate_label": "narrator",
+    "predicate_id": "P2438",
+    "count": 2
+  },
+  {
+    "predicate_label": "film crew member",
+    "predicate_id": "P3092",
+    "count": 2
+  },
+  {
+    "predicate_label": "exclave of",
+    "predicate_id": "P500",
+    "count": 2
+  },
+  {
+    "predicate_label": "movement",
+    "predicate_id": "P135",
+    "count": 2
+  },
+  {
+    "predicate_label": "twinned administrative body",
+    "predicate_id": "P190",
+    "count": 1
+  },
+  {
+    "predicate_label": "affiliation",
+    "predicate_id": "P1416",
+    "count": 1
+  },
+  {
+    "predicate_label": "broadcast by",
+    "predicate_id": "P3301",
+    "count": 1
+  },
+  {
+    "predicate_label": "adjacent station",
+    "predicate_id": "P197",
+    "count": 1
+  },
+  {
+    "predicate_label": "located on linear feature",
+    "predicate_id": "P795",
+    "count": 1
+  },
+  {
+    "predicate_label": "highway system",
+    "predicate_id": "P16",
+    "count": 1
+  },
+  {
+    "predicate_label": "subclass of",
+    "predicate_id": "P279",
+    "count": 1
+  },
+  {
+    "predicate_label": "located on astronomical body",
+    "predicate_id": "P376",
+    "count": 1
+  },
+  {
+    "predicate_label": "canonization status",
+    "predicate_id": "P411",
+    "count": 1
+  },
+  {
+    "predicate_label": "place of publication",
+    "predicate_id": "P291",
+    "count": 1
+  },
+  {
+    "predicate_label": "board member",
+    "predicate_id": "P3320",
+    "count": 1
+  },
+  {
+    "predicate_label": "participant",
+    "predicate_id": "P710",
+    "count": 1
+  },
+  {
+    "predicate_label": "home port",
+    "predicate_id": "P504",
+    "count": 1
+  },
+  {
+    "predicate_label": "winner",
+    "predicate_id": "P1346",
+    "count": 1
+  },
+  {
+    "predicate_label": "airline hub",
+    "predicate_id": "P113",
+    "count": 1
+  },
+  {
+    "predicate_label": "commander of (DEPRECATED)",
+    "predicate_id": "P598",
+    "count": 1
+  },
+  {
+    "predicate_label": "nominated for",
+    "predicate_id": "P1411",
+    "count": 1
+  },
+  {
+    "predicate_label": "recorded at studio or venue",
+    "predicate_id": "P483",
+    "count": 1
+  },
+  {
+    "predicate_label": "dedicated to",
+    "predicate_id": "P825",
+    "count": 1
+  },
+  {
+    "predicate_label": "patron saint",
+    "predicate_id": "P417",
+    "count": 1
+  },
+  {
+    "predicate_label": "architectural style",
+    "predicate_id": "P149",
+    "count": 1
+  },
+  {
+    "predicate_label": "follows",
+    "predicate_id": "P155",
+    "count": 1
+  },
+  {
+    "predicate_label": "main building contractor",
+    "predicate_id": "P193",
+    "count": 1
+  },
+  {
+    "predicate_label": "noble title",
+    "predicate_id": "P97",
+    "count": 1
+  }
+]

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J train_eval
+#SBATCH -J train_llama
 #SBATCH -w gpu-nvidia-h100
 #SBATCH --gres=gpu:nvidia:1
 #SBATCH -t 24:00:00
@@ -14,20 +14,20 @@ source "$VENV_PATH"
 
 export HF_HUB_OFFLINE=1
 
-RUN=run2
-DATASET=lagrange
+MODEL_ID=meta-llama/Llama-3.2-1B-Instruct
+ADAPTER_BASE=Llama-3.2-1B-Instruct-wikinre-qlora_run1
 
-#Inference on all epoch checkpoints
 run_inference() {
-    MODEL_ID=$1
-    ADAPTER_BASE=$2
+    TEST_DATASET=$1
     for CHECKPOINT in $(ls -d ${ADAPTER_BASE}/checkpoint-* | sort -V); do
         python evaluation/run_inference.py \
             --model "$MODEL_ID" --adapter "$CHECKPOINT" \
-            --dataset $DATASET --run "${RUN}_$(basename $CHECKPOINT)"
+            --dataset $TEST_DATASET --run "trainedon_wikinre_run1_$(basename $CHECKPOINT)"
     done
 }
 
-run_inference meta-llama/Llama-3.2-1B-Instruct  Llama-3.2-1B-Instruct-${DATASET}-qlora_${RUN}
-run_inference Qwen/Qwen2.5-1.5B-Instruct         Qwen2.5-1.5B-Instruct-${DATASET}-qlora_${RUN}
-run_inference google/gemma-3-1b-it               gemma-3-1b-it-${DATASET}-qlora_${RUN}
+# WikiNRE-trained Llama, tested on the other four test sets
+run_inference rebel
+run_inference lagrange
+run_inference tum_full
+run_inference tum_p99

@@ -14,7 +14,8 @@ from trl import SFTTrainer, SFTConfig
 # 0. Arguments & Paths
 # =====================================================
 DATASET_DIRS = {
-    "rebel":    "data_rebel/dataset-instruct-20k",
+    "rebel":      "data_rebel/dataset-instruct-20k",
+    "rebel-full": "data_rebel/dataset-instruct-full-20k",
     "lagrange": "data_lagrange/dataset-instruct-20k",
     "tekgen":   "data_tekgen/dataset-instruct-20k",
     "tum_full":    "data_tum/dataset-instruct-20k-full",
@@ -25,7 +26,7 @@ DATASET_DIRS = {
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--model",   required=True, help="HuggingFace model ID")
-parser.add_argument("--dataset", choices=["rebel", "lagrange", "tekgen", "tum_full", "tum_p99", "tum_p99_new", "wikinre"], default="rebel")
+parser.add_argument("--dataset", choices=["rebel", "rebel-full", "lagrange", "tekgen", "tum_full", "tum_p99", "tum_p99_new", "wikinre"], default="rebel")
 parser.add_argument("--run",     default="", help="Optional run name suffix for log file")
 parser.add_argument("--lr",      type=float, default=2e-4, help="Learning rate")
 parser.add_argument("--lora_r",  type=int,   default=16,   help="LoRA rank")
